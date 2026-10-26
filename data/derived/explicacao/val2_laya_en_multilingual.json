@@ -1,0 +1,68 @@
+{
+ "case": "en_multilingual",
+ "n_itens": 200,
+ "media_u": {
+  "morf": {
+   "remocao": {
+    "shapley": 0.932,
+    "W": 0.8595,
+    "F": 0.8693,
+    "kernelshap": 0.9237,
+    "bayesshap": 0.9312,
+    "hedge": 0.9297
+   },
+   "troca": {
+    "shapley": 0.8675,
+    "W": 0.8069,
+    "F": 0.7953,
+    "kernelshap": 0.8568,
+    "bayesshap": 0.8448,
+    "hedge": 0.867
+   }
+  },
+  "insercao": {
+   "remocao": {
+    "shapley": 0.9418,
+    "W": 0.8945,
+    "F": 0.8415,
+    "kernelshap": 0.9349,
+    "bayesshap": 0.9096,
+    "hedge": 0.9386
+   },
+   "troca": {
+    "shapley": 0.8679,
+    "W": 0.8318,
+    "F": 0.7579,
+    "kernelshap": 0.8634,
+    "bayesshap": 0.8314,
+    "hedge": 0.8579
+   }
+  }
+ },
+ "kendall": {
+  "morf": {
+   "tau": 0.6,
+   "ordena": true,
+   "ranking_remocao": [
+    "shapley",
+    "bayesshap",
+    "hedge",
+    "kernelshap",
+    "F",
+    "W"
+   ]
+  },
+  "insercao": {
+   "tau": 0.7333,
+   "ordena": true,
+   "ranking_remocao": [
+    "shapley",
+    "hedge",
+    "kernelshap",
+    "bayesshap",
+    "W",
+    "F"
+   ]
+  }
+ }
+}

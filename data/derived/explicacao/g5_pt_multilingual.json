@@ -1,0 +1,15 @@
+{
+ "case": "pt_multilingual",
+ "n_itens": 991,
+ "excluidos_d1": 9,
+ "r_hat_max": 1.0022,
+ "P_b_pos": 1.0,
+ "b_media": 0.0046,
+ "b_IC90": [
+  0.0035,
+  0.0056
+ ],
+ "sinal_decidido": true,
+ "u_medio": 0.9251,
+ "spearman_p0_u": 0.2036
+}

@@ -1,0 +1,29 @@
+{
+ "gate": {
+  "n": 24,
+  "detected_unadjusted": 4,
+  "detected_holm": 0,
+  "detected": [],
+  "unadjusted": [
+   "en/root/ncal500/0.95",
+   "en/typed-decisions/ncal1000/0.99",
+   "pt/ft-multilingual/ncal1000/0.99",
+   "pt/jev/ncal500/0.95"
+  ]
+ },
+ "drift": {
+  "n": 64,
+  "gains_unadjusted": 27,
+  "gains_holm": 19,
+  "lost_after_holm": [
+   "author|ddm|D1",
+   "author|ddm|control",
+   "author|ph|D1",
+   "author|ph|D2",
+   "author|ph|control",
+   "recal|ddm|control",
+   "recal|ph|D2",
+   "recal|ph|control"
+  ]
+ }
+}

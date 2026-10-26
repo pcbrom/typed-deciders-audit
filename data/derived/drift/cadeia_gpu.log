@@ -1,0 +1,27 @@
+16:24 tuning finished
+author       0.6093 {"lam": 0.95, "promotion": "beta", "q": 0.01}
+periodic     0.6153 {"every": 3000, "promotion": "always"}
+ddm          0.6190 {"all_labels": false, "params": {"drift_threshold": 2.5}, "promotion": "seldonian"}
+ph           0.6333 {"all_labels": true, "params": {"threshold": 20.0}, "promotion": "mcnemar"}
+recal        0.6454 {"bins": 20, "lam": 0.9}
+adwin        0.6579 {"all_labels": true, "params": {"delta": 0.01}, "promotion": "always"}
+aci          0.6649 {"gamma": 0.001}
+ltt_window   0.6769 {"q": 0.01}
+best comparator: periodic
+16:24 selection changed for: []
+16:24 start main_run.py
+07:52 waiting for the calibrador lock
+08:52 GPU taken, resuming chain
+08:52 start main_run.py
+09:41 end main_run.py exit 0
+09:41 start ablation_run.py
+10:25 end ablation_run.py exit 0
+10:25 start ablation2_run.py
+10:59 end ablation2_run.py exit 0
+10:59 start adaptador_run.py tune
+11:03 end adaptador_run.py tune exit 0
+11:03 start adaptador_run.py main
+14:50 end adaptador_run.py main exit 0
+14:50 start laya m3
+14:56 end laya m3 exit 0
+14:56 chain done, GPU released

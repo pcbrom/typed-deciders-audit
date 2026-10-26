@@ -1,0 +1,30 @@
+{
+ "seed": 0,
+ "train_s": 83.0,
+ "treino_descartados_orcamento": 11,
+ "unico": {
+  "n": 466,
+  "acerto": 1.0,
+  "L": 0.9936,
+  "aprendeu": true,
+  "assinatura": 0.3841,
+  "assinatura_ok": false
+ },
+ "redundante": {
+  "n": 474,
+  "acerto": 1.0,
+  "L": 0.9937,
+  "aprendeu": true,
+  "assinatura": 1.0,
+  "assinatura_ok": true
+ },
+ "sinergico": {
+  "n": 482,
+  "acerto": 0.9813,
+  "L": 0.9677,
+  "aprendeu": true,
+  "assinatura": 0.0394,
+  "assinatura_ok": false
+ },
+ "total_s": 166.6
+}

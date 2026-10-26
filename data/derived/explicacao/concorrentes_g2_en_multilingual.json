@@ -1,0 +1,21 @@
+{
+ "case": "en_multilingual",
+ "kernelshap_cl": {
+  "n": 992,
+  "k": 627,
+  "c_hat": 0.6321,
+  "L": 0.6065
+ },
+ "bayesshap_prob": {
+  "n": 992,
+  "k": 330,
+  "c_hat": 0.3327,
+  "L": 0.3086
+ },
+ "bayesshap_logit": {
+  "n": 992,
+  "k": 226,
+  "c_hat": 0.2278,
+  "L": 0.2068
+ }
+}

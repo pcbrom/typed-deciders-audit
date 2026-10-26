@@ -1,0 +1,297 @@
+{
+ "seed": 20261020,
+ "draws": 10000,
+ "rules": {
+  "asc": {
+   "rule": "beta",
+   "q": 0.05,
+   "prior": "uniform",
+   "a0": 1.0,
+   "b0": 1.0,
+   "min_n": 20,
+   "scan": "ascending",
+   "label": "beta q=0.05 uniform min 20 ascending"
+  },
+  "fix": {
+   "rule": "beta",
+   "q": 0.05,
+   "prior": "uniform",
+   "a0": 1.0,
+   "b0": 1.0,
+   "min_n": 20,
+   "scan": "sequence_testable",
+   "label": "beta q=0.05 uniform min 20 sequence_testable"
+  },
+  "ltt": {
+   "rule": "ltt",
+   "delta": 0.05,
+   "min_n": 20
+  }
+ },
+ "results": {
+  "pt/jev/ncal1000/0.95": {
+   "D": 0.0259,
+   "V_asc": 0.0294,
+   "V_fix": 0.0294,
+   "V_ltt": 0.0294,
+   "V_asc_D": 0.0,
+   "V_asc_notfix": 0.0,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.968,
+   "cov_noD_mediana": 0.976
+  },
+  "pt/jev/ncal1000/0.99": {
+   "D": 0.0792,
+   "V_asc": 0.0144,
+   "V_fix": 0.0139,
+   "V_ltt": 0.0139,
+   "V_asc_D": 0.0006,
+   "V_asc_notfix": 0.0005,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.7885,
+   "cov_noD_mediana": 0.818
+  },
+  "pt/jev/ncal500/0.95": {
+   "D": 0.0603,
+   "V_asc": 0.0142,
+   "V_fix": 0.0142,
+   "V_ltt": 0.0142,
+   "V_asc_D": 0.0,
+   "V_asc_notfix": 0.0,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.964,
+   "cov_noD_mediana": 0.9665
+  },
+  "pt/jev/ncal500/0.99": {
+   "D": 0.0,
+   "V_asc": 0.0097,
+   "V_fix": 0.0097,
+   "V_ltt": 0.0097,
+   "V_asc_D": 0.0,
+   "V_asc_notfix": 0.0,
+   "inclusao_ok": true,
+   "cov_D_mediana": null,
+   "cov_noD_mediana": 0.7885
+  },
+  "pt/ft-multilingual/ncal1000/0.95": {
+   "D": 0.0002,
+   "V_asc": 0.0,
+   "V_fix": 0.0,
+   "V_ltt": 0.0,
+   "V_asc_D": 0.0,
+   "V_asc_notfix": 0.0,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.9948,
+   "cov_noD_mediana": 0.9995
+  },
+  "pt/ft-multilingual/ncal1000/0.99": {
+   "D": 0.3094,
+   "V_asc": 0.0202,
+   "V_fix": 0.0192,
+   "V_ltt": 0.0192,
+   "V_asc_D": 0.001,
+   "V_asc_notfix": 0.001,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.9165,
+   "cov_noD_mediana": 0.8705
+  },
+  "pt/ft-multilingual/ncal500/0.95": {
+   "D": 0.0001,
+   "V_asc": 0.0,
+   "V_fix": 0.0,
+   "V_ltt": 0.0,
+   "V_asc_D": 0.0,
+   "V_asc_notfix": 0.0,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.965,
+   "cov_noD_mediana": 0.9985
+  },
+  "pt/ft-multilingual/ncal500/0.99": {
+   "D": 0.0787,
+   "V_asc": 0.0241,
+   "V_fix": 0.011,
+   "V_ltt": 0.0103,
+   "V_asc_D": 0.0132,
+   "V_asc_notfix": 0.0131,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.949,
+   "cov_noD_mediana": 0.7365
+  },
+  "pt/ft-typed-decisions/ncal1000/0.95": {
+   "D": 0.018,
+   "V_asc": 0.0,
+   "V_fix": 0.0,
+   "V_ltt": 0.0,
+   "V_asc_D": 0.0,
+   "V_asc_notfix": 0.0,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.991,
+   "cov_noD_mediana": 0.998
+  },
+  "pt/ft-typed-decisions/ncal1000/0.99": {
+   "D": 0.203,
+   "V_asc": 0.0311,
+   "V_fix": 0.0192,
+   "V_ltt": 0.0187,
+   "V_asc_D": 0.0123,
+   "V_asc_notfix": 0.0119,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.822,
+   "cov_noD_mediana": 0.836
+  },
+  "pt/ft-typed-decisions/ncal500/0.95": {
+   "D": 0.0139,
+   "V_asc": 0.0,
+   "V_fix": 0.0,
+   "V_ltt": 0.0,
+   "V_asc_D": 0.0,
+   "V_asc_notfix": 0.0,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.9685,
+   "cov_noD_mediana": 0.9895
+  },
+  "pt/ft-typed-decisions/ncal500/0.99": {
+   "D": 0.0057,
+   "V_asc": 0.011,
+   "V_fix": 0.0064,
+   "V_ltt": 0.0064,
+   "V_asc_D": 0.0056,
+   "V_asc_notfix": 0.0046,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.9445,
+   "cov_noD_mediana": 0.75
+  },
+  "en/jev/ncal1000/0.95": {
+   "D": 0.0303,
+   "V_asc": 0.0,
+   "V_fix": 0.0,
+   "V_ltt": 0.0,
+   "V_asc_D": 0.0,
+   "V_asc_notfix": 0.0,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.993,
+   "cov_noD_mediana": 0.999
+  },
+  "en/jev/ncal1000/0.99": {
+   "D": 0.0066,
+   "V_asc": 0.0212,
+   "V_fix": 0.0172,
+   "V_ltt": 0.0168,
+   "V_asc_D": 0.0046,
+   "V_asc_notfix": 0.004,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.912,
+   "cov_noD_mediana": 0.8
+  },
+  "en/jev/ncal500/0.95": {
+   "D": 0.0244,
+   "V_asc": 0.0,
+   "V_fix": 0.0,
+   "V_ltt": 0.0,
+   "V_asc_D": 0.0,
+   "V_asc_notfix": 0.0,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.9675,
+   "cov_noD_mediana": 0.986
+  },
+  "en/jev/ncal500/0.99": {
+   "D": 0.0008,
+   "V_asc": 0.0096,
+   "V_fix": 0.0089,
+   "V_ltt": 0.0089,
+   "V_asc_D": 0.0008,
+   "V_asc_notfix": 0.0007,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.9495,
+   "cov_noD_mediana": 0.8
+  },
+  "en/typed-decisions/ncal1000/0.95": {
+   "D": 0.1835,
+   "V_asc": 0.0343,
+   "V_fix": 0.0322,
+   "V_ltt": 0.032,
+   "V_asc_D": 0.0066,
+   "V_asc_notfix": 0.0021,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.823,
+   "cov_noD_mediana": 0.839
+  },
+  "en/typed-decisions/ncal1000/0.99": {
+   "D": 0.3633,
+   "V_asc": 0.034,
+   "V_fix": 0.0124,
+   "V_ltt": 0.0118,
+   "V_asc_D": 0.0218,
+   "V_asc_notfix": 0.0216,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.5375,
+   "cov_noD_mediana": 0.5425
+  },
+  "en/typed-decisions/ncal500/0.95": {
+   "D": 0.4047,
+   "V_asc": 0.0401,
+   "V_fix": 0.0294,
+   "V_ltt": 0.0289,
+   "V_asc_D": 0.013,
+   "V_asc_notfix": 0.0107,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.7955,
+   "cov_noD_mediana": 0.8145
+  },
+  "en/typed-decisions/ncal500/0.99": {
+   "D": 0.0,
+   "V_asc": 0.0394,
+   "V_fix": 0.0394,
+   "V_ltt": 0.0392,
+   "V_asc_D": 0.0,
+   "V_asc_notfix": 0.0,
+   "inclusao_ok": true,
+   "cov_D_mediana": null,
+   "cov_noD_mediana": 0.612
+  },
+  "en/root/ncal1000/0.95": {
+   "D": 0.5923,
+   "V_asc": 0.0373,
+   "V_fix": 0.0238,
+   "V_ltt": 0.0234,
+   "V_asc_D": 0.0154,
+   "V_asc_notfix": 0.0135,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.743,
+   "cov_noD_mediana": 0.75
+  },
+  "en/root/ncal1000/0.99": {
+   "D": 0.0984,
+   "V_asc": 0.0256,
+   "V_fix": 0.0115,
+   "V_ltt": 0.0112,
+   "V_asc_D": 0.0145,
+   "V_asc_notfix": 0.0141,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.492,
+   "cov_noD_mediana": 0.41
+  },
+  "en/root/ncal500/0.95": {
+   "D": 0.6005,
+   "V_asc": 0.0352,
+   "V_fix": 0.0218,
+   "V_ltt": 0.0212,
+   "V_asc_D": 0.0148,
+   "V_asc_notfix": 0.0134,
+   "inclusao_ok": true,
+   "cov_D_mediana": 0.7045,
+   "cov_noD_mediana": 0.709
+  },
+  "en/root/ncal500/0.99": {
+   "D": 0.0,
+   "V_asc": 0.017,
+   "V_fix": 0.017,
+   "V_ltt": 0.0159,
+   "V_asc_D": 0.0,
+   "V_asc_notfix": 0.0,
+   "inclusao_ok": true,
+   "cov_D_mediana": null,
+   "cov_noD_mediana": 0.6005
+  }
+ }
+}

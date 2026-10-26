@@ -1,0 +1,131 @@
+{"arm": "author", "cfg": {"lam": 0.95, "q": 0.01, "promotion": "beta"}, "done": "14:48"}
+{"arm": "author", "cfg": {"lam": 0.95, "q": 0.05, "promotion": "beta"}, "done": "14:49"}
+{"arm": "author", "cfg": {"lam": 0.95, "q": 0.1, "promotion": "beta"}, "done": "14:49"}
+{"arm": "author", "cfg": {"lam": 0.95, "q": 0.2, "promotion": "beta"}, "done": "14:50"}
+{"arm": "author", "cfg": {"lam": 0.97, "q": 0.01, "promotion": "beta"}, "done": "14:50"}
+{"arm": "author", "cfg": {"lam": 0.97, "q": 0.05, "promotion": "beta"}, "done": "14:52"}
+{"arm": "author", "cfg": {"lam": 0.97, "q": 0.1, "promotion": "beta"}, "done": "14:55"}
+{"arm": "author", "cfg": {"lam": 0.97, "q": 0.2, "promotion": "beta"}, "done": "14:58"}
+{"arm": "author", "cfg": {"lam": 0.98, "q": 0.01, "promotion": "beta"}, "done": "15:01"}
+{"arm": "author", "cfg": {"lam": 0.98, "q": 0.05, "promotion": "beta"}, "done": "15:05"}
+{"arm": "author", "cfg": {"lam": 0.98, "q": 0.1, "promotion": "beta"}, "done": "15:07"}
+{"arm": "author", "cfg": {"lam": 0.98, "q": 0.2, "promotion": "beta"}, "done": "15:11"}
+{"arm": "author", "cfg": {"lam": 0.99, "q": 0.01, "promotion": "beta"}, "done": "15:15"}
+{"arm": "author", "cfg": {"lam": 0.99, "q": 0.05, "promotion": "beta"}, "done": "15:19"}
+{"arm": "author", "cfg": {"lam": 0.99, "q": 0.1, "promotion": "beta"}, "done": "15:21"}
+{"arm": "author", "cfg": {"lam": 0.99, "q": 0.2, "promotion": "beta"}, "done": "15:21"}
+{"arm": "author", "cfg": {"lam": 0.995, "q": 0.01, "promotion": "beta"}, "done": "15:22"}
+{"arm": "author", "cfg": {"lam": 0.995, "q": 0.05, "promotion": "beta"}, "done": "15:22"}
+{"arm": "author", "cfg": {"lam": 0.995, "q": 0.1, "promotion": "beta"}, "done": "15:22"}
+{"arm": "author", "cfg": {"lam": 0.995, "q": 0.2, "promotion": "beta"}, "done": "15:23"}
+{"arm": "periodic", "cfg": {"every": 500, "promotion": "always"}, "done": "15:25"}
+{"arm": "periodic", "cfg": {"every": 500, "promotion": "mcnemar"}, "done": "15:26"}
+{"arm": "periodic", "cfg": {"every": 500, "promotion": "seldonian"}, "done": "15:27"}
+{"arm": "periodic", "cfg": {"every": 500, "promotion": "beta"}, "done": "15:28"}
+{"arm": "periodic", "cfg": {"every": 1000, "promotion": "always"}, "done": "15:29"}
+{"arm": "periodic", "cfg": {"every": 1000, "promotion": "mcnemar"}, "done": "15:30"}
+{"arm": "periodic", "cfg": {"every": 1000, "promotion": "seldonian"}, "done": "15:31"}
+{"arm": "periodic", "cfg": {"every": 1000, "promotion": "beta"}, "done": "15:32"}
+{"arm": "periodic", "cfg": {"every": 2000, "promotion": "always"}, "done": "15:33"}
+{"arm": "periodic", "cfg": {"every": 2000, "promotion": "mcnemar"}, "done": "15:33"}
+{"arm": "periodic", "cfg": {"every": 2000, "promotion": "seldonian"}, "done": "15:34"}
+{"arm": "periodic", "cfg": {"every": 2000, "promotion": "beta"}, "done": "15:35"}
+{"arm": "periodic", "cfg": {"every": 3000, "promotion": "always"}, "done": "15:35"}
+{"arm": "periodic", "cfg": {"every": 3000, "promotion": "mcnemar"}, "done": "15:36"}
+{"arm": "periodic", "cfg": {"every": 3000, "promotion": "seldonian"}, "done": "15:36"}
+{"arm": "periodic", "cfg": {"every": 3000, "promotion": "beta"}, "done": "15:37"}
+{"arm": "periodic", "cfg": {"every": 4000, "promotion": "always"}, "done": "15:38"}
+{"arm": "periodic", "cfg": {"every": 4000, "promotion": "mcnemar"}, "done": "15:38"}
+{"arm": "periodic", "cfg": {"every": 4000, "promotion": "seldonian"}, "done": "15:39"}
+{"arm": "periodic", "cfg": {"every": 4000, "promotion": "beta"}, "done": "15:40"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 3.0}, "promotion": "mcnemar", "all_labels": false}, "done": "15:40"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 3.0}, "promotion": "mcnemar", "all_labels": true}, "done": "15:41"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 3.0}, "promotion": "seldonian", "all_labels": true}, "done": "15:41"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 2.5}, "promotion": "mcnemar", "all_labels": false}, "done": "15:42"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 2.5}, "promotion": "mcnemar", "all_labels": true}, "done": "15:43"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 2.5}, "promotion": "seldonian", "all_labels": false}, "done": "15:43"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 2.5}, "promotion": "seldonian", "all_labels": true}, "done": "15:44"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 3.5}, "promotion": "always", "all_labels": false}, "done": "15:44"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 3.5}, "promotion": "always", "all_labels": true}, "done": "15:45"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 3.5}, "promotion": "mcnemar", "all_labels": false}, "done": "15:45"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 3.5}, "promotion": "mcnemar", "all_labels": true}, "done": "15:45"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 4.0}, "promotion": "always", "all_labels": true}, "done": "15:46"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 4.0}, "promotion": "mcnemar", "all_labels": false}, "done": "15:47"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 4.0}, "promotion": "mcnemar", "all_labels": true}, "done": "15:47"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 4.0}, "promotion": "seldonian", "all_labels": true}, "done": "15:47"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 4.5}, "promotion": "always", "all_labels": false}, "done": "15:48"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 4.5}, "promotion": "always", "all_labels": true}, "done": "15:49"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 4.5}, "promotion": "mcnemar", "all_labels": false}, "done": "15:50"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 4.5}, "promotion": "mcnemar", "all_labels": true}, "done": "15:50"}
+{"arm": "ddm", "cfg": {"params": {"drift_threshold": 4.5}, "promotion": "seldonian", "all_labels": true}, "done": "15:50"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.002}, "promotion": "always", "all_labels": false}, "done": "15:51"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.002}, "promotion": "always", "all_labels": true}, "done": "15:51"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.002}, "promotion": "mcnemar", "all_labels": false}, "done": "15:52"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.002}, "promotion": "seldonian", "all_labels": false}, "done": "15:52"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.002}, "promotion": "seldonian", "all_labels": true}, "done": "15:53"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.0005}, "promotion": "always", "all_labels": false}, "done": "15:53"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.0005}, "promotion": "seldonian", "all_labels": false}, "done": "15:54"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.0005}, "promotion": "seldonian", "all_labels": true}, "done": "15:54"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.001}, "promotion": "always", "all_labels": false}, "done": "15:54"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.001}, "promotion": "always", "all_labels": true}, "done": "15:55"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.001}, "promotion": "mcnemar", "all_labels": false}, "done": "15:55"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.001}, "promotion": "mcnemar", "all_labels": true}, "done": "15:56"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.001}, "promotion": "seldonian", "all_labels": false}, "done": "15:56"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.005}, "promotion": "always", "all_labels": false}, "done": "15:57"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.005}, "promotion": "mcnemar", "all_labels": false}, "done": "15:57"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.005}, "promotion": "seldonian", "all_labels": false}, "done": "15:58"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.005}, "promotion": "seldonian", "all_labels": true}, "done": "15:58"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.01}, "promotion": "always", "all_labels": false}, "done": "15:58"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.01}, "promotion": "always", "all_labels": true}, "done": "15:59"}
+{"arm": "adwin", "cfg": {"params": {"delta": 0.01}, "promotion": "mcnemar", "all_labels": true}, "done": "15:59"}
+{"arm": "ph", "cfg": {"params": {"threshold": 50.0}, "promotion": "seldonian", "all_labels": false}, "done": "16:00"}
+{"arm": "ph", "cfg": {"params": {"threshold": 50.0}, "promotion": "seldonian", "all_labels": true}, "done": "16:00"}
+{"arm": "ph", "cfg": {"params": {"threshold": 5.0}, "promotion": "always", "all_labels": false}, "done": "16:01"}
+{"arm": "ph", "cfg": {"params": {"threshold": 5.0}, "promotion": "mcnemar", "all_labels": false}, "done": "16:01"}
+{"arm": "ph", "cfg": {"params": {"threshold": 5.0}, "promotion": "mcnemar", "all_labels": true}, "done": "16:02"}
+{"arm": "ph", "cfg": {"params": {"threshold": 5.0}, "promotion": "seldonian", "all_labels": false}, "done": "16:02"}
+{"arm": "ph", "cfg": {"params": {"threshold": 10.0}, "promotion": "always", "all_labels": false}, "done": "16:03"}
+{"arm": "ph", "cfg": {"params": {"threshold": 10.0}, "promotion": "always", "all_labels": true}, "done": "16:03"}
+{"arm": "ph", "cfg": {"params": {"threshold": 10.0}, "promotion": "mcnemar", "all_labels": false}, "done": "16:04"}
+{"arm": "ph", "cfg": {"params": {"threshold": 10.0}, "promotion": "mcnemar", "all_labels": true}, "done": "16:05"}
+{"arm": "ph", "cfg": {"params": {"threshold": 10.0}, "promotion": "seldonian", "all_labels": false}, "done": "16:05"}
+{"arm": "ph", "cfg": {"params": {"threshold": 20.0}, "promotion": "always", "all_labels": false}, "done": "16:05"}
+{"arm": "ph", "cfg": {"params": {"threshold": 20.0}, "promotion": "always", "all_labels": true}, "done": "16:06"}
+{"arm": "ph", "cfg": {"params": {"threshold": 20.0}, "promotion": "mcnemar", "all_labels": false}, "done": "16:06"}
+{"arm": "ph", "cfg": {"params": {"threshold": 20.0}, "promotion": "mcnemar", "all_labels": true}, "done": "16:07"}
+{"arm": "ph", "cfg": {"params": {"threshold": 20.0}, "promotion": "seldonian", "all_labels": false}, "done": "16:07"}
+{"arm": "ph", "cfg": {"params": {"threshold": 100.0}, "promotion": "always", "all_labels": true}, "done": "16:08"}
+{"arm": "ph", "cfg": {"params": {"threshold": 100.0}, "promotion": "mcnemar", "all_labels": false}, "done": "16:08"}
+{"arm": "ph", "cfg": {"params": {"threshold": 100.0}, "promotion": "mcnemar", "all_labels": true}, "done": "16:08"}
+{"arm": "ph", "cfg": {"params": {"threshold": 100.0}, "promotion": "seldonian", "all_labels": true}, "done": "16:09"}
+{"arm": "ltt_window", "cfg": {"q": 0.01}, "done": "16:09"}
+{"arm": "ltt_window", "cfg": {"q": 0.025}, "done": "16:10"}
+{"arm": "ltt_window", "cfg": {"q": 0.05}, "done": "16:11"}
+{"arm": "ltt_window", "cfg": {"q": 0.1}, "done": "16:11"}
+{"arm": "ltt_window", "cfg": {"q": 0.2}, "done": "16:12"}
+{"arm": "aci", "cfg": {"gamma": 0.001}, "done": "16:12"}
+{"arm": "aci", "cfg": {"gamma": 0.002}, "done": "16:13"}
+{"arm": "aci", "cfg": {"gamma": 0.005}, "done": "16:13"}
+{"arm": "aci", "cfg": {"gamma": 0.01}, "done": "16:13"}
+{"arm": "aci", "cfg": {"gamma": 0.02}, "done": "16:14"}
+{"arm": "aci", "cfg": {"gamma": 0.05}, "done": "16:14"}
+{"arm": "recal", "cfg": {"lam": 0.9, "bins": 5}, "done": "16:15"}
+{"arm": "recal", "cfg": {"lam": 0.9, "bins": 10}, "done": "16:15"}
+{"arm": "recal", "cfg": {"lam": 0.9, "bins": 15}, "done": "16:16"}
+{"arm": "recal", "cfg": {"lam": 0.9, "bins": 20}, "done": "16:16"}
+{"arm": "recal", "cfg": {"lam": 0.95, "bins": 5}, "done": "16:17"}
+{"arm": "recal", "cfg": {"lam": 0.95, "bins": 10}, "done": "16:17"}
+{"arm": "recal", "cfg": {"lam": 0.95, "bins": 15}, "done": "16:18"}
+{"arm": "recal", "cfg": {"lam": 0.95, "bins": 20}, "done": "16:18"}
+{"arm": "recal", "cfg": {"lam": 0.98, "bins": 5}, "done": "16:19"}
+{"arm": "recal", "cfg": {"lam": 0.98, "bins": 10}, "done": "16:19"}
+{"arm": "recal", "cfg": {"lam": 0.98, "bins": 15}, "done": "16:20"}
+{"arm": "recal", "cfg": {"lam": 0.98, "bins": 20}, "done": "16:20"}
+{"arm": "recal", "cfg": {"lam": 0.99, "bins": 5}, "done": "16:20"}
+{"arm": "recal", "cfg": {"lam": 0.99, "bins": 10}, "done": "16:21"}
+{"arm": "recal", "cfg": {"lam": 0.99, "bins": 15}, "done": "16:21"}
+{"arm": "recal", "cfg": {"lam": 0.99, "bins": 20}, "done": "16:22"}
+{"arm": "recal", "cfg": {"lam": 1.0, "bins": 5}, "done": "16:22"}
+{"arm": "recal", "cfg": {"lam": 1.0, "bins": 10}, "done": "16:23"}
+{"arm": "recal", "cfg": {"lam": 1.0, "bins": 15}, "done": "16:23"}
+{"arm": "recal", "cfg": {"lam": 1.0, "bins": 20}, "done": "16:24"}

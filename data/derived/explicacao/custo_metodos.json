@@ -1,0 +1,56 @@
+{
+ "pt_multilingual_ft": {
+  "gibbs_r1": {
+   "mediana_s": 0.08281,
+   "q1_s": 0.05778,
+   "q3_s": 0.08709
+  },
+  "kernelshap": {
+   "mediana_s": 0.00022,
+   "q1_s": 0.0002,
+   "q3_s": 0.00024
+  },
+  "bayesshap": {
+   "mediana_s": 0.00019,
+   "q1_s": 0.00018,
+   "q3_s": 0.00024
+  },
+  "shapley_exato": {
+   "mediana_s": 8e-05,
+   "q1_s": 5e-05,
+   "q3_s": 0.00011
+  },
+  "passadas_mediana": {
+   "jogo_exato": 64,
+   "kernel_256_pares": 514
+  },
+  "n_itens": 99
+ },
+ "en_multilingual": {
+  "gibbs_r1": {
+   "mediana_s": 0.05971,
+   "q1_s": 0.05471,
+   "q3_s": 0.08201
+  },
+  "kernelshap": {
+   "mediana_s": 0.00018,
+   "q1_s": 0.00016,
+   "q3_s": 0.0002
+  },
+  "bayesshap": {
+   "mediana_s": 0.00017,
+   "q1_s": 0.00016,
+   "q3_s": 0.00018
+  },
+  "shapley_exato": {
+   "mediana_s": 6e-05,
+   "q1_s": 5e-05,
+   "q3_s": 0.0001
+  },
+  "passadas_mediana": {
+   "jogo_exato": 64,
+   "kernel_256_pares": 514
+  },
+  "n_itens": 100
+ }
+}

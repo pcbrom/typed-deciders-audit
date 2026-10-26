@@ -1,0 +1,17 @@
+{
+    "title": "Typed deciders audit: frozen answers, code and proofs for \"Confidence Is Not a Promise\" (v1.0)",
+    "description": "Reference package for auditing typed decision models. It holds the frozen answers of Laya (open weights, as released and fine-tuned, every option's probability) and Jev 1.13 (closed, through the vendor API, the decided option with its probability and whether it is right) on five-option intent questions from MASSIVE 1.1 in 52 locales, under typing noise, on coalition games of the words of each utterance and on four further domains, with a datasheet and a manifest of SHA-256 sums. It also holds the code that produces every number of the article Confidence Is Not a Promise: A Reference Audit of Typed Decision Models, the preregistration and implementation notes, a standalone check of a selective-accuracy promise across populations with its test, and Lean 4 proofs of the selective ceiling and of the dynamic gate.",
+    "upload_type": "dataset",
+    "creators": [
+        {
+            "name": "Brom, Pedro Carvalho",
+            "affiliation": "Federal Institute of Brasília",
+            "orcid": "0000-0002-1288-7695"
+        }
+    ],
+    "keywords": ["typed decision models", "calibration", "selective classification", "explanation fidelity", "auditing", "conformal risk control"],
+    "license": "CC-BY-NC-SA-4.0",
+    "related_identifiers": [
+        {"identifier": "https://github.com/pcbrom/typed-deciders-audit", "relation": "isSupplementTo", "resource_type": "software", "scheme": "url"}
+    ]
+}

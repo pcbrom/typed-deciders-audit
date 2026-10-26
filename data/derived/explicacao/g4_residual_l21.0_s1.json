@@ -1,0 +1,10 @@
+{
+ "seed": 1,
+ "head": "residual",
+ "l2": 1.0,
+ "train_s": 170.4,
+ "descartados_orcamento": 0,
+ "acc_relato_pt": 0.926,
+ "acc_relato_en": 0.932,
+ "parcela_aditiva_mediana": 0.9982
+}

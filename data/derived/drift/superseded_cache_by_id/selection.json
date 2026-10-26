@@ -1,0 +1,91 @@
+{
+ "selected": {
+  "author": {
+   "cfg": {
+    "lam": 0.95,
+    "promotion": "beta",
+    "q": 0.01
+   },
+   "mean_cost": 0.6113333333333333,
+   "n_streams": 12
+  },
+  "periodic": {
+   "cfg": {
+    "every": 3000,
+    "promotion": "always"
+   },
+   "mean_cost": 0.6179375,
+   "n_streams": 12
+  },
+  "ddm": {
+   "cfg": {
+    "all_labels": false,
+    "params": {
+     "drift_threshold": 2.5
+    },
+    "promotion": "seldonian"
+   },
+   "mean_cost": 0.6224583333333333,
+   "n_streams": 12
+  },
+  "adwin": {
+   "cfg": {
+    "all_labels": true,
+    "params": {
+     "delta": 0.01
+    },
+    "promotion": "always"
+   },
+   "mean_cost": 0.6613541666666667,
+   "n_streams": 12
+  },
+  "ph": {
+   "cfg": {
+    "all_labels": true,
+    "params": {
+     "threshold": 20.0
+    },
+    "promotion": "mcnemar"
+   },
+   "mean_cost": 0.6367708333333333,
+   "n_streams": 12
+  },
+  "ltt_window": {
+   "cfg": {
+    "q": 0.01
+   },
+   "mean_cost": 0.6788333333333333,
+   "n_streams": 12
+  },
+  "aci": {
+   "cfg": {
+    "gamma": 0.001
+   },
+   "mean_cost": 0.6691666666666667,
+   "n_streams": 12
+  },
+  "recal": {
+   "cfg": {
+    "bins": 20,
+    "lam": 0.9
+   },
+   "mean_cost": 0.6479583333333333,
+   "n_streams": 12
+  }
+ },
+ "best_comparator": "periodic",
+ "n_configurations": {
+  "author": 20,
+  "periodic": 20,
+  "ddm": 20,
+  "adwin": 20,
+  "ph": 20,
+  "ltt_window": 5,
+  "aci": 6,
+  "recal": 20
+ },
+ "frozen": {
+  "cfg": {},
+  "note": "no tuning, by design"
+ }
+}

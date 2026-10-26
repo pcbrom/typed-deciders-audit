@@ -1,0 +1,270 @@
+{
+ "jev_pt_1.13": {
+  "n_itens": 200,
+  "media_u": {
+   "morf": {
+    "remocao": {
+     "shapley": 0.9554,
+     "W": 0.7397,
+     "F": 0.9113,
+     "kernelshap": 0.9428,
+     "bayesshap": 0.933,
+     "hedge": 0.9523
+    },
+    "troca": {
+     "shapley": 0.8797,
+     "W": 0.7222,
+     "F": 0.8376,
+     "kernelshap": 0.8746,
+     "bayesshap": 0.8635,
+     "hedge": 0.8894
+    }
+   },
+   "insercao": {
+    "remocao": {
+     "shapley": 0.9323,
+     "W": 0.7953,
+     "F": 0.8775,
+     "kernelshap": 0.9289,
+     "bayesshap": 0.9102,
+     "hedge": 0.9332
+    },
+    "troca": {
+     "shapley": 0.8758,
+     "W": 0.745,
+     "F": 0.8162,
+     "kernelshap": 0.8661,
+     "bayesshap": 0.8435,
+     "hedge": 0.8805
+    }
+   }
+  },
+  "kendall": {
+   "morf": {
+    "tau": 0.8667,
+    "ordena": true,
+    "ranking_remocao": [
+     "shapley",
+     "hedge",
+     "kernelshap",
+     "bayesshap",
+     "F",
+     "W"
+    ]
+   },
+   "insercao": {
+    "tau": 1.0,
+    "ordena": true,
+    "ranking_remocao": [
+     "hedge",
+     "shapley",
+     "kernelshap",
+     "bayesshap",
+     "F",
+     "W"
+    ]
+   }
+  }
+ },
+ "jev_pt_1.14": {
+  "n_itens": 200,
+  "media_u": {
+   "morf": {
+    "remocao": {
+     "shapley": 0.9529,
+     "W": 0.7547,
+     "F": 0.9122,
+     "kernelshap": 0.9451,
+     "bayesshap": 0.9429,
+     "hedge": 0.9528
+    },
+    "troca": {
+     "shapley": 0.8918,
+     "W": 0.7287,
+     "F": 0.8449,
+     "kernelshap": 0.8843,
+     "bayesshap": 0.8761,
+     "hedge": 0.8943
+    }
+   },
+   "insercao": {
+    "remocao": {
+     "shapley": 0.9319,
+     "W": 0.8006,
+     "F": 0.8821,
+     "kernelshap": 0.9286,
+     "bayesshap": 0.9018,
+     "hedge": 0.9355
+    },
+    "troca": {
+     "shapley": 0.8689,
+     "W": 0.7437,
+     "F": 0.8073,
+     "kernelshap": 0.8665,
+     "bayesshap": 0.8435,
+     "hedge": 0.8732
+    }
+   }
+  },
+  "kendall": {
+   "morf": {
+    "tau": 0.8667,
+    "ordena": true,
+    "ranking_remocao": [
+     "shapley",
+     "hedge",
+     "kernelshap",
+     "bayesshap",
+     "F",
+     "W"
+    ]
+   },
+   "insercao": {
+    "tau": 1.0,
+    "ordena": true,
+    "ranking_remocao": [
+     "hedge",
+     "shapley",
+     "kernelshap",
+     "bayesshap",
+     "F",
+     "W"
+    ]
+   }
+  }
+ },
+ "jev_en_1.13": {
+  "n_itens": 200,
+  "media_u": {
+   "morf": {
+    "remocao": {
+     "shapley": 0.9442,
+     "W": 0.7122,
+     "F": 0.9334,
+     "kernelshap": 0.9348,
+     "bayesshap": 0.94,
+     "hedge": 0.9452
+    },
+    "troca": {
+     "shapley": 0.8873,
+     "W": 0.6737,
+     "F": 0.8747,
+     "kernelshap": 0.8765,
+     "bayesshap": 0.879,
+     "hedge": 0.8895
+    }
+   },
+   "insercao": {
+    "remocao": {
+     "shapley": 0.9186,
+     "W": 0.7471,
+     "F": 0.8991,
+     "kernelshap": 0.914,
+     "bayesshap": 0.8994,
+     "hedge": 0.9139
+    },
+    "troca": {
+     "shapley": 0.855,
+     "W": 0.6784,
+     "F": 0.8475,
+     "kernelshap": 0.8484,
+     "bayesshap": 0.8473,
+     "hedge": 0.8521
+    }
+   }
+  },
+  "kendall": {
+   "morf": {
+    "tau": 1.0,
+    "ordena": true,
+    "ranking_remocao": [
+     "hedge",
+     "shapley",
+     "bayesshap",
+     "kernelshap",
+     "F",
+     "W"
+    ]
+   },
+   "insercao": {
+    "tau": 0.7333,
+    "ordena": true,
+    "ranking_remocao": [
+     "shapley",
+     "kernelshap",
+     "hedge",
+     "bayesshap",
+     "F",
+     "W"
+    ]
+   }
+  }
+ },
+ "jev_en_1.14": {
+  "n_itens": 200,
+  "media_u": {
+   "morf": {
+    "remocao": {
+     "shapley": 0.9448,
+     "W": 0.7326,
+     "F": 0.9223,
+     "kernelshap": 0.9325,
+     "bayesshap": 0.9308,
+     "hedge": 0.9439
+    },
+    "troca": {
+     "shapley": 0.8911,
+     "W": 0.6941,
+     "F": 0.8816,
+     "kernelshap": 0.8833,
+     "bayesshap": 0.8838,
+     "hedge": 0.8918
+    }
+   },
+   "insercao": {
+    "remocao": {
+     "shapley": 0.9217,
+     "W": 0.7505,
+     "F": 0.8897,
+     "kernelshap": 0.921,
+     "bayesshap": 0.8996,
+     "hedge": 0.9182
+    },
+    "troca": {
+     "shapley": 0.8561,
+     "W": 0.6949,
+     "F": 0.847,
+     "kernelshap": 0.8398,
+     "bayesshap": 0.8484,
+     "hedge": 0.8532
+    }
+   }
+  },
+  "kendall": {
+   "morf": {
+    "tau": 0.7333,
+    "ordena": true,
+    "ranking_remocao": [
+     "shapley",
+     "hedge",
+     "kernelshap",
+     "bayesshap",
+     "F",
+     "W"
+    ]
+   },
+   "insercao": {
+    "tau": 0.6,
+    "ordena": true,
+    "ranking_remocao": [
+     "shapley",
+     "kernelshap",
+     "hedge",
+     "bayesshap",
+     "F",
+     "W"
+    ]
+   }
+  }
+ }
+}

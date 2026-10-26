@@ -1,0 +1,38 @@
+[
+ {
+  "loc": "pt",
+  "item": 1919,
+  "clean": "existe um tosquiador só de gatos na cidade",
+  "edited": "exiate um tosquiador só de gatos na cidade",
+  "steps": 1,
+  "before": "general_quirky",
+  "p_before": 0.9993471503257751,
+  "after": "play_game",
+  "p_after": 0.9184229373931885,
+  "gold": "general_quirky"
+ },
+ {
+  "loc": "en",
+  "item": 1215,
+  "clean": "open temperature",
+  "edited": "open temprature",
+  "steps": 1,
+  "before": "weather_query",
+  "p_before": 0.9993497729301453,
+  "after": "play_music",
+  "p_after": 0.333646684885025,
+  "gold": "weather_query"
+ },
+ {
+  "loc": "pt",
+  "item": 1397,
+  "clean": "eliminar uma lista",
+  "edited": "eiminar uma lisha",
+  "steps": 2,
+  "before": "lists_remove",
+  "p_before": 0.9999676942825317,
+  "after": "iot_hue_lightup",
+  "p_after": 0.9012519717216492,
+  "gold": "lists_remove"
+ }
+]

@@ -1,0 +1,91 @@
+{
+ "sensibilidade": "custo de retreino 50 (pre-registro, secao 6)",
+ "D1": {
+  "autor_menos_periodico": {
+   "n": 60,
+   "media": 0.03272,
+   "IC95_t": [
+    -0.00932,
+    0.07477
+   ],
+   "IC95_boot": [
+    -0.00759,
+    0.07336
+   ],
+   "dp": 0.16276
+  },
+  "medias": {
+   "author": 0.769,
+   "periodic": 0.7363,
+   "recal": 0.7422,
+   "ltt_window": 0.668,
+   "ddm": 0.855
+  }
+ },
+ "D2": {
+  "autor_menos_periodico": {
+   "n": 60,
+   "media": -0.08067,
+   "IC95_t": [
+    -0.09528,
+    -0.06606
+   ],
+   "IC95_boot": [
+    -0.09522,
+    -0.06677
+   ],
+   "dp": 0.05656
+  },
+  "medias": {
+   "author": 0.4016,
+   "periodic": 0.4823,
+   "recal": 0.4063,
+   "ltt_window": 0.4131,
+   "ddm": 0.4562
+  }
+ },
+ "D3": {
+  "autor_menos_periodico": {
+   "n": 60,
+   "media": 0.00972,
+   "IC95_t": [
+    -0.00555,
+    0.02498
+   ],
+   "IC95_boot": [
+    -0.0046,
+    0.02497
+   ],
+   "dp": 0.05908
+  },
+  "medias": {
+   "author": 0.8322,
+   "periodic": 0.8225,
+   "recal": 0.7806,
+   "ltt_window": 0.7735,
+   "ddm": 0.8496
+  }
+ },
+ "control": {
+  "autor_menos_periodico": {
+   "n": 30,
+   "media": -0.06563,
+   "IC95_t": [
+    -0.08484,
+    -0.04641
+   ],
+   "IC95_boot": [
+    -0.08476,
+    -0.04868
+   ],
+   "dp": 0.05146
+  },
+  "medias": {
+   "author": 0.433,
+   "periodic": 0.4986,
+   "recal": 0.4363,
+   "ltt_window": 0.4418,
+   "ddm": 0.5108
+  }
+ }
+}

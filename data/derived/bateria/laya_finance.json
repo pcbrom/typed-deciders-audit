@@ -1,0 +1,197 @@
+{
+ "sizes": {
+  "250": [
+   {
+    "seed": 0,
+    "seconds": 1.0,
+    "dropped": 0,
+    "label_counts": {
+     "bullish": 45,
+     "neutral": 165,
+     "bearish": 40
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 1.1,
+    "dropped": 0,
+    "label_counts": {
+     "neutral": 170,
+     "bearish": 33,
+     "bullish": 47
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 1.1,
+    "dropped": 0,
+    "label_counts": {
+     "neutral": 173,
+     "bearish": 45,
+     "bullish": 32
+    }
+   }
+  ],
+  "500": [
+   {
+    "seed": 0,
+    "seconds": 2.1,
+    "dropped": 0,
+    "label_counts": {
+     "neutral": 356,
+     "bullish": 73,
+     "bearish": 71
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 2.1,
+    "dropped": 0,
+    "label_counts": {
+     "bullish": 95,
+     "neutral": 332,
+     "bearish": 73
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 2.1,
+    "dropped": 0,
+    "label_counts": {
+     "neutral": 323,
+     "bearish": 83,
+     "bullish": 94
+    }
+   }
+  ],
+  "1000": [
+   {
+    "seed": 0,
+    "seconds": 4.1,
+    "dropped": 0,
+    "label_counts": {
+     "neutral": 641,
+     "bearish": 147,
+     "bullish": 212
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 4.1,
+    "dropped": 0,
+    "label_counts": {
+     "neutral": 623,
+     "bearish": 159,
+     "bullish": 218
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 4.1,
+    "dropped": 0,
+    "label_counts": {
+     "bearish": 160,
+     "neutral": 624,
+     "bullish": 216
+    }
+   }
+  ],
+  "2000": [
+   {
+    "seed": 0,
+    "seconds": 8.1,
+    "dropped": 0,
+    "label_counts": {
+     "bullish": 432,
+     "neutral": 1283,
+     "bearish": 285
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 8.1,
+    "dropped": 0,
+    "label_counts": {
+     "neutral": 1327,
+     "bullish": 378,
+     "bearish": 295
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 8.1,
+    "dropped": 0,
+    "label_counts": {
+     "bullish": 402,
+     "neutral": 1273,
+     "bearish": 325
+    }
+   }
+  ],
+  "4000": [
+   {
+    "seed": 0,
+    "seconds": 16.1,
+    "dropped": 0,
+    "label_counts": {
+     "bullish": 801,
+     "neutral": 2564,
+     "bearish": 635
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 16.0,
+    "dropped": 0,
+    "label_counts": {
+     "neutral": 2591,
+     "bullish": 807,
+     "bearish": 602
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 16.1,
+    "dropped": 0,
+    "label_counts": {
+     "neutral": 2615,
+     "bullish": 817,
+     "bearish": 568
+    }
+   }
+  ],
+  "8000": [
+   {
+    "seed": 0,
+    "seconds": 32.1,
+    "dropped": 0,
+    "label_counts": {
+     "bearish": 1194,
+     "bullish": 1622,
+     "neutral": 5184
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 32.3,
+    "dropped": 0,
+    "label_counts": {
+     "neutral": 5182,
+     "bullish": 1601,
+     "bearish": 1217
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 32.4,
+    "dropped": 0,
+    "label_counts": {
+     "neutral": 5192,
+     "bullish": 1606,
+     "bearish": 1202
+    }
+   }
+  ]
+ },
+ "n_pool": 9543
+}

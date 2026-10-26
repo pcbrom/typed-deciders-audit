@@ -1,0 +1,548 @@
+{
+ "arquivo": "main.jsonl",
+ "comparador": "periodic",
+ "por_drift": {
+  "D1": {
+   "custo_primario": {
+    "n": 60,
+    "media": 0.04448,
+    "IC95_t": [
+     0.00246,
+     0.0865
+    ],
+    "IC95_boot": [
+     0.00377,
+     0.085
+    ],
+    "dp": 0.16267
+   },
+   "autor_menor_com_IC": false,
+   "nao_inferioridade": {
+    "n": 60,
+    "media": 0.03418,
+    "IC95_t": [
+     -0.04511,
+     0.11348
+    ],
+    "IC95_boot": [
+     -0.04142,
+     0.11014
+    ],
+    "dp": 0.30696
+   },
+   "nao_inferior": false
+  },
+  "D2": {
+   "custo_primario": {
+    "n": 60,
+    "media": -0.064,
+    "IC95_t": [
+     -0.07861,
+     -0.04939
+    ],
+    "IC95_boot": [
+     -0.07878,
+     -0.05003
+    ],
+    "dp": 0.05656
+   },
+   "autor_menor_com_IC": true,
+   "nao_inferioridade": {
+    "n": 60,
+    "media": -0.25715,
+    "IC95_t": [
+     -0.34123,
+     -0.17307
+    ],
+    "IC95_boot": [
+     -0.34076,
+     -0.17694
+    ],
+    "dp": 0.32548
+   },
+   "nao_inferior": true
+  },
+  "D3": {
+   "custo_primario": {
+    "n": 60,
+    "media": 0.01953,
+    "IC95_t": [
+     0.0041,
+     0.03496
+    ],
+    "IC95_boot": [
+     0.005,
+     0.03502
+    ],
+    "dp": 0.05973
+   },
+   "autor_menor_com_IC": false,
+   "nao_inferioridade": {
+    "n": 60,
+    "media": 0.3051,
+    "IC95_t": [
+     0.22273,
+     0.38747
+    ],
+    "IC95_boot": [
+     0.22198,
+     0.38322
+    ],
+    "dp": 0.31887
+   },
+   "nao_inferior": false
+  }
+ },
+ "secundarias": {
+  "aci|D1": {
+   "n": 60,
+   "custo10": 0.9173,
+   "custo100": 8.3286,
+   "janelas_abaixo": 0.9412,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 93.8,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "aci|D2": {
+   "n": 60,
+   "custo10": 0.4296,
+   "custo100": 3.4023,
+   "janelas_abaixo": 0.0333,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 99.3,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "aci|D3": {
+   "n": 60,
+   "custo10": 0.8787,
+   "custo100": 7.7962,
+   "janelas_abaixo": 0.9504,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 110.1,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "aci|control": {
+   "n": 30,
+   "custo10": 0.4784,
+   "custo100": 3.9297,
+   "janelas_abaixo": null,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 94.9,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "adwin|D1": {
+   "n": 60,
+   "custo10": 0.7951,
+   "custo100": 7.0026,
+   "janelas_abaixo": 0.8825,
+   "retreinos": 0.95,
+   "promocoes": 0.95,
+   "rotulos_por_1000": 105.4,
+   "gpu_s": 1.48,
+   "atraso_mediano": 1924,
+   "frac_com_retreino_pos_mudanca": 0.95
+  },
+  "adwin|D2": {
+   "n": 60,
+   "custo10": 0.4268,
+   "custo100": 3.3587,
+   "janelas_abaixo": 0.0333,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 101.1,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "adwin|D3": {
+   "n": 60,
+   "custo10": 0.8828,
+   "custo100": 7.9033,
+   "janelas_abaixo": 0.9615,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 102.8,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "adwin|control": {
+   "n": 30,
+   "custo10": 0.4752,
+   "custo100": 3.8892,
+   "janelas_abaixo": null,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 95.9,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "author|D1": {
+   "n": 60,
+   "custo10": 0.7641,
+   "custo100": 6.6516,
+   "janelas_abaixo": 0.8623,
+   "retreinos": 0.883,
+   "promocoes": 0.667,
+   "rotulos_por_1000": 109.9,
+   "gpu_s": 1.69,
+   "atraso_mediano": 1924,
+   "frac_com_retreino_pos_mudanca": 0.65
+  },
+  "author|D2": {
+   "n": 60,
+   "custo10": 0.4016,
+   "custo100": 3.0029,
+   "janelas_abaixo": 0.0,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 112.6,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "author|D3": {
+   "n": 60,
+   "custo10": 0.8254,
+   "custo100": 7.0544,
+   "janelas_abaixo": 0.9251,
+   "retreinos": 1.233,
+   "promocoes": 0.783,
+   "rotulos_por_1000": 133.3,
+   "gpu_s": 2.95,
+   "atraso_mediano": 2792.0,
+   "frac_com_retreino_pos_mudanca": 0.8
+  },
+  "author|control": {
+   "n": 30,
+   "custo10": 0.433,
+   "custo100": 3.3287,
+   "janelas_abaixo": null,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 111.2,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "ddm|D1": {
+   "n": 60,
+   "custo10": 0.8426,
+   "custo100": 7.3826,
+   "janelas_abaixo": 0.9133,
+   "retreinos": 2.233,
+   "promocoes": 0.983,
+   "rotulos_por_1000": 116.0,
+   "gpu_s": 2.53,
+   "atraso_mediano": 890.0,
+   "frac_com_retreino_pos_mudanca": 0.867
+  },
+  "ddm|D2": {
+   "n": 60,
+   "custo10": 0.448,
+   "custo100": 3.369,
+   "janelas_abaixo": 0.0809,
+   "retreinos": 1.483,
+   "promocoes": 0.367,
+   "rotulos_por_1000": 123.4,
+   "gpu_s": 1.59,
+   "atraso_mediano": 1145,
+   "frac_com_retreino_pos_mudanca": 0.317
+  },
+  "ddm|D3": {
+   "n": 60,
+   "custo10": 0.8379,
+   "custo100": 5.8777,
+   "janelas_abaixo": 0.6463,
+   "retreinos": 2.1,
+   "promocoes": 0.783,
+   "rotulos_por_1000": 277.9,
+   "gpu_s": 2.52,
+   "atraso_mediano": 959.5,
+   "frac_com_retreino_pos_mudanca": 0.933
+  },
+  "ddm|control": {
+   "n": 30,
+   "custo10": 0.4997,
+   "custo100": 3.8197,
+   "janelas_abaixo": null,
+   "retreinos": 2,
+   "promocoes": 0.367,
+   "rotulos_por_1000": 130.8,
+   "gpu_s": 2.27,
+   "atraso_mediano": 1199,
+   "frac_com_retreino_pos_mudanca": 0.433
+  },
+  "frozen|D1": {
+   "n": 60,
+   "custo10": 0.9199,
+   "custo100": 8.3609,
+   "janelas_abaixo": 0.9428,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 93.1,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "frozen|D2": {
+   "n": 60,
+   "custo10": 0.4268,
+   "custo100": 3.3587,
+   "janelas_abaixo": 0.0333,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 101.1,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "frozen|D3": {
+   "n": 60,
+   "custo10": 0.8828,
+   "custo100": 7.9033,
+   "janelas_abaixo": 0.9615,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 102.8,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "frozen|control": {
+   "n": 30,
+   "custo10": 0.4752,
+   "custo100": 3.8892,
+   "janelas_abaixo": null,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 95.9,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "ltt_window|D1": {
+   "n": 60,
+   "custo10": 0.668,
+   "custo100": 3.965,
+   "janelas_abaixo": 0.3728,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 301.6,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "ltt_window|D2": {
+   "n": 60,
+   "custo10": 0.4131,
+   "custo100": 2.2696,
+   "janelas_abaixo": 0.0,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 206.9,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "ltt_window|D3": {
+   "n": 60,
+   "custo10": 0.7735,
+   "custo100": 2.5883,
+   "janelas_abaixo": 0.2086,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 571.9,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "ltt_window|control": {
+   "n": 30,
+   "custo10": 0.4418,
+   "custo100": 2.5438,
+   "janelas_abaixo": null,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 208.2,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "periodic|D1": {
+   "n": 60,
+   "custo10": 0.7196,
+   "custo100": 6.1433,
+   "janelas_abaixo": 0.8281,
+   "retreinos": 3,
+   "promocoes": 3,
+   "rotulos_por_1000": 117.0,
+   "gpu_s": 6.56,
+   "atraso_mediano": 2172.5,
+   "frac_com_retreino_pos_mudanca": 1.0
+  },
+  "periodic|D2": {
+   "n": 60,
+   "custo10": 0.4656,
+   "custo100": 3.6531,
+   "janelas_abaixo": 0.2571,
+   "retreinos": 3,
+   "promocoes": 3,
+   "rotulos_por_1000": 111.4,
+   "gpu_s": 6.34,
+   "atraso_mediano": 1732.0,
+   "frac_com_retreino_pos_mudanca": 1.0
+  },
+  "periodic|D3": {
+   "n": 60,
+   "custo10": 0.8058,
+   "custo100": 5.1923,
+   "janelas_abaixo": 0.62,
+   "retreinos": 3,
+   "promocoes": 3,
+   "rotulos_por_1000": 318.4,
+   "gpu_s": 12.37,
+   "atraso_mediano": 1974.5,
+   "frac_com_retreino_pos_mudanca": 1.0
+  },
+  "periodic|control": {
+   "n": 30,
+   "custo10": 0.4819,
+   "custo100": 3.9449,
+   "janelas_abaixo": null,
+   "retreinos": 3,
+   "promocoes": 3,
+   "rotulos_por_1000": 97.2,
+   "gpu_s": 5.6,
+   "atraso_mediano": 1929.0,
+   "frac_com_retreino_pos_mudanca": 1.0
+  },
+  "ph|D1": {
+   "n": 60,
+   "custo10": 0.8154,
+   "custo100": 7.3258,
+   "janelas_abaixo": 0.9299,
+   "retreinos": 1.183,
+   "promocoes": 0.983,
+   "rotulos_por_1000": 92.1,
+   "gpu_s": 1.78,
+   "atraso_mediano": 1364.0,
+   "frac_com_retreino_pos_mudanca": 1.0
+  },
+  "ph|D2": {
+   "n": 60,
+   "custo10": 0.4285,
+   "custo100": 3.384,
+   "janelas_abaixo": 0.0467,
+   "retreinos": 0.317,
+   "promocoes": 0.133,
+   "rotulos_por_1000": 100.1,
+   "gpu_s": 0.76,
+   "atraso_mediano": 2076.0,
+   "frac_com_retreino_pos_mudanca": 0.3
+  },
+  "ph|D3": {
+   "n": 60,
+   "custo10": 0.8434,
+   "custo100": 6.5239,
+   "janelas_abaixo": 0.7739,
+   "retreinos": 1.017,
+   "promocoes": 0.867,
+   "rotulos_por_1000": 212.2,
+   "gpu_s": 3.23,
+   "atraso_mediano": 2463.0,
+   "frac_com_retreino_pos_mudanca": 0.767
+  },
+  "ph|control": {
+   "n": 30,
+   "custo10": 0.4757,
+   "custo100": 3.903,
+   "janelas_abaixo": null,
+   "retreinos": 0.233,
+   "promocoes": 0.167,
+   "rotulos_por_1000": 94.9,
+   "gpu_s": 0.47,
+   "atraso_mediano": 3380.0,
+   "frac_com_retreino_pos_mudanca": 0.2
+  },
+  "recal|D1": {
+   "n": 60,
+   "custo10": 0.7422,
+   "custo100": 4.7201,
+   "janelas_abaixo": 0.5749,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 300.2,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "recal|D2": {
+   "n": 60,
+   "custo10": 0.4063,
+   "custo100": 3.0933,
+   "janelas_abaixo": 0.0,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 107.8,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "recal|D3": {
+   "n": 60,
+   "custo10": 0.7806,
+   "custo100": 4.1192,
+   "janelas_abaixo": 0.3777,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 409.6,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  },
+  "recal|control": {
+   "n": 30,
+   "custo10": 0.4363,
+   "custo100": 3.357,
+   "janelas_abaixo": null,
+   "retreinos": 0,
+   "promocoes": 0,
+   "rotulos_por_1000": 111.8,
+   "gpu_s": 0.0,
+   "atraso_mediano": null,
+   "frac_com_retreino_pos_mudanca": 0.0
+  }
+ },
+ "retreinos_falsos": {
+  "n": 30,
+  "media": -3.0,
+  "IC95_t": [
+   -3.0,
+   -3.0
+  ],
+  "IC95_boot": [
+   -3.0,
+   -3.0
+  ],
+  "dp": 0.0,
+  "nao_mais_que_comparador": true
+ },
+ "regra_do_titulo": {
+  "drifts_a_favor": 1,
+  "mantem_bayesian": false
+ }
+}

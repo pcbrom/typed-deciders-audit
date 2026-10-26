@@ -1,0 +1,42 @@
+{
+ "por_semente": {
+  "0": {
+   "teto_mobius": 0.6346,
+   "gibbs": 0.2953,
+   "interacao_shapley": 0.8877,
+   "sinal_H": 0.718,
+   "hedge": 0.8532
+  },
+  "1": {
+   "teto_mobius": 0.6201,
+   "gibbs": 0.303,
+   "interacao_shapley": 0.9041,
+   "sinal_H": 0.7843,
+   "hedge": 0.9036
+  },
+  "2": {
+   "teto_mobius": 0.642,
+   "gibbs": 0.3026,
+   "interacao_shapley": 0.9126,
+   "sinal_H": 0.8153,
+   "hedge": 0.9112
+  }
+ },
+ "agrupado": {
+  "teto_mobius": 0.6322,
+  "gibbs": 0.3003,
+  "interacao_shapley": 0.9014,
+  "sinal_H": 0.7725,
+  "hedge": 0.8893
+ },
+ "melhor_concorrente": "interacao_shapley",
+ "diferenca_gibbs_menos_concorrente": {
+  "media": -0.6011,
+  "IC95": [
+   -0.6092,
+   -0.5927
+  ]
+ },
+ "leitura": "resultado negativo",
+ "n_itens": 1422
+}

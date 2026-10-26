@@ -1,0 +1,88 @@
+{
+ "cpu": "AMD Ryzen 9 9900X3D 12-Core Processor",
+ "isa": [
+  "avx2",
+  "avx512_bf16",
+  "avx512_vnni",
+  "avx512f",
+  "avx_vnni"
+ ],
+ "threads": 6,
+ "torch": "2.10.0+cu128",
+ "modes": {
+  "fp32": {
+   "ms_por_item_mediana": {
+    "pt": 29.99,
+    "en": 29.73
+   }
+  },
+  "bf16_autocast": {
+   "ms_por_item_mediana": {
+    "pt": 14.13,
+    "en": 13.82
+   },
+   "contra_fp32": {
+    "pt": {
+     "acc": 0.731,
+     "acc_fp32": 0.734,
+     "dif": -0.003,
+     "IC95": [
+      -0.007,
+      0.0
+     ],
+     "nao_inferior_2pp": true,
+     "equivalente_tost_2pp": true,
+     "decisao_igual": 0.997,
+     "aceleracao": 2.12
+    },
+    "en": {
+     "acc": 0.815,
+     "acc_fp32": 0.814,
+     "dif": 0.001,
+     "IC95": [
+      -0.002,
+      0.005
+     ],
+     "nao_inferior_2pp": true,
+     "equivalente_tost_2pp": true,
+     "decisao_igual": 0.996,
+     "aceleracao": 2.15
+    }
+   }
+  },
+  "int8_dinamico": {
+   "ms_por_item_mediana": {
+    "pt": 11.0,
+    "en": 10.78
+   },
+   "contra_fp32": {
+    "pt": {
+     "acc": 0.692,
+     "acc_fp32": 0.734,
+     "dif": -0.042,
+     "IC95": [
+      -0.069,
+      -0.015
+     ],
+     "nao_inferior_2pp": false,
+     "equivalente_tost_2pp": false,
+     "decisao_igual": 0.744,
+     "aceleracao": 2.73
+    },
+    "en": {
+     "acc": 0.785,
+     "acc_fp32": 0.814,
+     "dif": -0.029,
+     "IC95": [
+      -0.052,
+      -0.007
+     ],
+     "nao_inferior_2pp": false,
+     "equivalente_tost_2pp": false,
+     "decisao_igual": 0.828,
+     "aceleracao": 2.76
+    }
+   }
+  }
+ }
+}

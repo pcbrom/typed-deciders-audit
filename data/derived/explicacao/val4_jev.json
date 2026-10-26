@@ -1,0 +1,114 @@
+{
+ "jev_pt_1.13": {
+  "n_itens": 200,
+  "original_valido": 1.0,
+  "alt1": {
+   "n_validos": 48,
+   "excluidos_frac": 0.76,
+   "mudanca_alt": 0.2083,
+   "mudanca_placebo": 0.1042,
+   "D": 0.1042,
+   "IC95": [
+    -0.0208,
+    0.2292
+   ],
+   "leitura": "invariância aproximada"
+  },
+  "alt2": {
+   "n_validos": 52,
+   "excluidos_frac": 0.74,
+   "mudanca_alt": 0.1346,
+   "mudanca_placebo": 0.0962,
+   "D": 0.0385,
+   "IC95": [
+    0.0,
+    0.0962
+   ],
+   "leitura": "invariância aproximada"
+  }
+ },
+ "jev_pt_1.14": {
+  "n_itens": 200,
+  "original_valido": 1.0,
+  "alt1": {
+   "n_validos": 51,
+   "excluidos_frac": 0.745,
+   "mudanca_alt": 0.098,
+   "mudanca_placebo": 0.1373,
+   "D": -0.0392,
+   "IC95": [
+    -0.1569,
+    0.0784
+   ],
+   "leitura": "invariância aproximada"
+  },
+  "alt2": {
+   "n_validos": 54,
+   "excluidos_frac": 0.73,
+   "mudanca_alt": 0.0741,
+   "mudanca_placebo": 0.1296,
+   "D": -0.0556,
+   "IC95": [
+    -0.1667,
+    0.0556
+   ],
+   "leitura": "invariância aproximada"
+  }
+ },
+ "jev_en_1.13": {
+  "n_itens": 200,
+  "original_valido": 1.0,
+  "alt1": {
+   "n_validos": 63,
+   "excluidos_frac": 0.685,
+   "mudanca_alt": 0.1429,
+   "mudanca_placebo": 0.1905,
+   "D": -0.0476,
+   "IC95": [
+    -0.1587,
+    0.0639
+   ],
+   "leitura": "invariância aproximada"
+  },
+  "alt2": {
+   "n_validos": 59,
+   "excluidos_frac": 0.705,
+   "mudanca_alt": 0.2542,
+   "mudanca_placebo": 0.1864,
+   "D": 0.0678,
+   "IC95": [
+    -0.0678,
+    0.2034
+   ],
+   "leitura": "invariância aproximada"
+  }
+ },
+ "jev_en_1.14": {
+  "n_itens": 200,
+  "original_valido": 1.0,
+  "alt1": {
+   "n_validos": 65,
+   "excluidos_frac": 0.675,
+   "mudanca_alt": 0.2154,
+   "mudanca_placebo": 0.1846,
+   "D": 0.0308,
+   "IC95": [
+    -0.0769,
+    0.1385
+   ],
+   "leitura": "invariância aproximada"
+  },
+  "alt2": {
+   "n_validos": 61,
+   "excluidos_frac": 0.695,
+   "mudanca_alt": 0.1967,
+   "mudanca_placebo": 0.2295,
+   "D": -0.0328,
+   "IC95": [
+    -0.1475,
+    0.082
+   ],
+   "leitura": "invariância aproximada"
+  }
+ }
+}

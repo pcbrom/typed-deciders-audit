@@ -1,0 +1,11 @@
+{
+ "seed": 0,
+ "head": "residual",
+ "n_itens": 770,
+ "spearman_medio_aditiva": 0.2259,
+ "nulo_p99": 0.0349,
+ "ref_oclusao": 0.5666,
+ "ref_slalom": 0.8401,
+ "fracao_fora_mediana": 0.576,
+ "autoexplicacao_por_palavra": false
+}

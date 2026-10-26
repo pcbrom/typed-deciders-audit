@@ -1,0 +1,25 @@
+pt root original accuracy 0.745
+pt root externo accuracy 0.7293
+pt root dificil accuracy 0.5725
+pt multilingual original accuracy 0.7505
+pt multilingual externo accuracy 0.7621
+pt multilingual dificil accuracy 0.559
+pt typed-decisions original accuracy 0.7515
+pt typed-decisions externo accuracy 0.7437
+pt typed-decisions dificil accuracy 0.5925
+pt ft-multilingual original accuracy 0.9745
+pt ft-multilingual externo accuracy 0.9652
+pt ft-multilingual dificil accuracy 0.923
+pt ft-typed-decisions original accuracy 0.962
+pt ft-typed-decisions externo accuracy 0.9642
+pt ft-typed-decisions dificil accuracy 0.9175
+en root original accuracy 0.8865
+en root externo accuracy 0.8934
+en root dificil accuracy 0.7475
+en multilingual original accuracy 0.826
+en multilingual externo accuracy 0.8238
+en multilingual dificil accuracy 0.6305
+en typed-decisions original accuracy 0.902
+en typed-decisions externo accuracy 0.9068
+en typed-decisions dificil accuracy 0.7845
+exit 0

@@ -1,0 +1,118 @@
+{
+ "jev": {
+  "cases": 18,
+  "point": {
+   "kept": 5,
+   "undetermined": 0,
+   "broken": 13,
+   "mean_violation": 0.29009444444444443,
+   "max_violation": 0.4934,
+   "mean_decisions": 658.6739527777777
+  },
+  "beta": {
+   "kept": 18,
+   "undetermined": 0,
+   "broken": 0,
+   "mean_violation": 0.014777777777777779,
+   "max_violation": 0.0375,
+   "mean_decisions": 493.8758611111112
+  },
+  "ltt": {
+   "kept": 18,
+   "undetermined": 0,
+   "broken": 0,
+   "mean_violation": 0.01193888888888889,
+   "max_violation": 0.0365,
+   "mean_decisions": 478.2930083333334
+  },
+  "beta_vs_point": {
+   "violation_avoided_mean": 0.27531666666666665,
+   "decisions_given_up_mean": 164.79809166666666,
+   "cases_point_broken_beta_not_broken": 13
+  },
+  "beta_vs_ltt": {
+   "decisions_gained_mean": 15.58285277777778,
+   "cases_more": 8,
+   "cases_fewer": 0
+  }
+ },
+ "laya_finetuned": {
+  "cases": 90,
+  "point": {
+   "kept": 32,
+   "undetermined": 0,
+   "broken": 58,
+   "mean_violation": 0.32113555555555556,
+   "max_violation": 0.588,
+   "mean_decisions": 737.4888327777778
+  },
+  "beta": {
+   "kept": 87,
+   "undetermined": 2,
+   "broken": 1,
+   "mean_violation": 0.023808888888888886,
+   "max_violation": 0.055,
+   "mean_decisions": 686.3473494444444
+  },
+  "ltt": {
+   "kept": 90,
+   "undetermined": 0,
+   "broken": 0,
+   "mean_violation": 0.01688777777777778,
+   "max_violation": 0.039,
+   "mean_decisions": 652.0521322222223
+  },
+  "beta_vs_point": {
+   "violation_avoided_mean": 0.29732666666666674,
+   "decisions_given_up_mean": 51.14148333333333,
+   "cases_point_broken_beta_not_broken": 57
+  },
+  "beta_vs_ltt": {
+   "decisions_gained_mean": 34.29521722222221,
+   "cases_more": 62,
+   "cases_fewer": 0
+  }
+ },
+ "laya_released": {
+  "cases": 82,
+  "point": {
+   "kept": 5,
+   "undetermined": 1,
+   "broken": 76,
+   "mean_violation": 0.47666097560975607,
+   "max_violation": 0.6428,
+   "mean_decisions": 277.0825365853659
+  },
+  "beta": {
+   "kept": 78,
+   "undetermined": 4,
+   "broken": 0,
+   "mean_violation": 0.027089024390243906,
+   "max_violation": 0.0508,
+   "mean_decisions": 161.92357682926828
+  },
+  "ltt": {
+   "kept": 82,
+   "undetermined": 0,
+   "broken": 0,
+   "mean_violation": 0.009934146341463414,
+   "max_violation": 0.0392,
+   "mean_decisions": 89.24216890243902
+  },
+  "beta_vs_point": {
+   "violation_avoided_mean": 0.44957195121951227,
+   "decisions_given_up_mean": 115.15895975609756,
+   "cases_point_broken_beta_not_broken": 76
+  },
+  "beta_vs_ltt": {
+   "decisions_gained_mean": 72.68140792682927,
+   "cases_more": 58,
+   "cases_fewer": 0
+  }
+ },
+ "sources": {
+  "static": 36,
+  "battery": 50,
+  "own": 104
+ }
+}

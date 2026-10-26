@@ -1,0 +1,519 @@
+{
+ "counts": {
+  "jev_answers.jsonl.gz": {
+   "languages | jev-1.13.0": 50000,
+   "noise | jev-1.13.0": 19000,
+   "static | jev-1.13.0": 4000
+  },
+  "laya_answers.jsonl.gz": {
+   "languages | massive-pt-multilingual": 104000,
+   "languages | multilingual": 104000,
+   "noise | massive-pt-multilingual": 17000,
+   "noise | multilingual": 17000,
+   "static | ft-typed-decisions": 2000,
+   "static | massive-pt-multilingual": 2000,
+   "static | multilingual": 4000,
+   "static | root": 4000,
+   "static | typed-decisions": 4000
+  },
+  "jev_coalition_games.jsonl.gz": {
+   "explanation_game | jev-1.13.0": 2000,
+   "explanation_game | jev-1.14.0": 2000,
+   "explanation_validation | jev-1.13.0": 1600,
+   "explanation_validation | jev-1.14.0": 1600
+  },
+  "battery_jev_answers.jsonl.gz": {
+   "battery | fake_pt | jev-1.13.0": 4001,
+   "battery | finance | jev-1.13.0": 4001,
+   "battery | liar2 | jev-1.13.0": 6001,
+   "battery | news | jev-1.13.0": 5000
+  },
+  "battery_laya_answers.jsonl.gz": {
+   "battery | fake_pt | multilingual fine-tuned on the domain": 45000,
+   "battery | fake_pt | multilingual fine-tuned on the domain, training text normalised": 6000,
+   "battery | fake_pt | multilingual fine-tuned on the domain, training text original": 18000,
+   "battery | fake_pt | multilingual released": 5000,
+   "battery | finance | multilingual fine-tuned on the domain": 45000,
+   "battery | finance | multilingual released": 5000,
+   "battery | liar2 | multilingual fine-tuned on the domain": 51000,
+   "battery | liar2 | multilingual released": 7000,
+   "battery | massive_pt | multilingual fine-tuned on the domain": 45000,
+   "battery | massive_pt | multilingual released": 5000,
+   "battery | news | multilingual fine-tuned on the domain": 45000,
+   "battery | news | multilingual released": 5000
+  },
+  "laya_explanation": 30,
+  "laya_noise_training": 6,
+  "drift_runs": 19
+ },
+ "files": {
+  "DATASHEET.md": {
+   "bytes": 6862,
+   "sha256": "412a11f40e42ceeda098fcffc811adebfe559f44278d8a7e217e8bbbd047c155"
+  },
+  "README.md": {
+   "bytes": 3023,
+   "sha256": "9b7d22d7377b9c6dbe300ade83353de2e61600f35bb46b61042ec571ca2ad034"
+  },
+  "battery_jev_answers.jsonl.gz": {
+   "bytes": 936476,
+   "sha256": "b86ea6c4df59577ea87592bc5319aca6613fac56616e67b59431f4fa2a91412f"
+  },
+  "battery_laya_answers.jsonl.gz": {
+   "bytes": 15414738,
+   "sha256": "e49f30583d87f2d14ce6afdb72ad209de755b57e2981f4d2da8a23e44e9e0cd8"
+  },
+  "drift_runs/ablation.jsonl": {
+   "bytes": 3144842,
+   "sha256": "1b2bd95c3380fa093fe2ea716b9b0d085fc5023ed380819b23cb35f6f7ac7a5e"
+  },
+  "drift_runs/ablation2.jsonl": {
+   "bytes": 2526507,
+   "sha256": "f3221ca5ad8c58c55670addd8647f06adde5d334e58d3bbc0ce0a1a66d09e500"
+  },
+  "drift_runs/adaptador_main.jsonl": {
+   "bytes": 3447054,
+   "sha256": "978d0c358c5f0874a9b28fff8d059851bd76ad93ce399b51aad103755f1764f4"
+  },
+  "drift_runs/adaptador_selection.json": {
+   "bytes": 124,
+   "sha256": "eaf5eb31bb1f4cbe12c48fd6f2a26ee85443f66ef8a3dfe9376ad22b5019b17e"
+  },
+  "drift_runs/adaptador_tuning.jsonl": {
+   "bytes": 13892,
+   "sha256": "37c977251a6c306cf4364301c4a787fa810f541afb15e1fd8a8b07aaa9885550"
+  },
+  "drift_runs/analysis_ablation.json": {
+   "bytes": 15171,
+   "sha256": "04439dfa59bdee49c82dc0299a4f868e7c4b7d92b4e24d86037e73bd3cf23424"
+  },
+  "drift_runs/analysis_ablation2.json": {
+   "bytes": 12202,
+   "sha256": "bcaab9caf62126d146d0ebca181b34178e64c75e17d106987de8f005cc47d790"
+  },
+  "drift_runs/analysis_adaptador.json": {
+   "bytes": 28688,
+   "sha256": "99473b29c356705f4e1162f7495b171d7cd4146e9ffc7730c8c5da4c15768e65"
+  },
+  "drift_runs/analysis_main.json": {
+   "bytes": 11146,
+   "sha256": "ccb3c59101c62b0eeb8cbe80d022487a36263b1e91a66c626c19f7697551b542"
+  },
+  "drift_runs/analysis_main_exploratorio.json": {
+   "bytes": 1448,
+   "sha256": "c28b124df2b28d78a59f90504d07b0bd26b53a0b74f55287e0d76ab6baae94d2"
+  },
+  "drift_runs/analysis_main_retreino50.json": {
+   "bytes": 1346,
+   "sha256": "0f3a9371cc57c3e8a769dbf02bcfa2de2fba4dd2116e4b1980cd604b67f7acf3"
+  },
+  "drift_runs/analysis_pilot.json": {
+   "bytes": 4728,
+   "sha256": "6b61e895bec765ab62d3f17b3f044979543a32430cd225c634eacb6b8baa6a6a"
+  },
+  "drift_runs/analysis_real.json": {
+   "bytes": 4320,
+   "sha256": "ffa7d509ac4d82016006d120414c996c6f49574dc04e994e8aaf5e683968e076"
+  },
+  "drift_runs/main.jsonl": {
+   "bytes": 6459313,
+   "sha256": "bad709d676165f3d24ab9f05a47f444c036c7b04ef2fede856e4fbcc15309d93"
+  },
+  "drift_runs/pilot.jsonl": {
+   "bytes": 405933,
+   "sha256": "1244966c4db1f4471d4e684ceb0875f0c11b5236a71b4480b24708f5430727fe"
+  },
+  "drift_runs/real.jsonl": {
+   "bytes": 1437733,
+   "sha256": "5d976a713e3ecd20cd8b31749b1e0e3572899966d6f194e97d49844e42492cf0"
+  },
+  "drift_runs/recal_lambda08.jsonl": {
+   "bytes": 904540,
+   "sha256": "99bdb8010f7764557b1d0e906c3d8013f1f12fd06891a90427b59add237abf27"
+  },
+  "drift_runs/selection.json": {
+   "bytes": 1428,
+   "sha256": "70cf3e31fdb2ad6c2512862f63bcb462032c19ca90077b414188782a6fed242a"
+  },
+  "drift_runs/tuning.jsonl": {
+   "bytes": 631615,
+   "sha256": "612d47fe8ed2ee7445821f9a519a40d2b8a641723cd82e2426901873d85c4822"
+  },
+  "items/battery/finance.json": {
+   "bytes": 569304,
+   "sha256": "66f57427e2c6ba4abdfad126292670336b7e38f08c3fbe18a8c03d56bbb9c154"
+  },
+  "items/battery/liar2.json": {
+   "bytes": 699971,
+   "sha256": "ddcc9c04e08f282ef172f4bc0b86f1b2eeeb519caffd487dcdc83e88e2f21fb9"
+  },
+  "items/battery/news.json": {
+   "bytes": 610611,
+   "sha256": "ae954038fbe2841b124c966f2305991ccaf7dffca8c38649bc1277553b60c376"
+  },
+  "items/massive_af-ZA_k5.json": {
+   "bytes": 461818,
+   "sha256": "8041c491598d735c1949b7bd30acb96923e1d3c9343686ddd770458e6e1f6d59"
+  },
+  "items/massive_am-ET_k5.json": {
+   "bytes": 509795,
+   "sha256": "2b8d90d3c6f3e37c1aa590db5faab45ed9038a82504742207f7f263a3e5c02e7"
+  },
+  "items/massive_ar-SA_k5.json": {
+   "bytes": 484974,
+   "sha256": "6545b15b8b8b8bec34560078ea9d2f526c0484f2a1f5217ceefe5be2a27e94e5"
+  },
+  "items/massive_az-AZ_k5.json": {
+   "bytes": 472159,
+   "sha256": "5b299ad1a37dba084327f7265657779bad921d204901ea47553942d93de0af53"
+  },
+  "items/massive_bn-BD_k5.json": {
+   "bytes": 569126,
+   "sha256": "05ab2d2f1de13d75707f613dd2d0edd6895f2e70e87dfbafba6a2f4472bf340b"
+  },
+  "items/massive_ca-ES_k5.json": {
+   "bytes": 466666,
+   "sha256": "2d2b4f637007c5d845c31214a997a2e506bc1617a05d0661f03ff9ca3a086f6f"
+  },
+  "items/massive_cy-GB_k5.json": {
+   "bytes": 465228,
+   "sha256": "5b5bc0ec40f469058f074cd07279bd50f61fef192d04aba73a1074580ee75f5b"
+  },
+  "items/massive_da-DK_k5.json": {
+   "bytes": 457860,
+   "sha256": "db868d0d15f154761a41b3b94ddd67506c20a78450895b7c29212ca7fd7f6f30"
+  },
+  "items/massive_de-DE_k5.json": {
+   "bytes": 467549,
+   "sha256": "120ad3ac0b17aa5c52da09c9ae56233fa0388df22c58577888f90691a11a326d"
+  },
+  "items/massive_el-GR_k5.json": {
+   "bytes": 532997,
+   "sha256": "040ad2f9ba9252311e64bd48339df50e6e472df50ca729801226cf8c581c476d"
+  },
+  "items/massive_en-US_k5.json": {
+   "bytes": 456583,
+   "sha256": "eb310683745bb61f6c59e2e3cf8f5c7f370767ce6eb6d0f42b6e7a8ad8baf67c"
+  },
+  "items/massive_es-ES_k5.json": {
+   "bytes": 467598,
+   "sha256": "78c2a78dfc49a17563c09c21b3b8eaaa45d4b351aaa16a4b5f4abf7bef1c019e"
+  },
+  "items/massive_fa-IR_k5.json": {
+   "bytes": 507672,
+   "sha256": "7b87df56211a18b2c3bb6a89e1a20296a56162e1e71de1bf77ab597dd809449e"
+  },
+  "items/massive_fi-FI_k5.json": {
+   "bytes": 464612,
+   "sha256": "8fca60fc3e3865f04d476782b2a8400079d1f0ba6d7ad498cd8d2159605b11a3"
+  },
+  "items/massive_fr-FR_k5.json": {
+   "bytes": 474143,
+   "sha256": "144983f675577be8d8c396d301e636f8677230e270e0d59b2cbe51a359ae5658"
+  },
+  "items/massive_he-IL_k5.json": {
+   "bytes": 489989,
+   "sha256": "43e315c3eaf96e344e8de116b338c0dcd1406c6225a7b59a1f284e95bf86d5da"
+  },
+  "items/massive_hi-IN_k5.json": {
+   "bytes": 569794,
+   "sha256": "56b1c8a547faad870ac0c231475102bb4903c55e041012d0c299d6a066ab03f8"
+  },
+  "items/massive_hu-HU_k5.json": {
+   "bytes": 467856,
+   "sha256": "cafa3857e1d49ac5a2307db3a9ab7f0a0fd67176e6bcf2bd8fd1b04681cb969a"
+  },
+  "items/massive_hy-AM_k5.json": {
+   "bytes": 524246,
+   "sha256": "a75c011368a36eec1acdc5dc0c5933b1ab4de0da4dc1bd4732bef751c7c2c28f"
+  },
+  "items/massive_id-ID_k5.json": {
+   "bytes": 463291,
+   "sha256": "b8222372ef05546cf6b360828288387914b41b68fe063df291bcec6b77ed7c4e"
+  },
+  "items/massive_is-IS_k5.json": {
+   "bytes": 469423,
+   "sha256": "131b7495bc0968479905ece51fabfaadc43874bc2687fbb405a168ddf7b3a09b"
+  },
+  "items/massive_it-IT_k5.json": {
+   "bytes": 464142,
+   "sha256": "c3ec725d352b138a267d9970b3754ce57330d7e84ff3bf6f645ba80e22d31f49"
+  },
+  "items/massive_ja-JP_k5.json": {
+   "bytes": 478176,
+   "sha256": "ff04d42b02f6736fdd30452d4bef100b624c5a2ad406c8c36c307f06747573d1"
+  },
+  "items/massive_jv-ID_k5.json": {
+   "bytes": 456546,
+   "sha256": "3f0ddf2d40787225876f67b86bc8f3d57ee3cc3133d5fcb335863241c459cd78"
+  },
+  "items/massive_ka-GE_k5.json": {
+   "bytes": 562053,
+   "sha256": "b48aec7f4e7ed10648cb8e784ef2a815d8e1ba587819eebbcb4bfe1cedfe84e2"
+  },
+  "items/massive_km-KH_k5.json": {
+   "bytes": 566443,
+   "sha256": "0d1c0bb6a24ff8c83d34c466725d44eb8d60901fa294de4d5cbe1592e9a91072"
+  },
+  "items/massive_kn-IN_k5.json": {
+   "bytes": 597867,
+   "sha256": "abf6b298d37e7f71dc40f33e40baa8cf0ccb8e55253227d7a44c80374784ffcc"
+  },
+  "items/massive_ko-KR_k5.json": {
+   "bytes": 464033,
+   "sha256": "413d687ab761d7a6bcd19e17d074eed394f184556826d42161a528a641ae6306"
+  },
+  "items/massive_lv-LV_k5.json": {
+   "bytes": 466973,
+   "sha256": "697bcbf8d4a9e20f88df6bfeb4d5b528e85cd190d7c9cab39cd8967573c73861"
+  },
+  "items/massive_ml-IN_k5.json": {
+   "bytes": 626604,
+   "sha256": "fb102a8533b289beddd230e8b043dbeda0d4981ab0f018d25260fb954320886b"
+  },
+  "items/massive_mn-MN_k5.json": {
+   "bytes": 527872,
+   "sha256": "082e0e31251a4e4ca8f067471404674c1e318fa24f4e81bda6f4efc1ba889dd9"
+  },
+  "items/massive_ms-MY_k5.json": {
+   "bytes": 466251,
+   "sha256": "42b2ee50cbebcb547a4fcc22f6292542c364353a3c7b7841a936cc6a9701aebb"
+  },
+  "items/massive_my-MM_k5.json": {
+   "bytes": 616315,
+   "sha256": "d858e00a51bb644e68e645fa448b299896d02fd0224642b288cc3a2af348dcf1"
+  },
+  "items/massive_nb-NO_k5.json": {
+   "bytes": 458245,
+   "sha256": "85cc3ca752bdf65276cd1abaa4ea6ff950ea1061557a7232d1a364ba0d759ad2"
+  },
+  "items/massive_nl-NL_k5.json": {
+   "bytes": 466281,
+   "sha256": "53b8a13e8ae9ea5794fb4f121f6c28457d4c2ce672ad9d973a31fb56ac49e449"
+  },
+  "items/massive_pl-PL_k5.json": {
+   "bytes": 463821,
+   "sha256": "bcf89f4a4531721986cd5fadbc281f2ec0d0db37e15dce691461e43e58d5916d"
+  },
+  "items/massive_pt-PT_k5.json": {
+   "bytes": 465485,
+   "sha256": "970a1a20e695b9cf25ac5d0f730b726341cd28d5afb13cd4a2d1b2a39972f455"
+  },
+  "items/massive_ro-RO_k5.json": {
+   "bytes": 463438,
+   "sha256": "ceb1270a39a71cad800f963be242f4e62315eba1febe43f53e79f72ca73732cd"
+  },
+  "items/massive_ru-RU_k5.json": {
+   "bytes": 522097,
+   "sha256": "502552090e5ba7c579fa14c49bcdd64eb5add2a49f575508d7ae641207089b28"
+  },
+  "items/massive_sl-SL_k5.json": {
+   "bytes": 459969,
+   "sha256": "cca3f3d1a2afe1d91205bddb3483c8d86e351aa664466d14b70834ee8be6e614"
+  },
+  "items/massive_sq-AL_k5.json": {
+   "bytes": 468257,
+   "sha256": "a3498dc8540e3bd348f198798aae3da9b73074b09afe41fbb990a37354b59c4b"
+  },
+  "items/massive_sv-SE_k5.json": {
+   "bytes": 460157,
+   "sha256": "ff3891346b9ddc71ccd1fe99a822852a6aeedfa04a4550be0c16bbe18ba4a44a"
+  },
+  "items/massive_sw-KE_k5.json": {
+   "bytes": 463174,
+   "sha256": "12e176a63fedd1eacafb03080a728642c293a361c86f1f02d9699446d4d0a04d"
+  },
+  "items/massive_ta-IN_k5.json": {
+   "bytes": 621211,
+   "sha256": "072a4e965085789a27c68233e28e7adeef3839bdfdaf4c75ec2a97bb82007d98"
+  },
+  "items/massive_te-IN_k5.json": {
+   "bytes": 594434,
+   "sha256": "7dd01c7563780a5bc88727df1bd225a7a043005e2482903769ceb1401bc72b34"
+  },
+  "items/massive_th-TH_k5.json": {
+   "bytes": 561244,
+   "sha256": "739bfa6a77e819bb9e6d11555199eb5a2f9970d32424916f48ee698617ba1427"
+  },
+  "items/massive_tl-PH_k5.json": {
+   "bytes": 475230,
+   "sha256": "b4e62ecb1a940e8dae5115c1bd9fcd292f16cb683776a74eda0cf4bd6ce8fe48"
+  },
+  "items/massive_tr-TR_k5.json": {
+   "bytes": 463436,
+   "sha256": "a5b66574246c4af273aa0936b7645a3664e7feb1abf58f69d38df3e249465acf"
+  },
+  "items/massive_ur-PK_k5.json": {
+   "bytes": 512015,
+   "sha256": "e85df37401406f75fa843b422c43df5da143d5b893cf77e7a362f38ceb25e871"
+  },
+  "items/massive_vi-VN_k5.json": {
+   "bytes": 486620,
+   "sha256": "ff2a51592bb7b248a84491aaaf3a5d3e77fe9a9155b5cbe8c4f75a2300596194"
+  },
+  "items/massive_zh-CN_k5.json": {
+   "bytes": 449660,
+   "sha256": "b24f8f3ca3fc354ce4ef20483ea075e64eda9f1acda3f288f387d9555278b043"
+  },
+  "items/massive_zh-TW_k5.json": {
+   "bytes": 442604,
+   "sha256": "9d12ed8aa8c135f7c0ee0ce324befbfb30662ed3f7ba642ecfb1bc56bbc319ac"
+  },
+  "jev_answers.jsonl.gz": {
+   "bytes": 3174315,
+   "sha256": "9bae0f58189ff58a037fb6a51c56b7b506a309c532afd541948c9325bfd10b1d"
+  },
+  "jev_coalition_games.jsonl.gz": {
+   "bytes": 2863252,
+   "sha256": "4d5636f422de7deaa85c05355a7f3876e30440ed1aa7b1f47f5bc1c8683c3dfb"
+  },
+  "laya_answers.jsonl.gz": {
+   "bytes": 15245409,
+   "sha256": "df7a531e027aff04d01a8e2f8ed52bd8ab35dd5445864a02fc71702c26d90eb5"
+  },
+  "laya_explanation/g4_additive_s0.npz": {
+   "bytes": 76106,
+   "sha256": "8747b12af871c28dc71ba1e64d2cdfd382dcf546c88f63e8e3a67a3702f309e6"
+  },
+  "laya_explanation/g4_additive_s1.npz": {
+   "bytes": 76495,
+   "sha256": "6ae062994c4691fb672741e99ea2808fa52fc0ba888fde5ce94bebb11c35ac3f"
+  },
+  "laya_explanation/g4_additive_s2.npz": {
+   "bytes": 75849,
+   "sha256": "571504a6d3c1eb5cbf61205b37b0007f452ad4fe9942c50fa04ddf7cb6593443"
+  },
+  "laya_explanation/g4_original_s0.npz": {
+   "bytes": 59162,
+   "sha256": "33ab114f992019f2f0190cffb66216f88bd34c2ea57a2f187ea165b087b23f69"
+  },
+  "laya_explanation/g4_original_s1.npz": {
+   "bytes": 57074,
+   "sha256": "c41a54cc2c0a4b5ca008cb8df6dcbd8ee2f56eafad3e29cf68c60b2d2f724913"
+  },
+  "laya_explanation/g4_original_s2.npz": {
+   "bytes": 58381,
+   "sha256": "98f7bd77cf6dbdbc3cf2da8fe2e68914be383d2c7d9f6c75123a91099600ebe2"
+  },
+  "laya_explanation/g4_residual_l20.01_s0.npz": {
+   "bytes": 72162,
+   "sha256": "545b38629ee7907a825786241ec5efcdf6f9eed9ad9840d7cefdd95d78777e43"
+  },
+  "laya_explanation/g4_residual_l20.1_s0.npz": {
+   "bytes": 75612,
+   "sha256": "89a307fcaabc0c6c96cd4c19713ac0d1ca1be6b091986c98f2e03feed5027051"
+  },
+  "laya_explanation/g4_residual_l21.0_s0.npz": {
+   "bytes": 76712,
+   "sha256": "c47d776abb366f5826dfb206f89e0df69c0fb7c4b03b8f990ba20aa554554ef0"
+  },
+  "laya_explanation/g4_residual_l21.0_s1.npz": {
+   "bytes": 76719,
+   "sha256": "4c06009441b03cd47ad6c5f02500e0f7cd6f5d476c97df986ce5bcb507fff262"
+  },
+  "laya_explanation/g4_residual_l21.0_s2.npz": {
+   "bytes": 76429,
+   "sha256": "01e8b740a52abb12cc9e72ddbec7e02c366232941f6bfaed0e1612cdcfd8dc51"
+  },
+  "laya_explanation/laya_games_en_multilingual.npz": {
+   "bytes": 1961053,
+   "sha256": "dc95155ed78acdaf0d7577dcb6ebb4764a581e1aa25d6e897940b10e50c7cdb8"
+  },
+  "laya_explanation/laya_games_en_multilingual_calib.npz": {
+   "bytes": 1946583,
+   "sha256": "08c1fab219bf8fc2a2aee849eae870a296da5f948197d1821d8a66d19e5e54eb"
+  },
+  "laya_explanation/laya_games_en_typed.npz": {
+   "bytes": 2168706,
+   "sha256": "1aed4fe53a9d84fc5398be7e2f44711008770daca02fab2755992c34fb0d24bb"
+  },
+  "laya_explanation/laya_games_plantado_s0_pt.npz": {
+   "bytes": 2265630,
+   "sha256": "6468e1aaff8d4003f657a16bf27b48c831c792c11e041275827fd5eca3b667e3"
+  },
+  "laya_explanation/laya_games_pt_multilingual.npz": {
+   "bytes": 2192129,
+   "sha256": "a2e95ba8a5c72f668c6c820f8fef89fd7ef29f389d0bf9ef4b799da82f00105d"
+  },
+  "laya_explanation/laya_games_pt_multilingual_ft.npz": {
+   "bytes": 2360319,
+   "sha256": "e6f0a9242ce7770e59e0679ca5ee41505cfe94b2ed4bbe6ff55b8339972efe4d"
+  },
+  "laya_explanation/laya_games_pt_multilingual_ft_calib.npz": {
+   "bytes": 2157677,
+   "sha256": "29665754f696604c980a8f67841e15dc8cf7804f9f26619c3bb5590d434ff216"
+  },
+  "laya_explanation/laya_games_pt_typed.npz": {
+   "bytes": 2398788,
+   "sha256": "063ac7bc93ee05c0d8a9d2f59ff2a8b0b1a0fb39446dae8ec9ada29c2c657163"
+  },
+  "laya_explanation/laya_games_r2_en.npz": {
+   "bytes": 4315136,
+   "sha256": "841cfdb665bb975e6611b21e75e9b0356e3b7946a2b093db831336d11297005f"
+  },
+  "laya_explanation/laya_games_r2_en_calib.npz": {
+   "bytes": 3518391,
+   "sha256": "5870c65d45f181220709ad2b7cff1fba5cc3db77cd5054bbc2620aa9fd7cccd0"
+  },
+  "laya_explanation/laya_games_r2_pt.npz": {
+   "bytes": 4514196,
+   "sha256": "7f214975f3bf7c1936ab2885fcea5c17f902e1d1e238d038274ed127256b07ed"
+  },
+  "laya_explanation/laya_games_r2_pt_calib.npz": {
+   "bytes": 5015939,
+   "sha256": "358fe2555ebc163eba29ea69c572540d38a97d3b9875f8968917912548769986"
+  },
+  "laya_explanation/laya_validations_en_multilingual.npz": {
+   "bytes": 1442473,
+   "sha256": "33d2d8894c0138126d738a67dca0ac5cba2311f1c38c4dd64b83c24326986725"
+  },
+  "laya_explanation/laya_validations_pt_multilingual.npz": {
+   "bytes": 1664793,
+   "sha256": "09789556b74bdc29ec554c732df5665cafb241a9f1764264e0e33df2f19ef912"
+  },
+  "laya_explanation/plantio_s0.npz": {
+   "bytes": 2171265,
+   "sha256": "63f4b662897b771664bfa7bf9b0d285808f8482125e02868a33a8aea4591b9fb"
+  },
+  "laya_explanation/plantio_s1.npz": {
+   "bytes": 1777356,
+   "sha256": "548878624d33db22eb9983160a329767d9e09743da72b808f02be91e89ec05ab"
+  },
+  "laya_explanation/plantio_s2.npz": {
+   "bytes": 1854838,
+   "sha256": "f156133d4dcea88672cab4b8ad9cb475a2c134ccea71738b74cff7cf5e6dd47b"
+  },
+  "laya_explanation/val2_laya_en_multilingual_itens.npz": {
+   "bytes": 26749,
+   "sha256": "adbc01559803094888968430ae98fe87f401f94ff5c476f93396d9f753939e5a"
+  },
+  "laya_explanation/val2_laya_pt_multilingual_itens.npz": {
+   "bytes": 28202,
+   "sha256": "e10f66e4b66cfd452429c0f8d6d53fcd2447fa2a700443defb4592eb6527afc0"
+  },
+  "laya_noise_training/treino_original_s0.npz": {
+   "bytes": 298407,
+   "sha256": "3aa208da485645bed9f2eb9a79b6409d3e3f2881ebbcecdb2a92797e0b184325"
+  },
+  "laya_noise_training/treino_original_s1.npz": {
+   "bytes": 288283,
+   "sha256": "1fc1d207e95029da7bdc681d7abb8fc7a959d87358d2d33e1dc3e9d94c970b7b"
+  },
+  "laya_noise_training/treino_original_s2.npz": {
+   "bytes": 295610,
+   "sha256": "37bf855404812368dfecda285babec2e30a7c0af2d5fe3a41d25b30f0c69cf58"
+  },
+  "laya_noise_training/treino_ruido_s0.npz": {
+   "bytes": 233632,
+   "sha256": "ca2e84489e6bca754ae5ab99e5886d24cf89549ddd77e2dce67f12ba42b79c1a"
+  },
+  "laya_noise_training/treino_ruido_s1.npz": {
+   "bytes": 297651,
+   "sha256": "00127dc6b5f9eed68062a0d917b05445bfab3fc009bf3df15aa797c2518013bd"
+  },
+  "laya_noise_training/treino_ruido_s2.npz": {
+   "bytes": 306655,
+   "sha256": "58e4e0b90281e7710efdc601a00c93b3b887408c815d77b6537f57349394ff53"
+  }
+ }
+}

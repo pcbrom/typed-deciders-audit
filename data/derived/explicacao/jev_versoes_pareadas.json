@@ -1,0 +1,36 @@
+{
+ "pt": {
+  "n_itens": 991,
+  "n_unidades": 6143,
+  "dif_W_q25_q50_q75": [
+   -0.4706,
+   -0.0272,
+   0.3822
+  ],
+  "dif_E_q25_q50_q75": [
+   -0.2864,
+   -0.0313,
+   0.1925
+  ],
+  "dif_abs_E_mediana": 0.2387,
+  "sinal_E_diferente": 0.071,
+  "topo_E_diferente": 0.0858
+ },
+ "en": {
+  "n_itens": 992,
+  "n_unidades": 5995,
+  "dif_W_q25_q50_q75": [
+   -0.5515,
+   -0.078,
+   0.3343
+  ],
+  "dif_E_q25_q50_q75": [
+   -0.3779,
+   -0.0744,
+   0.1725
+  ],
+  "dif_abs_E_mediana": 0.2689,
+  "sinal_E_diferente": 0.0686,
+  "topo_E_diferente": 0.0988
+ }
+}

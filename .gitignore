@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+pacote/*.gz
+pacote/items/
+pacote/laya_explanation/
+pacote/laya_noise_training/
+pacote/drift_runs/
+external/

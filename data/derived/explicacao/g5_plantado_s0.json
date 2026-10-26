@@ -1,0 +1,13 @@
+{
+ "n_itens": 2413,
+ "n_intencoes": 56,
+ "top": 6,
+ "r_hat_max": 1.0016,
+ "postos_alvos": {
+  "qa_definition": 2,
+  "play_game": 3,
+  "qa_maths": 6
+ },
+ "criterio": true,
+ "P_b_pos": 1.0
+}

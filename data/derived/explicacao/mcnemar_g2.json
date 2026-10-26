@@ -1,0 +1,51 @@
+{
+ "rotulo": "exploratorio",
+ "pt_multilingual_ft|kernelshap_cl": {
+  "n": 991,
+  "cobertura_bayes": 0.6347,
+  "cobertura_conc": 0.5923,
+  "so_bayes": 242,
+  "so_conc": 200,
+  "p": 0.0510327611762181
+ },
+ "pt_multilingual_ft|bayesshap_logit": {
+  "n": 991,
+  "cobertura_bayes": 0.6347,
+  "cobertura_conc": 0.2422,
+  "so_bayes": 475,
+  "so_conc": 86,
+  "p": 3.55348642975085e-66
+ },
+ "pt_multilingual_ft|bayesshap_prob": {
+  "n": 991,
+  "cobertura_bayes": 0.6347,
+  "cobertura_conc": 0.3068,
+  "so_bayes": 449,
+  "so_conc": 124,
+  "p": 3.441495126558054e-44
+ },
+ "en_multilingual|kernelshap_cl": {
+  "n": 992,
+  "cobertura_bayes": 0.7157,
+  "cobertura_conc": 0.6321,
+  "so_bayes": 250,
+  "so_conc": 167,
+  "p": 5.6285143324877696e-05
+ },
+ "en_multilingual|bayesshap_logit": {
+  "n": 992,
+  "cobertura_bayes": 0.7157,
+  "cobertura_conc": 0.2278,
+  "so_bayes": 553,
+  "so_conc": 69,
+  "p": 9.005738766049148e-95
+ },
+ "en_multilingual|bayesshap_prob": {
+  "n": 992,
+  "cobertura_bayes": 0.7157,
+  "cobertura_conc": 0.3327,
+  "so_bayes": 495,
+  "so_conc": 115,
+  "p": 4.40392359735195e-57
+ }
+}

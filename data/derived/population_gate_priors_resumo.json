@@ -1,0 +1,22 @@
+{
+ "rotulo": "exploratorio",
+ "referencia": "uniform",
+ "resumo": {
+  "cp": {
+   "ambos_cumprem": 24,
+   "mais_decisoes": 0,
+   "menos_decisoes": 6,
+   "mais_violacao": 0,
+   "menos_violacao": 0,
+   "max_abs_dif_decisoes": 2.6
+  },
+  "jeffreys": {
+   "ambos_cumprem": 19,
+   "mais_decisoes": 16,
+   "menos_decisoes": 0,
+   "mais_violacao": 8,
+   "menos_violacao": 0,
+   "max_abs_dif_decisoes": 244.6
+  }
+ }
+}

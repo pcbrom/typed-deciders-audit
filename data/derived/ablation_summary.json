@@ -1,0 +1,4536 @@
+{
+ "ranks": {},
+ "mean_rank": {
+  "broken_per_split": {
+   "point": 7.25,
+   "Beta (ascending)": 5.96,
+   "Beta, fixed sequence": 5.17,
+   "LTT": 4.96,
+   "SGR": 3.71,
+   "Bayes 10:1": 5.62,
+   "Bayes 100:1": 2.54,
+   "per-class point": 5.58,
+   "per-class Beta": 4.21
+  },
+  "clearly_broken_per_split": {
+   "point": 7.5,
+   "Beta (ascending)": 5.62,
+   "Beta, fixed sequence": 5.25,
+   "LTT": 5.25,
+   "SGR": 3.58,
+   "Bayes 10:1": 5.42,
+   "Bayes 100:1": 3.29,
+   "per-class point": 5.79,
+   "per-class Beta": 3.29
+  },
+  "decisions_per_1000": {
+   "point": 1.58,
+   "Beta (ascending)": 3.38,
+   "Beta, fixed sequence": 4.62,
+   "LTT": 5.17,
+   "SGR": 6.08,
+   "Bayes 10:1": 3.33,
+   "Bayes 100:1": 5.5,
+   "per-class point": 6.42,
+   "per-class Beta": 8.92
+  },
+  "type1_per_1000": {
+   "point": 8.38,
+   "Beta (ascending)": 6.67,
+   "Beta, fixed sequence": 5.46,
+   "LTT": 4.75,
+   "SGR": 3.58,
+   "Bayes 10:1": 6.42,
+   "Bayes 100:1": 3.33,
+   "per-class point": 5.25,
+   "per-class Beta": 1.17
+  },
+  "type2_per_1000": {
+   "point": 1.58,
+   "Beta (ascending)": 3.38,
+   "Beta, fixed sequence": 4.58,
+   "LTT": 5.21,
+   "SGR": 6.08,
+   "Bayes 10:1": 3.33,
+   "Bayes 100:1": 5.5,
+   "per-class point": 6.42,
+   "per-class Beta": 8.92
+  },
+  "gate_f1": {
+   "point": 2.17,
+   "Beta (ascending)": 3.46,
+   "Beta, fixed sequence": 4.46,
+   "LTT": 5.0,
+   "SGR": 5.75,
+   "Bayes 10:1": 3.33,
+   "Bayes 100:1": 5.5,
+   "per-class point": 6.42,
+   "per-class Beta": 8.92
+  },
+  "cost_ratio10": {
+   "point": 3.96,
+   "Beta (ascending)": 4.75,
+   "Beta, fixed sequence": 5.25,
+   "LTT": 5.38,
+   "SGR": 5.08,
+   "Bayes 10:1": 1.33,
+   "Bayes 100:1": 3.83,
+   "per-class point": 6.5,
+   "per-class Beta": 8.92
+  },
+  "cost_ratio100": {
+   "point": 7.88,
+   "Beta (ascending)": 5.83,
+   "Beta, fixed sequence": 5.12,
+   "LTT": 4.83,
+   "SGR": 4.58,
+   "Bayes 10:1": 5.92,
+   "Bayes 100:1": 1.0,
+   "per-class point": 5.67,
+   "per-class Beta": 4.17
+  },
+  "reviews_per_avoided_error": {
+   "point": 1.58,
+   "Beta (ascending)": 3.46,
+   "Beta, fixed sequence": 4.62,
+   "LTT": 5.08,
+   "SGR": 6.08,
+   "Bayes 10:1": 3.33,
+   "Bayes 100:1": 5.42,
+   "per-class point": 6.5,
+   "per-class Beta": 8.92
+  },
+  "decisions, broken <= 0.10": {
+   "point": 1.67,
+   "Beta (ascending)": 1.85,
+   "Beta, fixed sequence": 2.79,
+   "LTT": 3.33,
+   "SGR": 4.25,
+   "Bayes 10:1": 4.67,
+   "Bayes 100:1": 4.36,
+   "per-class point": 6.67,
+   "per-class Beta": 6.92
+  },
+  "eligible cases, broken <= 0.10": {
+   "point": 3,
+   "Beta (ascending)": 10,
+   "Beta, fixed sequence": 12,
+   "LTT": 12,
+   "SGR": 12,
+   "Bayes 10:1": 6,
+   "Bayes 100:1": 11,
+   "per-class point": 6,
+   "per-class Beta": 12
+  }
+ },
+ "ladder": {
+  "pt/ft-multilingual/temperature/ncal1000/0.95": [
+   {
+    "label": "point",
+    "broken_per_split": 0.0,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 999.0,
+    "type1_per_1000": 24.04,
+    "optimism": -0.0009,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 ascending",
+    "broken_per_split": 0.0,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 999.0,
+    "type1_per_1000": 24.04,
+    "optimism": -0.0009,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 sequence_testable",
+    "broken_per_split": 0.0,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 999.0,
+    "type1_per_1000": 24.04,
+    "optimism": -0.0009,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 cp min 20 sequence_testable",
+    "broken_per_split": 0.0,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 999.0,
+    "type1_per_1000": 24.04,
+    "optimism": -0.0009,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "ltt delta=0.05",
+    "broken_per_split": 0.0,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 999.0,
+    "type1_per_1000": 24.04,
+    "optimism": -0.0009,
+    "qualified_splits": 1000
+   }
+  ],
+  "pt/ft-multilingual/temperature/ncal1000/0.99": [
+   {
+    "label": "point",
+    "broken_per_split": 0.472,
+    "clearly_broken_per_split": 0.109,
+    "decisions_per_1000": 954.8,
+    "type1_per_1000": 9.79,
+    "optimism": 0.0008,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 ascending",
+    "broken_per_split": 0.078,
+    "clearly_broken_per_split": 0.002,
+    "decisions_per_1000": 883.2,
+    "type1_per_1000": 4.64,
+    "optimism": 0.0013,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 sequence_testable",
+    "broken_per_split": 0.07,
+    "clearly_broken_per_split": 0.002,
+    "decisions_per_1000": 851.4,
+    "type1_per_1000": 3.95,
+    "optimism": 0.0009,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 cp min 20 sequence_testable",
+    "broken_per_split": 0.068,
+    "clearly_broken_per_split": 0.002,
+    "decisions_per_1000": 851.1,
+    "type1_per_1000": 3.93,
+    "optimism": 0.0009,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "ltt delta=0.05",
+    "broken_per_split": 0.068,
+    "clearly_broken_per_split": 0.002,
+    "decisions_per_1000": 851.1,
+    "type1_per_1000": 3.93,
+    "optimism": 0.0009,
+    "qualified_splits": 1000
+   }
+  ],
+  "pt/ft-typed-decisions/temperature/ncal1000/0.95": [
+   {
+    "label": "point",
+    "broken_per_split": 0.005,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 999.0,
+    "type1_per_1000": 37.71,
+    "optimism": -0.0006,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 ascending",
+    "broken_per_split": 0.005,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 996.6,
+    "type1_per_1000": 36.34,
+    "optimism": -0.0001,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 sequence_testable",
+    "broken_per_split": 0.005,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 996.6,
+    "type1_per_1000": 36.32,
+    "optimism": -0.0001,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 cp min 20 sequence_testable",
+    "broken_per_split": 0.005,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 996.6,
+    "type1_per_1000": 36.29,
+    "optimism": -0.0001,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "ltt delta=0.05",
+    "broken_per_split": 0.005,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 996.6,
+    "type1_per_1000": 36.29,
+    "optimism": -0.0001,
+    "qualified_splits": 1000
+   }
+  ],
+  "pt/ft-typed-decisions/temperature/ncal1000/0.99": [
+   {
+    "label": "point",
+    "broken_per_split": 0.501,
+    "clearly_broken_per_split": 0.105,
+    "decisions_per_1000": 912.9,
+    "type1_per_1000": 9.86,
+    "optimism": 0.001,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 ascending",
+    "broken_per_split": 0.073,
+    "clearly_broken_per_split": 0.009,
+    "decisions_per_1000": 834.9,
+    "type1_per_1000": 4.02,
+    "optimism": 0.0011,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 sequence_testable",
+    "broken_per_split": 0.066,
+    "clearly_broken_per_split": 0.003,
+    "decisions_per_1000": 822.2,
+    "type1_per_1000": 3.71,
+    "optimism": 0.001,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 cp min 20 sequence_testable",
+    "broken_per_split": 0.066,
+    "clearly_broken_per_split": 0.003,
+    "decisions_per_1000": 822.0,
+    "type1_per_1000": 3.7,
+    "optimism": 0.001,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "ltt delta=0.05",
+    "broken_per_split": 0.066,
+    "clearly_broken_per_split": 0.003,
+    "decisions_per_1000": 822.0,
+    "type1_per_1000": 3.7,
+    "optimism": 0.001,
+    "qualified_splits": 1000
+   }
+  ],
+  "pt/jev/as_returned/ncal1000/0.95": [
+   {
+    "label": "point",
+    "broken_per_split": 0.483,
+    "clearly_broken_per_split": 0.008,
+    "decisions_per_1000": 994.6,
+    "type1_per_1000": 47.89,
+    "optimism": 0.0002,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 ascending",
+    "broken_per_split": 0.075,
+    "clearly_broken_per_split": 0.005,
+    "decisions_per_1000": 975.9,
+    "type1_per_1000": 37.19,
+    "optimism": 0.0006,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 sequence_testable",
+    "broken_per_split": 0.075,
+    "clearly_broken_per_split": 0.005,
+    "decisions_per_1000": 975.7,
+    "type1_per_1000": 37.12,
+    "optimism": 0.0006,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 cp min 20 sequence_testable",
+    "broken_per_split": 0.071,
+    "clearly_broken_per_split": 0.005,
+    "decisions_per_1000": 975.7,
+    "type1_per_1000": 37.08,
+    "optimism": 0.0006,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "ltt delta=0.05",
+    "broken_per_split": 0.071,
+    "clearly_broken_per_split": 0.005,
+    "decisions_per_1000": 975.7,
+    "type1_per_1000": 37.08,
+    "optimism": 0.0006,
+    "qualified_splits": 1000
+   }
+  ],
+  "pt/jev/as_returned/ncal1000/0.99": [
+   {
+    "label": "point",
+    "broken_per_split": 0.495,
+    "clearly_broken_per_split": 0.108,
+    "decisions_per_1000": 858.7,
+    "type1_per_1000": 8.32,
+    "optimism": 0.0012,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 ascending",
+    "broken_per_split": 0.03,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 340.9,
+    "type1_per_1000": 2.61,
+    "optimism": 0.0042,
+    "qualified_splits": 426
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 sequence_testable",
+    "broken_per_split": 0.03,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 286.0,
+    "type1_per_1000": 2.23,
+    "optimism": 0.0044,
+    "qualified_splits": 357
+   },
+   {
+    "label": "beta q=0.05 cp min 20 sequence_testable",
+    "broken_per_split": 0.03,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 286.0,
+    "type1_per_1000": 2.23,
+    "optimism": 0.0044,
+    "qualified_splits": 357
+   },
+   {
+    "label": "ltt delta=0.05",
+    "broken_per_split": 0.03,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 286.0,
+    "type1_per_1000": 2.23,
+    "optimism": 0.0044,
+    "qualified_splits": 357
+   }
+  ],
+  "en/jev/as_returned/ncal1000/0.95": [
+   {
+    "label": "point",
+    "broken_per_split": 0.0,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 999.1,
+    "type1_per_1000": 37.17,
+    "optimism": -0.0008,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 ascending",
+    "broken_per_split": 0.0,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 996.1,
+    "type1_per_1000": 36.14,
+    "optimism": -0.0001,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 sequence_testable",
+    "broken_per_split": 0.0,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 995.9,
+    "type1_per_1000": 36.07,
+    "optimism": -0.0002,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 cp min 20 sequence_testable",
+    "broken_per_split": 0.0,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 995.9,
+    "type1_per_1000": 36.06,
+    "optimism": -0.0002,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "ltt delta=0.05",
+    "broken_per_split": 0.0,
+    "clearly_broken_per_split": 0.0,
+    "decisions_per_1000": 995.9,
+    "type1_per_1000": 36.06,
+    "optimism": -0.0002,
+    "qualified_splits": 1000
+   }
+  ],
+  "en/jev/as_returned/ncal1000/0.99": [
+   {
+    "label": "point",
+    "broken_per_split": 0.434,
+    "clearly_broken_per_split": 0.139,
+    "decisions_per_1000": 898.7,
+    "type1_per_1000": 8.97,
+    "optimism": 0.001,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 ascending",
+    "broken_per_split": 0.072,
+    "clearly_broken_per_split": 0.001,
+    "decisions_per_1000": 405.3,
+    "type1_per_1000": 2.81,
+    "optimism": 0.0035,
+    "qualified_splits": 489
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 sequence_testable",
+    "broken_per_split": 0.072,
+    "clearly_broken_per_split": 0.001,
+    "decisions_per_1000": 405.3,
+    "type1_per_1000": 2.81,
+    "optimism": 0.0035,
+    "qualified_splits": 489
+   },
+   {
+    "label": "beta q=0.05 cp min 20 sequence_testable",
+    "broken_per_split": 0.072,
+    "clearly_broken_per_split": 0.001,
+    "decisions_per_1000": 404.5,
+    "type1_per_1000": 2.8,
+    "optimism": 0.0035,
+    "qualified_splits": 488
+   },
+   {
+    "label": "ltt delta=0.05",
+    "broken_per_split": 0.072,
+    "clearly_broken_per_split": 0.001,
+    "decisions_per_1000": 404.5,
+    "type1_per_1000": 2.8,
+    "optimism": 0.0035,
+    "qualified_splits": 488
+   }
+  ],
+  "en/typed-decisions/temperature/ncal1000/0.95": [
+   {
+    "label": "point",
+    "broken_per_split": 0.496,
+    "clearly_broken_per_split": 0.135,
+    "decisions_per_1000": 867.1,
+    "type1_per_1000": 44.04,
+    "optimism": 0.001,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 ascending",
+    "broken_per_split": 0.104,
+    "clearly_broken_per_split": 0.013,
+    "decisions_per_1000": 830.3,
+    "type1_per_1000": 31.6,
+    "optimism": 0.001,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 sequence_testable",
+    "broken_per_split": 0.1,
+    "clearly_broken_per_split": 0.013,
+    "decisions_per_1000": 828.8,
+    "type1_per_1000": 31.28,
+    "optimism": 0.0008,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 cp min 20 sequence_testable",
+    "broken_per_split": 0.1,
+    "clearly_broken_per_split": 0.013,
+    "decisions_per_1000": 828.6,
+    "type1_per_1000": 31.24,
+    "optimism": 0.0009,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "ltt delta=0.05",
+    "broken_per_split": 0.1,
+    "clearly_broken_per_split": 0.013,
+    "decisions_per_1000": 828.6,
+    "type1_per_1000": 31.24,
+    "optimism": 0.0009,
+    "qualified_splits": 1000
+   }
+  ],
+  "en/typed-decisions/temperature/ncal1000/0.99": [
+   {
+    "label": "point",
+    "broken_per_split": 0.5,
+    "clearly_broken_per_split": 0.103,
+    "decisions_per_1000": 631.5,
+    "type1_per_1000": 6.9,
+    "optimism": 0.0013,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 ascending",
+    "broken_per_split": 0.052,
+    "clearly_broken_per_split": 0.001,
+    "decisions_per_1000": 290.9,
+    "type1_per_1000": 1.86,
+    "optimism": 0.0043,
+    "qualified_splits": 557
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 sequence_testable",
+    "broken_per_split": 0.032,
+    "clearly_broken_per_split": 0.001,
+    "decisions_per_1000": 152.7,
+    "type1_per_1000": 0.99,
+    "optimism": 0.0052,
+    "qualified_splits": 322
+   },
+   {
+    "label": "beta q=0.05 cp min 20 sequence_testable",
+    "broken_per_split": 0.032,
+    "clearly_broken_per_split": 0.001,
+    "decisions_per_1000": 151.6,
+    "type1_per_1000": 0.99,
+    "optimism": 0.0052,
+    "qualified_splits": 318
+   },
+   {
+    "label": "ltt delta=0.05",
+    "broken_per_split": 0.032,
+    "clearly_broken_per_split": 0.001,
+    "decisions_per_1000": 151.6,
+    "type1_per_1000": 0.99,
+    "optimism": 0.0052,
+    "qualified_splits": 318
+   }
+  ],
+  "en/root/temperature/ncal1000/0.95": [
+   {
+    "label": "point",
+    "broken_per_split": 0.491,
+    "clearly_broken_per_split": 0.129,
+    "decisions_per_1000": 834.2,
+    "type1_per_1000": 42.3,
+    "optimism": 0.0009,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 ascending",
+    "broken_per_split": 0.11,
+    "clearly_broken_per_split": 0.012,
+    "decisions_per_1000": 748.7,
+    "type1_per_1000": 28.38,
+    "optimism": 0.0012,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 sequence_testable",
+    "broken_per_split": 0.063,
+    "clearly_broken_per_split": 0.009,
+    "decisions_per_1000": 406.0,
+    "type1_per_1000": 14.26,
+    "optimism": 0.0011,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 cp min 20 sequence_testable",
+    "broken_per_split": 0.063,
+    "clearly_broken_per_split": 0.009,
+    "decisions_per_1000": 404.9,
+    "type1_per_1000": 14.19,
+    "optimism": 0.0011,
+    "qualified_splits": 998
+   },
+   {
+    "label": "ltt delta=0.05",
+    "broken_per_split": 0.063,
+    "clearly_broken_per_split": 0.009,
+    "decisions_per_1000": 404.9,
+    "type1_per_1000": 14.19,
+    "optimism": 0.0011,
+    "qualified_splits": 998
+   }
+  ],
+  "en/root/temperature/ncal1000/0.99": [
+   {
+    "label": "point",
+    "broken_per_split": 0.521,
+    "clearly_broken_per_split": 0.141,
+    "decisions_per_1000": 517.3,
+    "type1_per_1000": 6.15,
+    "optimism": 0.0018,
+    "qualified_splits": 1000
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 ascending",
+    "broken_per_split": 0.084,
+    "clearly_broken_per_split": 0.003,
+    "decisions_per_1000": 37.3,
+    "type1_per_1000": 0.5,
+    "optimism": 0.0119,
+    "qualified_splits": 84
+   },
+   {
+    "label": "beta q=0.05 uniform min 20 sequence_testable",
+    "broken_per_split": 0.059,
+    "clearly_broken_per_split": 0.001,
+    "decisions_per_1000": 24.0,
+    "type1_per_1000": 0.3,
+    "optimism": 0.0122,
+    "qualified_splits": 59
+   },
+   {
+    "label": "beta q=0.05 cp min 20 sequence_testable",
+    "broken_per_split": 0.059,
+    "clearly_broken_per_split": 0.001,
+    "decisions_per_1000": 24.0,
+    "type1_per_1000": 0.3,
+    "optimism": 0.0122,
+    "qualified_splits": 59
+   },
+   {
+    "label": "ltt delta=0.05",
+    "broken_per_split": 0.059,
+    "clearly_broken_per_split": 0.001,
+    "decisions_per_1000": 24.0,
+    "type1_per_1000": 0.3,
+    "optimism": 0.0122,
+    "qualified_splits": 59
+   }
+  ]
+ },
+ "pareto": {
+  "pt/ft-multilingual/temperature/ncal1000/0.95": {
+   "point": [
+    0,
+    1
+   ],
+   "Beta (ascending)": [
+    0,
+    1
+   ],
+   "Beta, fixed sequence": [
+    0,
+    1
+   ],
+   "LTT": [
+    0,
+    1
+   ],
+   "SGR": [
+    0,
+    0
+   ],
+   "Bayes 10:1": [
+    4,
+    0
+   ],
+   "Bayes 100:1": [
+    5,
+    0
+   ],
+   "per-class point": [
+    6,
+    1
+   ],
+   "per-class Beta": [
+    8,
+    1
+   ],
+   "oracle_decisions": 1000.0
+  },
+  "pt/ft-multilingual/temperature/ncal1000/0.99": {
+   "point": [
+    0,
+    0
+   ],
+   "Beta (ascending)": [
+    2,
+    0
+   ],
+   "Beta, fixed sequence": [
+    1,
+    0
+   ],
+   "LTT": [
+    1,
+    0
+   ],
+   "SGR": [
+    1,
+    0
+   ],
+   "Bayes 10:1": [
+    0,
+    0
+   ],
+   "Bayes 100:1": [
+    0,
+    0
+   ],
+   "per-class point": [
+    6,
+    4
+   ],
+   "per-class Beta": [
+    3,
+    1
+   ],
+   "oracle_decisions": 954.9
+  },
+  "pt/ft-typed-decisions/temperature/ncal1000/0.95": {
+   "point": [
+    0,
+    1
+   ],
+   "Beta (ascending)": [
+    5,
+    2
+   ],
+   "Beta, fixed sequence": [
+    5,
+    1
+   ],
+   "LTT": [
+    5,
+    0
+   ],
+   "SGR": [
+    15,
+    0
+   ],
+   "Bayes 10:1": [
+    0,
+    0
+   ],
+   "Bayes 100:1": [
+    1,
+    0
+   ],
+   "per-class point": [
+    2,
+    1
+   ],
+   "per-class Beta": [
+    17,
+    1
+   ],
+   "oracle_decisions": 1000.0
+  },
+  "pt/ft-typed-decisions/temperature/ncal1000/0.99": {
+   "point": [
+    0,
+    0
+   ],
+   "Beta (ascending)": [
+    0,
+    0
+   ],
+   "Beta, fixed sequence": [
+    1,
+    0
+   ],
+   "LTT": [
+    2,
+    0
+   ],
+   "SGR": [
+    0,
+    1
+   ],
+   "Bayes 10:1": [
+    0,
+    0
+   ],
+   "Bayes 100:1": [
+    0,
+    0
+   ],
+   "per-class point": [
+    4,
+    2
+   ],
+   "per-class Beta": [
+    2,
+    1
+   ],
+   "oracle_decisions": 912.2
+  },
+  "pt/jev/as_returned/ncal1000/0.95": {
+   "point": [
+    0,
+    0
+   ],
+   "Beta (ascending)": [
+    0,
+    1
+   ],
+   "Beta, fixed sequence": [
+    2,
+    1
+   ],
+   "LTT": [
+    1,
+    0
+   ],
+   "SGR": [
+    4,
+    0
+   ],
+   "Bayes 10:1": [
+    0,
+    0
+   ],
+   "Bayes 100:1": [
+    1,
+    0
+   ],
+   "per-class point": [
+    3,
+    1
+   ],
+   "per-class Beta": [
+    4,
+    0
+   ],
+   "oracle_decisions": 994.5
+  },
+  "pt/jev/as_returned/ncal1000/0.99": {
+   "point": [
+    0,
+    0
+   ],
+   "Beta (ascending)": [
+    1,
+    0
+   ],
+   "Beta, fixed sequence": [
+    3,
+    0
+   ],
+   "LTT": [
+    3,
+    0
+   ],
+   "SGR": [
+    1,
+    0
+   ],
+   "Bayes 10:1": [
+    0,
+    0
+   ],
+   "Bayes 100:1": [
+    0,
+    0
+   ],
+   "per-class point": [
+    6,
+    2
+   ],
+   "per-class Beta": [
+    1,
+    0
+   ],
+   "oracle_decisions": 857.6
+  },
+  "en/jev/as_returned/ncal1000/0.95": {
+   "point": [
+    0,
+    0
+   ],
+   "Beta (ascending)": [
+    7,
+    1
+   ],
+   "Beta, fixed sequence": [
+    8,
+    0
+   ],
+   "LTT": [
+    8,
+    0
+   ],
+   "SGR": [
+    22,
+    0
+   ],
+   "Bayes 10:1": [
+    24,
+    0
+   ],
+   "Bayes 100:1": [
+    25,
+    0
+   ],
+   "per-class point": [
+    27,
+    1
+   ],
+   "per-class Beta": [
+    28,
+    0
+   ],
+   "oracle_decisions": 1000.0
+  },
+  "en/jev/as_returned/ncal1000/0.99": {
+   "point": [
+    0,
+    0
+   ],
+   "Beta (ascending)": [
+    1,
+    0
+   ],
+   "Beta, fixed sequence": [
+    1,
+    0
+   ],
+   "LTT": [
+    2,
+    0
+   ],
+   "SGR": [
+    1,
+    0
+   ],
+   "Bayes 10:1": [
+    0,
+    0
+   ],
+   "Bayes 100:1": [
+    0,
+    0
+   ],
+   "per-class point": [
+    5,
+    3
+   ],
+   "per-class Beta": [
+    1,
+    0
+   ],
+   "oracle_decisions": 898.5
+  },
+  "en/typed-decisions/temperature/ncal1000/0.95": {
+   "point": [
+    0,
+    0
+   ],
+   "Beta (ascending)": [
+    0,
+    0
+   ],
+   "Beta, fixed sequence": [
+    0,
+    0
+   ],
+   "LTT": [
+    1,
+    0
+   ],
+   "SGR": [
+    0,
+    0
+   ],
+   "Bayes 10:1": [
+    0,
+    0
+   ],
+   "Bayes 100:1": [
+    1,
+    0
+   ],
+   "per-class point": [
+    1,
+    0
+   ],
+   "per-class Beta": [
+    3,
+    1
+   ],
+   "oracle_decisions": 866.2
+  },
+  "en/typed-decisions/temperature/ncal1000/0.99": {
+   "point": [
+    0,
+    0
+   ],
+   "Beta (ascending)": [
+    2,
+    1
+   ],
+   "Beta, fixed sequence": [
+    1,
+    0
+   ],
+   "LTT": [
+    2,
+    1
+   ],
+   "SGR": [
+    2,
+    0
+   ],
+   "Bayes 10:1": [
+    0,
+    0
+   ],
+   "Bayes 100:1": [
+    0,
+    0
+   ],
+   "per-class point": [
+    3,
+    2
+   ],
+   "per-class Beta": [
+    2,
+    0
+   ],
+   "oracle_decisions": 631.8
+  },
+  "en/root/temperature/ncal1000/0.95": {
+   "point": [
+    0,
+    0
+   ],
+   "Beta (ascending)": [
+    0,
+    0
+   ],
+   "Beta, fixed sequence": [
+    2,
+    2
+   ],
+   "LTT": [
+    3,
+    2
+   ],
+   "SGR": [
+    1,
+    0
+   ],
+   "Bayes 10:1": [
+    0,
+    0
+   ],
+   "Bayes 100:1": [
+    0,
+    0
+   ],
+   "per-class point": [
+    1,
+    1
+   ],
+   "per-class Beta": [
+    6,
+    0
+   ],
+   "oracle_decisions": 834.5
+  },
+  "en/root/temperature/ncal1000/0.99": {
+   "point": [
+    0,
+    0
+   ],
+   "Beta (ascending)": [
+    0,
+    0
+   ],
+   "Beta, fixed sequence": [
+    0,
+    0
+   ],
+   "LTT": [
+    0,
+    0
+   ],
+   "SGR": [
+    0,
+    0
+   ],
+   "Bayes 10:1": [
+    0,
+    0
+   ],
+   "Bayes 100:1": [
+    0,
+    0
+   ],
+   "per-class point": [
+    1,
+    1
+   ],
+   "per-class Beta": [
+    0,
+    0
+   ],
+   "oracle_decisions": 517.2
+  }
+ },
+ "epsilon": {
+  "pt/ft-multilingual/temperature/ncal1000/0.95": {
+   "0.05": {
+    "point": [
+     999.0,
+     "point"
+    ],
+    "beta uniform ascending": [
+     999.0,
+     "beta q=0.01 uniform min 20 ascending"
+    ],
+    "beta uniform sequence": [
+     999.0,
+     "beta q=0.025 uniform min 20 sequence"
+    ],
+    "beta uniform sequence_testable": [
+     999.0,
+     "beta q=0.01 uniform min 20 sequence_testable"
+    ],
+    "beta jeffreys ascending": [
+     999.0,
+     "beta q=0.01 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence": [
+     999.0,
+     "beta q=0.01 jeffreys min 20 sequence"
+    ],
+    "beta jeffreys sequence_testable": [
+     999.0,
+     "beta q=0.01 jeffreys min 20 sequence_testable"
+    ],
+    "beta cp ascending": [
+     999.0,
+     "beta q=0.01 cp min 20 ascending"
+    ],
+    "beta cp sequence": [
+     999.0,
+     "beta q=0.025 cp min 20 sequence"
+    ],
+    "beta cp sequence_testable": [
+     999.0,
+     "beta q=0.01 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     999.0,
+     "ltt delta=0.01"
+    ],
+    "sgr": [
+     999.0,
+     "sgr delta=0.05"
+    ],
+    "bayes": [
+     933.4,
+     "bayes C_e/C_r=10"
+    ],
+    "per-class point": [
+     586.4,
+     "per-class point"
+    ],
+    "per-class beta": [
+     75.9,
+     "per-class beta"
+    ]
+   },
+   "0.1": {
+    "point": [
+     999.0,
+     "point"
+    ],
+    "beta uniform ascending": [
+     999.0,
+     "beta q=0.01 uniform min 20 ascending"
+    ],
+    "beta uniform sequence": [
+     999.0,
+     "beta q=0.025 uniform min 20 sequence"
+    ],
+    "beta uniform sequence_testable": [
+     999.0,
+     "beta q=0.01 uniform min 20 sequence_testable"
+    ],
+    "beta jeffreys ascending": [
+     999.0,
+     "beta q=0.01 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence": [
+     999.0,
+     "beta q=0.01 jeffreys min 20 sequence"
+    ],
+    "beta jeffreys sequence_testable": [
+     999.0,
+     "beta q=0.01 jeffreys min 20 sequence_testable"
+    ],
+    "beta cp ascending": [
+     999.0,
+     "beta q=0.01 cp min 20 ascending"
+    ],
+    "beta cp sequence": [
+     999.0,
+     "beta q=0.025 cp min 20 sequence"
+    ],
+    "beta cp sequence_testable": [
+     999.0,
+     "beta q=0.01 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     999.0,
+     "ltt delta=0.01"
+    ],
+    "sgr": [
+     999.0,
+     "sgr delta=0.05"
+    ],
+    "bayes": [
+     933.4,
+     "bayes C_e/C_r=10"
+    ],
+    "per-class point": [
+     586.4,
+     "per-class point"
+    ],
+    "per-class beta": [
+     75.9,
+     "per-class beta"
+    ]
+   }
+  },
+  "pt/ft-multilingual/temperature/ncal1000/0.99": {
+   "0.05": {
+    "beta jeffreys ascending": [
+     871.5,
+     "beta q=0.025 jeffreys min 20 ascending"
+    ],
+    "beta uniform ascending": [
+     848.8,
+     "beta q=0.025 uniform min 20 ascending"
+    ],
+    "beta cp ascending": [
+     848.8,
+     "beta q=0.025 cp min 20 ascending"
+    ],
+    "beta jeffreys sequence_testable": [
+     847.2,
+     "beta q=0.025 jeffreys min 20 sequence_testable"
+    ],
+    "sgr": [
+     831.2,
+     "sgr delta=0.2"
+    ],
+    "beta uniform sequence_testable": [
+     816.1,
+     "beta q=0.025 uniform min 20 sequence_testable"
+    ],
+    "beta cp sequence_testable": [
+     815.8,
+     "beta q=0.025 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     775.9,
+     "ltt delta=0.01"
+    ],
+    "bayes": [
+     761.1,
+     "bayes C_e/C_r=100"
+    ],
+    "beta jeffreys sequence": [
+     416.8,
+     "beta q=0.025 jeffreys min 20 sequence"
+    ],
+    "beta uniform sequence": [
+     309.8,
+     "beta q=0.05 uniform min 20 sequence"
+    ],
+    "beta cp sequence": [
+     305.6,
+     "beta q=0.05 cp min 20 sequence"
+    ],
+    "per-class beta": [
+     0.0,
+     "per-class beta"
+    ]
+   },
+   "0.1": {
+    "beta jeffreys ascending": [
+     900.3,
+     "beta q=0.05 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence_testable": [
+     891.6,
+     "beta q=0.05 jeffreys min 20 sequence_testable"
+    ],
+    "beta uniform ascending": [
+     883.2,
+     "beta q=0.05 uniform min 20 ascending"
+    ],
+    "beta cp ascending": [
+     882.8,
+     "beta q=0.05 cp min 20 ascending"
+    ],
+    "beta uniform sequence_testable": [
+     851.4,
+     "beta q=0.05 uniform min 20 sequence_testable"
+    ],
+    "beta cp sequence_testable": [
+     851.1,
+     "beta q=0.05 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     851.1,
+     "ltt delta=0.05"
+    ],
+    "sgr": [
+     831.2,
+     "sgr delta=0.2"
+    ],
+    "bayes": [
+     761.1,
+     "bayes C_e/C_r=100"
+    ],
+    "beta jeffreys sequence": [
+     597.4,
+     "beta q=0.05 jeffreys min 20 sequence"
+    ],
+    "beta uniform sequence": [
+     440.1,
+     "beta q=0.1 uniform min 20 sequence"
+    ],
+    "beta cp sequence": [
+     440.0,
+     "beta q=0.1 cp min 20 sequence"
+    ],
+    "per-class beta": [
+     0.0,
+     "per-class beta"
+    ]
+   }
+  },
+  "pt/ft-typed-decisions/temperature/ncal1000/0.95": {
+   "0.05": {
+    "point": [
+     999.0,
+     "point"
+    ],
+    "beta uniform ascending": [
+     998.8,
+     "beta q=0.2 uniform min 20 ascending"
+    ],
+    "beta uniform sequence_testable": [
+     998.8,
+     "beta q=0.2 uniform min 20 sequence_testable"
+    ],
+    "beta jeffreys ascending": [
+     998.8,
+     "beta q=0.2 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence": [
+     998.8,
+     "beta q=0.2 jeffreys min 20 sequence"
+    ],
+    "beta jeffreys sequence_testable": [
+     998.8,
+     "beta q=0.2 jeffreys min 20 sequence_testable"
+    ],
+    "beta cp ascending": [
+     998.8,
+     "beta q=0.2 cp min 20 ascending"
+    ],
+    "beta cp sequence_testable": [
+     998.8,
+     "beta q=0.2 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     998.8,
+     "ltt delta=0.2"
+    ],
+    "sgr": [
+     993.5,
+     "sgr delta=0.2"
+    ],
+    "bayes": [
+     918.0,
+     "bayes C_e/C_r=10"
+    ],
+    "per-class point": [
+     583.5,
+     "per-class point"
+    ],
+    "beta uniform sequence": [
+     0.0,
+     "beta q=0.01 uniform min 20 sequence"
+    ],
+    "beta cp sequence": [
+     0.0,
+     "beta q=0.01 cp min 20 sequence"
+    ]
+   },
+   "0.1": {
+    "point": [
+     999.0,
+     "point"
+    ],
+    "beta uniform ascending": [
+     998.8,
+     "beta q=0.2 uniform min 20 ascending"
+    ],
+    "beta uniform sequence_testable": [
+     998.8,
+     "beta q=0.2 uniform min 20 sequence_testable"
+    ],
+    "beta jeffreys ascending": [
+     998.8,
+     "beta q=0.2 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence": [
+     998.8,
+     "beta q=0.2 jeffreys min 20 sequence"
+    ],
+    "beta jeffreys sequence_testable": [
+     998.8,
+     "beta q=0.2 jeffreys min 20 sequence_testable"
+    ],
+    "beta cp ascending": [
+     998.8,
+     "beta q=0.2 cp min 20 ascending"
+    ],
+    "beta cp sequence_testable": [
+     998.8,
+     "beta q=0.2 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     998.8,
+     "ltt delta=0.2"
+    ],
+    "sgr": [
+     993.5,
+     "sgr delta=0.2"
+    ],
+    "bayes": [
+     918.0,
+     "bayes C_e/C_r=10"
+    ],
+    "per-class point": [
+     583.5,
+     "per-class point"
+    ],
+    "per-class beta": [
+     53.6,
+     "per-class beta"
+    ],
+    "beta uniform sequence": [
+     0.0,
+     "beta q=0.01 uniform min 20 sequence"
+    ],
+    "beta cp sequence": [
+     0.0,
+     "beta q=0.01 cp min 20 sequence"
+    ]
+   }
+  },
+  "pt/ft-typed-decisions/temperature/ncal1000/0.99": {
+   "0.05": {
+    "beta jeffreys ascending": [
+     802.1,
+     "beta q=0.01 jeffreys min 20 ascending"
+    ],
+    "sgr": [
+     795.1,
+     "sgr delta=0.2"
+    ],
+    "beta uniform sequence_testable": [
+     788.9,
+     "beta q=0.025 uniform min 20 sequence_testable"
+    ],
+    "beta cp sequence_testable": [
+     788.8,
+     "beta q=0.025 cp min 20 sequence_testable"
+    ],
+    "beta jeffreys sequence_testable": [
+     780.1,
+     "beta q=0.01 jeffreys min 20 sequence_testable"
+    ],
+    "beta uniform ascending": [
+     769.0,
+     "beta q=0.01 uniform min 20 ascending"
+    ],
+    "beta cp ascending": [
+     768.8,
+     "beta q=0.01 cp min 20 ascending"
+    ],
+    "ltt": [
+     720.3,
+     "ltt delta=0.01"
+    ],
+    "bayes": [
+     682.0,
+     "bayes C_e/C_r=100"
+    ],
+    "beta uniform sequence": [
+     0.0,
+     "beta q=0.01 uniform min 20 sequence"
+    ],
+    "beta jeffreys sequence": [
+     0.0,
+     "beta q=0.01 jeffreys min 20 sequence"
+    ],
+    "beta cp sequence": [
+     0.0,
+     "beta q=0.01 cp min 20 sequence"
+    ],
+    "per-class beta": [
+     0.0,
+     "per-class beta"
+    ]
+   },
+   "0.1": {
+    "beta uniform ascending": [
+     834.9,
+     "beta q=0.05 uniform min 20 ascending"
+    ],
+    "beta cp ascending": [
+     834.7,
+     "beta q=0.05 cp min 20 ascending"
+    ],
+    "beta jeffreys ascending": [
+     832.7,
+     "beta q=0.025 jeffreys min 20 ascending"
+    ],
+    "beta uniform sequence_testable": [
+     822.2,
+     "beta q=0.05 uniform min 20 sequence_testable"
+    ],
+    "beta cp sequence_testable": [
+     822.0,
+     "beta q=0.05 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     822.0,
+     "ltt delta=0.05"
+    ],
+    "beta jeffreys sequence_testable": [
+     819.2,
+     "beta q=0.025 jeffreys min 20 sequence_testable"
+    ],
+    "sgr": [
+     795.1,
+     "sgr delta=0.2"
+    ],
+    "bayes": [
+     682.0,
+     "bayes C_e/C_r=100"
+    ],
+    "beta uniform sequence": [
+     0.0,
+     "beta q=0.01 uniform min 20 sequence"
+    ],
+    "beta jeffreys sequence": [
+     0.0,
+     "beta q=0.01 jeffreys min 20 sequence"
+    ],
+    "beta cp sequence": [
+     0.0,
+     "beta q=0.01 cp min 20 sequence"
+    ],
+    "per-class beta": [
+     0.0,
+     "per-class beta"
+    ]
+   }
+  },
+  "pt/jev/as_returned/ncal1000/0.95": {
+   "0.05": {
+    "beta uniform ascending": [
+     971.2,
+     "beta q=0.025 uniform min 20 ascending"
+    ],
+    "beta uniform sequence": [
+     971.1,
+     "beta q=0.025 uniform min 20 sequence"
+    ],
+    "beta uniform sequence_testable": [
+     971.1,
+     "beta q=0.025 uniform min 20 sequence_testable"
+    ],
+    "beta cp ascending": [
+     971.1,
+     "beta q=0.025 cp min 20 ascending"
+    ],
+    "beta cp sequence": [
+     970.9,
+     "beta q=0.025 cp min 20 sequence"
+    ],
+    "beta cp sequence_testable": [
+     970.9,
+     "beta q=0.025 cp min 20 sequence_testable"
+    ],
+    "sgr": [
+     968.2,
+     "sgr delta=0.1"
+    ],
+    "beta jeffreys ascending": [
+     966.0,
+     "beta q=0.01 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence": [
+     965.8,
+     "beta q=0.01 jeffreys min 20 sequence"
+    ],
+    "beta jeffreys sequence_testable": [
+     965.8,
+     "beta q=0.01 jeffreys min 20 sequence_testable"
+    ],
+    "ltt": [
+     964.2,
+     "ltt delta=0.01"
+    ],
+    "bayes": [
+     885.3,
+     "bayes C_e/C_r=10"
+    ],
+    "per-class point": [
+     556.8,
+     "per-class point"
+    ],
+    "per-class beta": [
+     36.9,
+     "per-class beta"
+    ]
+   },
+   "0.1": {
+    "beta uniform ascending": [
+     980.7,
+     "beta q=0.1 uniform min 20 ascending"
+    ],
+    "beta uniform sequence": [
+     980.6,
+     "beta q=0.1 uniform min 20 sequence"
+    ],
+    "beta uniform sequence_testable": [
+     980.6,
+     "beta q=0.1 uniform min 20 sequence_testable"
+    ],
+    "beta cp ascending": [
+     980.6,
+     "beta q=0.1 cp min 20 ascending"
+    ],
+    "beta cp sequence": [
+     980.5,
+     "beta q=0.1 cp min 20 sequence"
+    ],
+    "beta cp sequence_testable": [
+     980.5,
+     "beta q=0.1 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     980.5,
+     "ltt delta=0.1"
+    ],
+    "beta jeffreys ascending": [
+     977.0,
+     "beta q=0.05 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence": [
+     976.9,
+     "beta q=0.05 jeffreys min 20 sequence"
+    ],
+    "beta jeffreys sequence_testable": [
+     976.9,
+     "beta q=0.05 jeffreys min 20 sequence_testable"
+    ],
+    "sgr": [
+     972.9,
+     "sgr delta=0.2"
+    ],
+    "bayes": [
+     885.3,
+     "bayes C_e/C_r=10"
+    ],
+    "per-class point": [
+     556.8,
+     "per-class point"
+    ],
+    "per-class beta": [
+     36.9,
+     "per-class beta"
+    ]
+   }
+  },
+  "pt/jev/as_returned/ncal1000/0.99": {
+   "0.05": {
+    "bayes": [
+     788.5,
+     "bayes C_e/C_r=100"
+    ],
+    "beta jeffreys sequence": [
+     665.0,
+     "beta q=0.1 jeffreys min 20 sequence"
+    ],
+    "beta jeffreys sequence_testable": [
+     665.0,
+     "beta q=0.1 jeffreys min 20 sequence_testable"
+    ],
+    "beta uniform ascending": [
+     552.5,
+     "beta q=0.1 uniform min 20 ascending"
+    ],
+    "beta cp ascending": [
+     550.8,
+     "beta q=0.1 cp min 20 ascending"
+    ],
+    "beta uniform sequence": [
+     529.1,
+     "beta q=0.1 uniform min 20 sequence"
+    ],
+    "beta uniform sequence_testable": [
+     529.1,
+     "beta q=0.1 uniform min 20 sequence_testable"
+    ],
+    "beta cp sequence": [
+     528.8,
+     "beta q=0.1 cp min 20 sequence"
+    ],
+    "beta cp sequence_testable": [
+     528.8,
+     "beta q=0.1 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     528.8,
+     "ltt delta=0.1"
+    ],
+    "beta jeffreys ascending": [
+     528.2,
+     "beta q=0.05 jeffreys min 20 ascending"
+    ],
+    "sgr": [
+     274.4,
+     "sgr delta=0.2"
+    ],
+    "per-class beta": [
+     0.0,
+     "per-class beta"
+    ]
+   },
+   "0.1": {
+    "bayes": [
+     788.5,
+     "bayes C_e/C_r=100"
+    ],
+    "beta uniform ascending": [
+     738.6,
+     "beta q=0.2 uniform min 20 ascending"
+    ],
+    "beta cp ascending": [
+     738.3,
+     "beta q=0.2 cp min 20 ascending"
+    ],
+    "beta uniform sequence": [
+     727.0,
+     "beta q=0.2 uniform min 20 sequence"
+    ],
+    "beta uniform sequence_testable": [
+     727.0,
+     "beta q=0.2 uniform min 20 sequence_testable"
+    ],
+    "beta cp sequence": [
+     726.6,
+     "beta q=0.2 cp min 20 sequence"
+    ],
+    "beta cp sequence_testable": [
+     726.6,
+     "beta q=0.2 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     726.6,
+     "ltt delta=0.2"
+    ],
+    "beta jeffreys ascending": [
+     675.5,
+     "beta q=0.1 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence": [
+     665.0,
+     "beta q=0.1 jeffreys min 20 sequence"
+    ],
+    "beta jeffreys sequence_testable": [
+     665.0,
+     "beta q=0.1 jeffreys min 20 sequence_testable"
+    ],
+    "sgr": [
+     274.4,
+     "sgr delta=0.2"
+    ],
+    "per-class beta": [
+     0.0,
+     "per-class beta"
+    ]
+   }
+  },
+  "en/jev/as_returned/ncal1000/0.95": {
+   "0.05": {
+    "point": [
+     999.1,
+     "point"
+    ],
+    "beta jeffreys ascending": [
+     998.8,
+     "beta q=0.2 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence": [
+     998.8,
+     "beta q=0.2 jeffreys min 20 sequence"
+    ],
+    "beta jeffreys sequence_testable": [
+     998.8,
+     "beta q=0.2 jeffreys min 20 sequence_testable"
+    ],
+    "beta uniform ascending": [
+     998.7,
+     "beta q=0.2 uniform min 20 ascending"
+    ],
+    "beta uniform sequence": [
+     998.7,
+     "beta q=0.2 uniform min 20 sequence"
+    ],
+    "beta uniform sequence_testable": [
+     998.7,
+     "beta q=0.2 uniform min 20 sequence_testable"
+    ],
+    "beta cp ascending": [
+     998.7,
+     "beta q=0.2 cp min 20 ascending"
+    ],
+    "beta cp sequence": [
+     998.7,
+     "beta q=0.2 cp min 20 sequence"
+    ],
+    "beta cp sequence_testable": [
+     998.7,
+     "beta q=0.2 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     998.7,
+     "ltt delta=0.2"
+    ],
+    "sgr": [
+     994.3,
+     "sgr delta=0.2"
+    ],
+    "bayes": [
+     920.7,
+     "bayes C_e/C_r=10"
+    ],
+    "per-class point": [
+     572.0,
+     "per-class point"
+    ],
+    "per-class beta": [
+     79.5,
+     "per-class beta"
+    ]
+   },
+   "0.1": {
+    "point": [
+     999.1,
+     "point"
+    ],
+    "beta jeffreys ascending": [
+     998.8,
+     "beta q=0.2 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence": [
+     998.8,
+     "beta q=0.2 jeffreys min 20 sequence"
+    ],
+    "beta jeffreys sequence_testable": [
+     998.8,
+     "beta q=0.2 jeffreys min 20 sequence_testable"
+    ],
+    "beta uniform ascending": [
+     998.7,
+     "beta q=0.2 uniform min 20 ascending"
+    ],
+    "beta uniform sequence": [
+     998.7,
+     "beta q=0.2 uniform min 20 sequence"
+    ],
+    "beta uniform sequence_testable": [
+     998.7,
+     "beta q=0.2 uniform min 20 sequence_testable"
+    ],
+    "beta cp ascending": [
+     998.7,
+     "beta q=0.2 cp min 20 ascending"
+    ],
+    "beta cp sequence": [
+     998.7,
+     "beta q=0.2 cp min 20 sequence"
+    ],
+    "beta cp sequence_testable": [
+     998.7,
+     "beta q=0.2 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     998.7,
+     "ltt delta=0.2"
+    ],
+    "sgr": [
+     994.3,
+     "sgr delta=0.2"
+    ],
+    "bayes": [
+     920.7,
+     "bayes C_e/C_r=10"
+    ],
+    "per-class point": [
+     572.0,
+     "per-class point"
+    ],
+    "per-class beta": [
+     79.5,
+     "per-class beta"
+    ]
+   }
+  },
+  "en/jev/as_returned/ncal1000/0.99": {
+   "0.05": {
+    "bayes": [
+     842.1,
+     "bayes C_e/C_r=100"
+    ],
+    "beta uniform sequence": [
+     182.5,
+     "beta q=0.025 uniform min 20 sequence"
+    ],
+    "beta uniform sequence_testable": [
+     182.5,
+     "beta q=0.025 uniform min 20 sequence_testable"
+    ],
+    "beta cp sequence": [
+     182.5,
+     "beta q=0.025 cp min 20 sequence"
+    ],
+    "beta cp sequence_testable": [
+     182.5,
+     "beta q=0.025 cp min 20 sequence_testable"
+    ],
+    "beta jeffreys ascending": [
+     182.2,
+     "beta q=0.01 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence": [
+     182.2,
+     "beta q=0.01 jeffreys min 20 sequence"
+    ],
+    "beta jeffreys sequence_testable": [
+     182.2,
+     "beta q=0.01 jeffreys min 20 sequence_testable"
+    ],
+    "sgr": [
+     182.2,
+     "sgr delta=0.1"
+    ],
+    "beta uniform ascending": [
+     69.4,
+     "beta q=0.01 uniform min 20 ascending"
+    ],
+    "beta cp ascending": [
+     69.4,
+     "beta q=0.01 cp min 20 ascending"
+    ],
+    "ltt": [
+     48.5,
+     "ltt delta=0.01"
+    ],
+    "per-class beta": [
+     0.0,
+     "per-class beta"
+    ]
+   },
+   "0.1": {
+    "bayes": [
+     842.1,
+     "bayes C_e/C_r=100"
+    ],
+    "beta jeffreys sequence": [
+     411.4,
+     "beta q=0.05 jeffreys min 20 sequence"
+    ],
+    "beta jeffreys sequence_testable": [
+     411.4,
+     "beta q=0.05 jeffreys min 20 sequence_testable"
+    ],
+    "beta uniform ascending": [
+     405.3,
+     "beta q=0.05 uniform min 20 ascending"
+    ],
+    "beta uniform sequence": [
+     405.3,
+     "beta q=0.05 uniform min 20 sequence"
+    ],
+    "beta uniform sequence_testable": [
+     405.3,
+     "beta q=0.05 uniform min 20 sequence_testable"
+    ],
+    "beta cp ascending": [
+     404.5,
+     "beta q=0.05 cp min 20 ascending"
+    ],
+    "beta cp sequence": [
+     404.5,
+     "beta q=0.05 cp min 20 sequence"
+    ],
+    "beta cp sequence_testable": [
+     404.5,
+     "beta q=0.05 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     404.5,
+     "ltt delta=0.05"
+    ],
+    "beta jeffreys ascending": [
+     331.7,
+     "beta q=0.025 jeffreys min 20 ascending"
+    ],
+    "sgr": [
+     223.8,
+     "sgr delta=0.2"
+    ],
+    "per-class beta": [
+     0.0,
+     "per-class beta"
+    ]
+   }
+  },
+  "en/typed-decisions/temperature/ncal1000/0.95": {
+   "0.05": {
+    "beta jeffreys sequence_testable": [
+     808.2,
+     "beta q=0.01 jeffreys min 20 sequence_testable"
+    ],
+    "beta uniform ascending": [
+     807.4,
+     "beta q=0.01 uniform min 20 ascending"
+    ],
+    "beta cp ascending": [
+     807.1,
+     "beta q=0.01 cp min 20 ascending"
+    ],
+    "sgr": [
+     805.9,
+     "sgr delta=0.1"
+    ],
+    "beta uniform sequence_testable": [
+     746.4,
+     "beta q=0.01 uniform min 20 sequence_testable"
+    ],
+    "bayes": [
+     742.7,
+     "bayes C_e/C_r=10"
+    ],
+    "beta cp sequence_testable": [
+     731.1,
+     "beta q=0.01 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     731.1,
+     "ltt delta=0.01"
+    ],
+    "per-class point": [
+     483.2,
+     "per-class point"
+    ],
+    "per-class beta": [
+     23.8,
+     "per-class beta"
+    ],
+    "beta uniform sequence": [
+     0.0,
+     "beta q=0.01 uniform min 20 sequence"
+    ],
+    "beta jeffreys sequence": [
+     0.0,
+     "beta q=0.01 jeffreys min 20 sequence"
+    ],
+    "beta cp sequence": [
+     0.0,
+     "beta q=0.01 cp min 20 sequence"
+    ]
+   },
+   "0.1": {
+    "beta uniform sequence_testable": [
+     828.8,
+     "beta q=0.05 uniform min 20 sequence_testable"
+    ],
+    "beta cp sequence_testable": [
+     828.6,
+     "beta q=0.05 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     828.6,
+     "ltt delta=0.05"
+    ],
+    "beta jeffreys ascending": [
+     823.4,
+     "beta q=0.025 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence_testable": [
+     821.8,
+     "beta q=0.025 jeffreys min 20 sequence_testable"
+    ],
+    "beta uniform ascending": [
+     820.8,
+     "beta q=0.025 uniform min 20 ascending"
+    ],
+    "beta cp ascending": [
+     820.6,
+     "beta q=0.025 cp min 20 ascending"
+    ],
+    "sgr": [
+     816.6,
+     "sgr delta=0.2"
+    ],
+    "bayes": [
+     742.7,
+     "bayes C_e/C_r=10"
+    ],
+    "per-class point": [
+     483.2,
+     "per-class point"
+    ],
+    "per-class beta": [
+     23.8,
+     "per-class beta"
+    ],
+    "beta uniform sequence": [
+     0.0,
+     "beta q=0.01 uniform min 20 sequence"
+    ],
+    "beta jeffreys sequence": [
+     0.0,
+     "beta q=0.01 jeffreys min 20 sequence"
+    ],
+    "beta cp sequence": [
+     0.0,
+     "beta q=0.01 cp min 20 sequence"
+    ]
+   }
+  },
+  "en/typed-decisions/temperature/ncal1000/0.99": {
+   "0.05": {
+    "bayes": [
+     441.4,
+     "bayes C_e/C_r=100"
+    ],
+    "beta jeffreys ascending": [
+     328.8,
+     "beta q=0.025 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence_testable": [
+     222.4,
+     "beta q=0.05 jeffreys min 20 sequence_testable"
+    ],
+    "beta uniform sequence_testable": [
+     152.7,
+     "beta q=0.05 uniform min 20 sequence_testable"
+    ],
+    "beta cp sequence_testable": [
+     151.6,
+     "beta q=0.05 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     151.6,
+     "ltt delta=0.05"
+    ],
+    "beta uniform ascending": [
+     150.3,
+     "beta q=0.025 uniform min 20 ascending"
+    ],
+    "beta cp ascending": [
+     149.0,
+     "beta q=0.025 cp min 20 ascending"
+    ],
+    "sgr": [
+     35.1,
+     "sgr delta=0.1"
+    ],
+    "beta uniform sequence": [
+     0.0,
+     "beta q=0.01 uniform min 20 sequence"
+    ],
+    "beta jeffreys sequence": [
+     0.0,
+     "beta q=0.01 jeffreys min 20 sequence"
+    ],
+    "beta cp sequence": [
+     0.0,
+     "beta q=0.01 cp min 20 sequence"
+    ],
+    "per-class beta": [
+     0.0,
+     "per-class beta"
+    ]
+   },
+   "0.1": {
+    "bayes": [
+     441.4,
+     "bayes C_e/C_r=100"
+    ],
+    "beta uniform ascending": [
+     433.4,
+     "beta q=0.1 uniform min 20 ascending"
+    ],
+    "beta cp ascending": [
+     432.3,
+     "beta q=0.1 cp min 20 ascending"
+    ],
+    "beta jeffreys ascending": [
+     405.3,
+     "beta q=0.05 jeffreys min 20 ascending"
+    ],
+    "beta jeffreys sequence_testable": [
+     263.4,
+     "beta q=0.1 jeffreys min 20 sequence_testable"
+    ],
+    "beta uniform sequence_testable": [
+     225.9,
+     "beta q=0.1 uniform min 20 sequence_testable"
+    ],
+    "beta cp sequence_testable": [
+     225.8,
+     "beta q=0.1 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     225.8,
+     "ltt delta=0.1"
+    ],
+    "sgr": [
+     35.1,
+     "sgr delta=0.1"
+    ],
+    "beta uniform sequence": [
+     0.0,
+     "beta q=0.01 uniform min 20 sequence"
+    ],
+    "beta jeffreys sequence": [
+     0.0,
+     "beta q=0.01 jeffreys min 20 sequence"
+    ],
+    "beta cp sequence": [
+     0.0,
+     "beta q=0.01 cp min 20 sequence"
+    ],
+    "per-class beta": [
+     0.0,
+     "per-class beta"
+    ]
+   }
+  },
+  "en/root/temperature/ncal1000/0.95": {
+   "0.05": {
+    "sgr": [
+     706.3,
+     "sgr delta=0.1"
+    ],
+    "bayes": [
+     703.1,
+     "bayes C_e/C_r=10"
+    ],
+    "per-class point": [
+     456.3,
+     "per-class point"
+    ],
+    "beta jeffreys sequence_testable": [
+     378.8,
+     "beta q=0.01 jeffreys min 20 sequence_testable"
+    ],
+    "beta uniform sequence_testable": [
+     378.6,
+     "beta q=0.025 uniform min 20 sequence_testable"
+    ],
+    "beta cp sequence_testable": [
+     374.3,
+     "beta q=0.025 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     243.4,
+     "ltt delta=0.01"
+    ],
+    "beta uniform sequence": [
+     55.4,
+     "beta q=0.2 uniform min 20 sequence"
+    ],
+    "beta cp sequence": [
+     36.3,
+     "beta q=0.2 cp min 20 sequence"
+    ],
+    "beta jeffreys sequence": [
+     2.6,
+     "beta q=0.05 jeffreys min 20 sequence"
+    ]
+   },
+   "0.1": {
+    "beta jeffreys ascending": [
+     734.8,
+     "beta q=0.025 jeffreys min 20 ascending"
+    ],
+    "beta uniform ascending": [
+     729.7,
+     "beta q=0.025 uniform min 20 ascending"
+    ],
+    "beta cp ascending": [
+     729.2,
+     "beta q=0.025 cp min 20 ascending"
+    ],
+    "sgr": [
+     721.3,
+     "sgr delta=0.2"
+    ],
+    "bayes": [
+     703.1,
+     "bayes C_e/C_r=10"
+    ],
+    "beta jeffreys sequence_testable": [
+     571.9,
+     "beta q=0.05 jeffreys min 20 sequence_testable"
+    ],
+    "per-class point": [
+     456.3,
+     "per-class point"
+    ],
+    "beta uniform sequence_testable": [
+     406.0,
+     "beta q=0.05 uniform min 20 sequence_testable"
+    ],
+    "beta cp sequence_testable": [
+     404.9,
+     "beta q=0.05 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     404.9,
+     "ltt delta=0.05"
+    ],
+    "beta jeffreys sequence": [
+     267.6,
+     "beta q=0.1 jeffreys min 20 sequence"
+    ],
+    "beta uniform sequence": [
+     55.4,
+     "beta q=0.2 uniform min 20 sequence"
+    ],
+    "beta cp sequence": [
+     36.3,
+     "beta q=0.2 cp min 20 sequence"
+    ],
+    "per-class beta": [
+     15.7,
+     "per-class beta"
+    ]
+   }
+  },
+  "en/root/temperature/ncal1000/0.99": {
+   "0.05": {
+    "beta uniform ascending": [
+     16.4,
+     "beta q=0.025 uniform min 20 ascending"
+    ],
+    "beta uniform sequence_testable": [
+     16.4,
+     "beta q=0.025 uniform min 20 sequence_testable"
+    ],
+    "beta cp ascending": [
+     16.1,
+     "beta q=0.025 cp min 20 ascending"
+    ],
+    "beta cp sequence_testable": [
+     16.1,
+     "beta q=0.025 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     5.2,
+     "ltt delta=0.01"
+    ],
+    "beta uniform sequence": [
+     0.0,
+     "beta q=0.01 uniform min 20 sequence"
+    ],
+    "beta jeffreys sequence": [
+     0.0,
+     "beta q=0.01 jeffreys min 20 sequence"
+    ],
+    "beta cp sequence": [
+     0.0,
+     "beta q=0.01 cp min 20 sequence"
+    ],
+    "sgr": [
+     0.0,
+     "sgr delta=0.01"
+    ],
+    "per-class beta": [
+     0.0,
+     "per-class beta"
+    ]
+   },
+   "0.1": {
+    "beta jeffreys sequence_testable": [
+     130.7,
+     "beta q=0.2 jeffreys min 20 sequence_testable"
+    ],
+    "beta uniform ascending": [
+     37.3,
+     "beta q=0.05 uniform min 20 ascending"
+    ],
+    "beta cp ascending": [
+     36.8,
+     "beta q=0.05 cp min 20 ascending"
+    ],
+    "beta uniform sequence_testable": [
+     24.0,
+     "beta q=0.05 uniform min 20 sequence_testable"
+    ],
+    "beta cp sequence_testable": [
+     24.0,
+     "beta q=0.05 cp min 20 sequence_testable"
+    ],
+    "ltt": [
+     24.0,
+     "ltt delta=0.05"
+    ],
+    "beta jeffreys ascending": [
+     23.8,
+     "beta q=0.01 jeffreys min 20 ascending"
+    ],
+    "beta uniform sequence": [
+     0.0,
+     "beta q=0.01 uniform min 20 sequence"
+    ],
+    "beta jeffreys sequence": [
+     0.0,
+     "beta q=0.01 jeffreys min 20 sequence"
+    ],
+    "beta cp sequence": [
+     0.0,
+     "beta q=0.01 cp min 20 sequence"
+    ],
+    "sgr": [
+     0.0,
+     "sgr delta=0.01"
+    ],
+    "per-class beta": [
+     0.0,
+     "per-class beta"
+    ]
+   }
+  }
+ },
+ "n_cal": {
+  "pt/ft-multilingual/0.95": {
+   "1000": {
+    "point": [
+     0.0,
+     999.0
+    ],
+    "Beta (ascending)": [
+     0.0,
+     999.0
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     999.0
+    ],
+    "LTT": [
+     0.0,
+     999.0
+    ],
+    "SGR": [
+     0.0,
+     999.0
+    ],
+    "Bayes 10:1": [
+     0.0,
+     933.4
+    ],
+    "Bayes 100:1": [
+     0.0,
+     761.1
+    ],
+    "per-class point": [
+     0.0,
+     586.4
+    ],
+    "per-class Beta": [
+     0.034,
+     75.9
+    ]
+   },
+   "500": {
+    "point": [
+     0.0,
+     997.9
+    ],
+    "Beta (ascending)": [
+     0.0,
+     997.5
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     997.5
+    ],
+    "LTT": [
+     0.0,
+     997.5
+    ],
+    "SGR": [
+     0.0,
+     994.0
+    ],
+    "Bayes 10:1": [
+     0.0,
+     933.5
+    ],
+    "Bayes 100:1": [
+     0.0,
+     760.9
+    ],
+    "per-class point": [
+     0.0,
+     356.0
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "250": {
+    "point": [
+     0.0,
+     995.8
+    ],
+    "Beta (ascending)": [
+     0.0,
+     989.7
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     989.5
+    ],
+    "LTT": [
+     0.0,
+     989.5
+    ],
+    "SGR": [
+     0.0,
+     975.7
+    ],
+    "Bayes 10:1": [
+     0.0,
+     934.4
+    ],
+    "Bayes 100:1": [
+     0.0,
+     765.9
+    ],
+    "per-class point": [
+     0.062,
+     32.6
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "pt/ft-multilingual/0.99": {
+   "1000": {
+    "point": [
+     0.472,
+     954.8
+    ],
+    "Beta (ascending)": [
+     0.078,
+     883.2
+    ],
+    "Beta, fixed sequence": [
+     0.07,
+     851.4
+    ],
+    "LTT": [
+     0.068,
+     851.1
+    ],
+    "SGR": [
+     0.01,
+     749.6
+    ],
+    "Bayes 10:1": [
+     0.124,
+     933.4
+    ],
+    "Bayes 100:1": [
+     0.0,
+     761.1
+    ],
+    "per-class point": [
+     0.411,
+     519.9
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "500": {
+    "point": [
+     0.427,
+     948.2
+    ],
+    "Beta (ascending)": [
+     0.037,
+     766.7
+    ],
+    "Beta, fixed sequence": [
+     0.008,
+     761.2
+    ],
+    "LTT": [
+     0.008,
+     761.2
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     0.146,
+     933.5
+    ],
+    "Bayes 100:1": [
+     0.0,
+     760.9
+    ],
+    "per-class point": [
+     0.612,
+     308.4
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "250": {
+    "point": [
+     0.502,
+     949.3
+    ],
+    "Beta (ascending)": [
+     0.0,
+     0.0
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     0.0
+    ],
+    "LTT": [
+     0.0,
+     0.0
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     0.168,
+     934.4
+    ],
+    "Bayes 100:1": [
+     0.005,
+     765.9
+    ],
+    "per-class point": [
+     0.203,
+     23.4
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "pt/ft-typed-decisions/0.95": {
+   "1000": {
+    "point": [
+     0.005,
+     999.0
+    ],
+    "Beta (ascending)": [
+     0.005,
+     996.6
+    ],
+    "Beta, fixed sequence": [
+     0.005,
+     996.6
+    ],
+    "LTT": [
+     0.005,
+     996.6
+    ],
+    "SGR": [
+     0.005,
+     988.5
+    ],
+    "Bayes 10:1": [
+     0.0,
+     918.0
+    ],
+    "Bayes 100:1": [
+     0.0,
+     682.0
+    ],
+    "per-class point": [
+     0.0,
+     583.5
+    ],
+    "per-class Beta": [
+     0.055,
+     53.6
+    ]
+   },
+   "500": {
+    "point": [
+     0.004,
+     997.8
+    ],
+    "Beta (ascending)": [
+     0.004,
+     987.7
+    ],
+    "Beta, fixed sequence": [
+     0.004,
+     987.7
+    ],
+    "LTT": [
+     0.004,
+     987.6
+    ],
+    "SGR": [
+     0.003,
+     972.9
+    ],
+    "Bayes 10:1": [
+     0.0,
+     918.3
+    ],
+    "Bayes 100:1": [
+     0.0,
+     679.4
+    ],
+    "per-class point": [
+     0.0,
+     355.3
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "250": {
+    "point": [
+     0.002,
+     994.7
+    ],
+    "Beta (ascending)": [
+     0.002,
+     971.7
+    ],
+    "Beta, fixed sequence": [
+     0.002,
+     971.0
+    ],
+    "LTT": [
+     0.002,
+     970.6
+    ],
+    "SGR": [
+     0.001,
+     935.8
+    ],
+    "Bayes 10:1": [
+     0.0,
+     919.0
+    ],
+    "Bayes 100:1": [
+     0.0,
+     676.2
+    ],
+    "per-class point": [
+     0.021,
+     29.6
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "pt/ft-typed-decisions/0.99": {
+   "1000": {
+    "point": [
+     0.501,
+     912.9
+    ],
+    "Beta (ascending)": [
+     0.073,
+     834.9
+    ],
+    "Beta, fixed sequence": [
+     0.066,
+     822.2
+    ],
+    "LTT": [
+     0.066,
+     822.0
+    ],
+    "SGR": [
+     0.012,
+     718.4
+    ],
+    "Bayes 10:1": [
+     0.554,
+     918.0
+    ],
+    "Bayes 100:1": [
+     0.0,
+     682.0
+    ],
+    "per-class point": [
+     0.658,
+     507.6
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "500": {
+    "point": [
+     0.46,
+     907.3
+    ],
+    "Beta (ascending)": [
+     0.021,
+     737.4
+    ],
+    "Beta, fixed sequence": [
+     0.018,
+     737.1
+    ],
+    "LTT": [
+     0.018,
+     737.1
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     0.572,
+     918.3
+    ],
+    "Bayes 100:1": [
+     0.0,
+     679.4
+    ],
+    "per-class point": [
+     0.684,
+     300.1
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "250": {
+    "point": [
+     0.531,
+     910.4
+    ],
+    "Beta (ascending)": [
+     0.0,
+     0.0
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     0.0
+    ],
+    "LTT": [
+     0.0,
+     0.0
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     0.582,
+     919.0
+    ],
+    "Bayes 100:1": [
+     0.002,
+     676.2
+    ],
+    "per-class point": [
+     0.224,
+     21.1
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "pt/jev/0.95": {
+   "1000": {
+    "point": [
+     0.483,
+     994.6
+    ],
+    "Beta (ascending)": [
+     0.075,
+     975.9
+    ],
+    "Beta, fixed sequence": [
+     0.075,
+     975.7
+    ],
+    "LTT": [
+     0.071,
+     975.7
+    ],
+    "SGR": [
+     0.018,
+     963.1
+    ],
+    "Bayes 10:1": [
+     0.0,
+     885.3
+    ],
+    "Bayes 100:1": [
+     0.0,
+     788.5
+    ],
+    "per-class point": [
+     0.0,
+     556.8
+    ],
+    "per-class Beta": [
+     0.002,
+     36.9
+    ]
+   },
+   "500": {
+    "point": [
+     0.386,
+     991.7
+    ],
+    "Beta (ascending)": [
+     0.04,
+     960.9
+    ],
+    "Beta, fixed sequence": [
+     0.04,
+     960.0
+    ],
+    "LTT": [
+     0.04,
+     959.8
+    ],
+    "SGR": [
+     0.01,
+     939.5
+    ],
+    "Bayes 10:1": [
+     0.0,
+     885.3
+    ],
+    "Bayes 100:1": [
+     0.0,
+     788.5
+    ],
+    "per-class point": [
+     0.0,
+     323.7
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "250": {
+    "point": [
+     0.301,
+     987.0
+    ],
+    "Beta (ascending)": [
+     0.024,
+     936.5
+    ],
+    "Beta, fixed sequence": [
+     0.024,
+     933.9
+    ],
+    "LTT": [
+     0.024,
+     933.4
+    ],
+    "SGR": [
+     0.001,
+     889.8
+    ],
+    "Bayes 10:1": [
+     0.0,
+     885.3
+    ],
+    "Bayes 100:1": [
+     0.0,
+     788.5
+    ],
+    "per-class point": [
+     0.024,
+     21.6
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "pt/jev/0.99": {
+   "1000": {
+    "point": [
+     0.495,
+     858.7
+    ],
+    "Beta (ascending)": [
+     0.03,
+     340.9
+    ],
+    "Beta, fixed sequence": [
+     0.03,
+     286.0
+    ],
+    "LTT": [
+     0.03,
+     286.0
+    ],
+    "SGR": [
+     0.015,
+     94.9
+    ],
+    "Bayes 10:1": [
+     0.864,
+     885.3
+    ],
+    "Bayes 100:1": [
+     0.003,
+     788.5
+    ],
+    "per-class point": [
+     0.844,
+     423.3
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "500": {
+    "point": [
+     0.491,
+     836.8
+    ],
+    "Beta (ascending)": [
+     0.015,
+     139.5
+    ],
+    "Beta, fixed sequence": [
+     0.015,
+     139.5
+    ],
+    "LTT": [
+     0.015,
+     139.5
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     0.864,
+     885.3
+    ],
+    "Bayes 100:1": [
+     0.003,
+     788.5
+    ],
+    "per-class point": [
+     0.817,
+     250.6
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "250": {
+    "point": [
+     0.556,
+     802.2
+    ],
+    "Beta (ascending)": [
+     0.0,
+     0.0
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     0.0
+    ],
+    "LTT": [
+     0.0,
+     0.0
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     0.864,
+     885.3
+    ],
+    "Bayes 100:1": [
+     0.003,
+     788.5
+    ],
+    "per-class point": [
+     0.197,
+     16.3
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "en/jev/0.95": {
+   "1000": {
+    "point": [
+     0.0,
+     999.1
+    ],
+    "Beta (ascending)": [
+     0.0,
+     996.1
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     995.9
+    ],
+    "LTT": [
+     0.0,
+     995.9
+    ],
+    "SGR": [
+     0.0,
+     986.8
+    ],
+    "Bayes 10:1": [
+     0.0,
+     920.7
+    ],
+    "Bayes 100:1": [
+     0.0,
+     842.1
+    ],
+    "per-class point": [
+     0.0,
+     572.0
+    ],
+    "per-class Beta": [
+     0.001,
+     79.5
+    ]
+   },
+   "500": {
+    "point": [
+     0.0,
+     997.8
+    ],
+    "Beta (ascending)": [
+     0.0,
+     983.6
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     983.5
+    ],
+    "LTT": [
+     0.0,
+     983.4
+    ],
+    "SGR": [
+     0.0,
+     966.8
+    ],
+    "Bayes 10:1": [
+     0.0,
+     920.7
+    ],
+    "Bayes 100:1": [
+     0.0,
+     842.1
+    ],
+    "per-class point": [
+     0.0,
+     337.1
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "250": {
+    "point": [
+     0.0,
+     994.4
+    ],
+    "Beta (ascending)": [
+     0.0,
+     963.1
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     961.7
+    ],
+    "LTT": [
+     0.0,
+     961.3
+    ],
+    "SGR": [
+     0.0,
+     920.1
+    ],
+    "Bayes 10:1": [
+     0.0,
+     920.7
+    ],
+    "Bayes 100:1": [
+     0.0,
+     842.1
+    ],
+    "per-class point": [
+     0.014,
+     21.8
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "en/jev/0.99": {
+   "1000": {
+    "point": [
+     0.434,
+     898.7
+    ],
+    "Beta (ascending)": [
+     0.072,
+     405.3
+    ],
+    "Beta, fixed sequence": [
+     0.072,
+     405.3
+    ],
+    "LTT": [
+     0.072,
+     404.5
+    ],
+    "SGR": [
+     0.015,
+     53.3
+    ],
+    "Bayes 10:1": [
+     0.942,
+     920.7
+    ],
+    "Bayes 100:1": [
+     0.007,
+     842.1
+    ],
+    "per-class point": [
+     0.339,
+     459.0
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "500": {
+    "point": [
+     0.431,
+     866.1
+    ],
+    "Beta (ascending)": [
+     0.016,
+     89.3
+    ],
+    "Beta, fixed sequence": [
+     0.016,
+     89.3
+    ],
+    "LTT": [
+     0.016,
+     89.3
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     0.942,
+     920.7
+    ],
+    "Bayes 100:1": [
+     0.007,
+     842.1
+    ],
+    "per-class point": [
+     0.419,
+     286.0
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "250": {
+    "point": [
+     0.51,
+     833.0
+    ],
+    "Beta (ascending)": [
+     0.0,
+     0.0
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     0.0
+    ],
+    "LTT": [
+     0.0,
+     0.0
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     0.942,
+     920.7
+    ],
+    "Bayes 100:1": [
+     0.007,
+     842.1
+    ],
+    "per-class point": [
+     0.037,
+     20.2
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "en/typed-decisions/0.95": {
+   "1000": {
+    "point": [
+     0.496,
+     867.1
+    ],
+    "Beta (ascending)": [
+     0.104,
+     830.3
+    ],
+    "Beta, fixed sequence": [
+     0.1,
+     828.8
+    ],
+    "LTT": [
+     0.1,
+     828.6
+    ],
+    "SGR": [
+     0.033,
+     795.2
+    ],
+    "Bayes 10:1": [
+     0.0,
+     742.7
+    ],
+    "Bayes 100:1": [
+     0.0,
+     441.4
+    ],
+    "per-class point": [
+     0.023,
+     483.2
+    ],
+    "per-class Beta": [
+     0.03,
+     23.8
+    ]
+   },
+   "500": {
+    "point": [
+     0.486,
+     868.0
+    ],
+    "Beta (ascending)": [
+     0.07,
+     797.5
+    ],
+    "Beta, fixed sequence": [
+     0.055,
+     634.3
+    ],
+    "LTT": [
+     0.055,
+     632.7
+    ],
+    "SGR": [
+     0.009,
+     732.0
+    ],
+    "Bayes 10:1": [
+     0.0,
+     741.8
+    ],
+    "Bayes 100:1": [
+     0.0,
+     440.9
+    ],
+    "per-class point": [
+     0.04,
+     237.1
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "250": {
+    "point": [
+     0.475,
+     866.6
+    ],
+    "Beta (ascending)": [
+     0.041,
+     741.7
+    ],
+    "Beta, fixed sequence": [
+     0.031,
+     585.0
+    ],
+    "LTT": [
+     0.031,
+     583.2
+    ],
+    "SGR": [
+     0.003,
+     335.7
+    ],
+    "Bayes 10:1": [
+     0.0,
+     740.8
+    ],
+    "Bayes 100:1": [
+     0.0,
+     439.5
+    ],
+    "per-class point": [
+     0.052,
+     18.7
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "en/typed-decisions/0.99": {
+   "1000": {
+    "point": [
+     0.5,
+     631.5
+    ],
+    "Beta (ascending)": [
+     0.052,
+     290.9
+    ],
+    "Beta, fixed sequence": [
+     0.032,
+     152.7
+    ],
+    "LTT": [
+     0.032,
+     151.6
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     0.999,
+     742.7
+    ],
+    "Bayes 100:1": [
+     0.0,
+     441.4
+    ],
+    "per-class point": [
+     0.793,
+     385.3
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "500": {
+    "point": [
+     0.534,
+     630.3
+    ],
+    "Beta (ascending)": [
+     0.046,
+     57.5
+    ],
+    "Beta, fixed sequence": [
+     0.046,
+     57.5
+    ],
+    "LTT": [
+     0.045,
+     54.5
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     1.0,
+     741.8
+    ],
+    "Bayes 100:1": [
+     0.002,
+     440.9
+    ],
+    "per-class point": [
+     0.62,
+     189.5
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "250": {
+    "point": [
+     0.478,
+     613.9
+    ],
+    "Beta (ascending)": [
+     0.0,
+     0.0
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     0.0
+    ],
+    "LTT": [
+     0.0,
+     0.0
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     0.997,
+     740.8
+    ],
+    "Bayes 100:1": [
+     0.009,
+     439.5
+    ],
+    "per-class point": [
+     0.15,
+     12.1
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "en/root/0.95": {
+   "1000": {
+    "point": [
+     0.491,
+     834.2
+    ],
+    "Beta (ascending)": [
+     0.11,
+     748.7
+    ],
+    "Beta, fixed sequence": [
+     0.063,
+     406.0
+    ],
+    "LTT": [
+     0.063,
+     404.9
+    ],
+    "SGR": [
+     0.03,
+     692.8
+    ],
+    "Bayes 10:1": [
+     0.004,
+     703.1
+    ],
+    "Bayes 100:1": [
+     0.0,
+     480.4
+    ],
+    "per-class point": [
+     0.012,
+     456.3
+    ],
+    "per-class Beta": [
+     0.071,
+     15.7
+    ]
+   },
+   "500": {
+    "point": [
+     0.495,
+     828.2
+    ],
+    "Beta (ascending)": [
+     0.069,
+     707.9
+    ],
+    "Beta, fixed sequence": [
+     0.044,
+     402.9
+    ],
+    "LTT": [
+     0.042,
+     400.7
+    ],
+    "SGR": [
+     0.017,
+     571.3
+    ],
+    "Bayes 10:1": [
+     0.004,
+     702.2
+    ],
+    "Bayes 100:1": [
+     0.0,
+     476.2
+    ],
+    "per-class point": [
+     0.044,
+     221.2
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "250": {
+    "point": [
+     0.494,
+     819.4
+    ],
+    "Beta (ascending)": [
+     0.031,
+     623.4
+    ],
+    "Beta, fixed sequence": [
+     0.014,
+     376.3
+    ],
+    "LTT": [
+     0.014,
+     370.4
+    ],
+    "SGR": [
+     0.005,
+     110.4
+    ],
+    "Bayes 10:1": [
+     0.006,
+     702.0
+    ],
+    "Bayes 100:1": [
+     0.0,
+     471.0
+    ],
+    "per-class point": [
+     0.021,
+     15.2
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "en/root/0.99": {
+   "1000": {
+    "point": [
+     0.521,
+     517.3
+    ],
+    "Beta (ascending)": [
+     0.084,
+     37.3
+    ],
+    "Beta, fixed sequence": [
+     0.059,
+     24.0
+    ],
+    "LTT": [
+     0.059,
+     24.0
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     1.0,
+     703.1
+    ],
+    "Bayes 100:1": [
+     0.326,
+     480.4
+    ],
+    "per-class point": [
+     0.857,
+     358.9
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "500": {
+    "point": [
+     0.527,
+     497.4
+    ],
+    "Beta (ascending)": [
+     0.004,
+     2.5
+    ],
+    "Beta, fixed sequence": [
+     0.004,
+     2.5
+    ],
+    "LTT": [
+     0.004,
+     2.5
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     1.0,
+     702.2
+    ],
+    "Bayes 100:1": [
+     0.352,
+     476.2
+    ],
+    "per-class point": [
+     0.726,
+     178.5
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "250": {
+    "point": [
+     0.601,
+     496.5
+    ],
+    "Beta (ascending)": [
+     0.0,
+     0.0
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     0.0
+    ],
+    "LTT": [
+     0.0,
+     0.0
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     0.998,
+     702.0
+    ],
+    "Bayes 100:1": [
+     0.368,
+     471.0
+    ],
+    "per-class point": [
+     0.129,
+     9.5
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "calibration": {
+  "pt/ft-multilingual/0.95": {
+   "temperature": {
+    "point": [
+     0.0,
+     999.0
+    ],
+    "Beta (ascending)": [
+     0.0,
+     999.0
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     999.0
+    ],
+    "LTT": [
+     0.0,
+     999.0
+    ],
+    "SGR": [
+     0.0,
+     999.0
+    ],
+    "Bayes 10:1": [
+     0.0,
+     933.4
+    ],
+    "Bayes 100:1": [
+     0.0,
+     761.1
+    ],
+    "per-class point": [
+     0.0,
+     586.4
+    ],
+    "per-class Beta": [
+     0.034,
+     75.9
+    ]
+   },
+   "as_returned": {
+    "point": [
+     0.0,
+     999.0
+    ],
+    "Beta (ascending)": [
+     0.0,
+     999.0
+    ],
+    "Beta, fixed sequence": [
+     0.0,
+     999.0
+    ],
+    "LTT": [
+     0.0,
+     999.0
+    ],
+    "SGR": [
+     0.0,
+     999.0
+    ],
+    "Bayes 10:1": [
+     0.0,
+     958.5
+    ],
+    "Bayes 100:1": [
+     0.0,
+     891.4
+    ],
+    "per-class point": [
+     0.0,
+     586.4
+    ],
+    "per-class Beta": [
+     0.038,
+     73.3
+    ]
+   }
+  },
+  "pt/ft-multilingual/0.99": {
+   "temperature": {
+    "point": [
+     0.472,
+     954.8
+    ],
+    "Beta (ascending)": [
+     0.078,
+     883.2
+    ],
+    "Beta, fixed sequence": [
+     0.07,
+     851.4
+    ],
+    "LTT": [
+     0.068,
+     851.1
+    ],
+    "SGR": [
+     0.01,
+     749.6
+    ],
+    "Bayes 10:1": [
+     0.124,
+     933.4
+    ],
+    "Bayes 100:1": [
+     0.0,
+     761.1
+    ],
+    "per-class point": [
+     0.411,
+     519.9
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "as_returned": {
+    "point": [
+     0.462,
+     955.6
+    ],
+    "Beta (ascending)": [
+     0.075,
+     882.8
+    ],
+    "Beta, fixed sequence": [
+     0.064,
+     861.4
+    ],
+    "LTT": [
+     0.063,
+     860.6
+    ],
+    "SGR": [
+     0.012,
+     765.7
+    ],
+    "Bayes 10:1": [
+     0.402,
+     958.5
+    ],
+    "Bayes 100:1": [
+     0.0,
+     891.4
+    ],
+    "per-class point": [
+     0.409,
+     520.6
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "pt/ft-typed-decisions/0.95": {
+   "temperature": {
+    "point": [
+     0.005,
+     999.0
+    ],
+    "Beta (ascending)": [
+     0.005,
+     996.6
+    ],
+    "Beta, fixed sequence": [
+     0.005,
+     996.6
+    ],
+    "LTT": [
+     0.005,
+     996.6
+    ],
+    "SGR": [
+     0.005,
+     988.5
+    ],
+    "Bayes 10:1": [
+     0.0,
+     918.0
+    ],
+    "Bayes 100:1": [
+     0.0,
+     682.0
+    ],
+    "per-class point": [
+     0.0,
+     583.5
+    ],
+    "per-class Beta": [
+     0.055,
+     53.6
+    ]
+   },
+   "as_returned": {
+    "point": [
+     0.005,
+     999.0
+    ],
+    "Beta (ascending)": [
+     0.005,
+     996.6
+    ],
+    "Beta, fixed sequence": [
+     0.005,
+     996.6
+    ],
+    "LTT": [
+     0.005,
+     996.6
+    ],
+    "SGR": [
+     0.005,
+     989.0
+    ],
+    "Bayes 10:1": [
+     0.0,
+     887.7
+    ],
+    "Bayes 100:1": [
+     0.0,
+     399.6
+    ],
+    "per-class point": [
+     0.0,
+     583.5
+    ],
+    "per-class Beta": [
+     0.054,
+     55.6
+    ]
+   }
+  },
+  "pt/ft-typed-decisions/0.99": {
+   "temperature": {
+    "point": [
+     0.501,
+     912.9
+    ],
+    "Beta (ascending)": [
+     0.073,
+     834.9
+    ],
+    "Beta, fixed sequence": [
+     0.066,
+     822.2
+    ],
+    "LTT": [
+     0.066,
+     822.0
+    ],
+    "SGR": [
+     0.012,
+     718.4
+    ],
+    "Bayes 10:1": [
+     0.554,
+     918.0
+    ],
+    "Bayes 100:1": [
+     0.0,
+     682.0
+    ],
+    "per-class point": [
+     0.658,
+     507.6
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "as_returned": {
+    "point": [
+     0.509,
+     913.6
+    ],
+    "Beta (ascending)": [
+     0.072,
+     835.8
+    ],
+    "Beta, fixed sequence": [
+     0.066,
+     828.6
+    ],
+    "LTT": [
+     0.066,
+     828.1
+    ],
+    "SGR": [
+     0.01,
+     744.4
+    ],
+    "Bayes 10:1": [
+     0.125,
+     887.7
+    ],
+    "Bayes 100:1": [
+     0.0,
+     399.6
+    ],
+    "per-class point": [
+     0.657,
+     509.6
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "en/typed-decisions/0.95": {
+   "temperature": {
+    "point": [
+     0.496,
+     867.1
+    ],
+    "Beta (ascending)": [
+     0.104,
+     830.3
+    ],
+    "Beta, fixed sequence": [
+     0.1,
+     828.8
+    ],
+    "LTT": [
+     0.1,
+     828.6
+    ],
+    "SGR": [
+     0.033,
+     795.2
+    ],
+    "Bayes 10:1": [
+     0.0,
+     742.7
+    ],
+    "Bayes 100:1": [
+     0.0,
+     441.4
+    ],
+    "per-class point": [
+     0.023,
+     483.2
+    ],
+    "per-class Beta": [
+     0.03,
+     23.8
+    ]
+   },
+   "as_returned": {
+    "point": [
+     0.47,
+     858.1
+    ],
+    "Beta (ascending)": [
+     0.1,
+     804.9
+    ],
+    "Beta, fixed sequence": [
+     0.096,
+     803.0
+    ],
+    "LTT": [
+     0.096,
+     802.7
+    ],
+    "SGR": [
+     0.031,
+     765.2
+    ],
+    "Bayes 10:1": [
+     0.0,
+     3.6
+    ],
+    "Bayes 100:1": [
+     0.0,
+     0.0
+    ],
+    "per-class point": [
+     0.026,
+     471.1
+    ],
+    "per-class Beta": [
+     0.049,
+     15.2
+    ]
+   }
+  },
+  "en/typed-decisions/0.99": {
+   "temperature": {
+    "point": [
+     0.5,
+     631.5
+    ],
+    "Beta (ascending)": [
+     0.052,
+     290.9
+    ],
+    "Beta, fixed sequence": [
+     0.032,
+     152.7
+    ],
+    "LTT": [
+     0.032,
+     151.6
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     0.999,
+     742.7
+    ],
+    "Bayes 100:1": [
+     0.0,
+     441.4
+    ],
+    "per-class point": [
+     0.793,
+     385.3
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "as_returned": {
+    "point": [
+     0.505,
+     631.9
+    ],
+    "Beta (ascending)": [
+     0.049,
+     211.8
+    ],
+    "Beta, fixed sequence": [
+     0.023,
+     124.9
+    ],
+    "LTT": [
+     0.022,
+     124.7
+    ],
+    "SGR": [
+     0.008,
+     4.6
+    ],
+    "Bayes 10:1": [
+     0.0,
+     3.6
+    ],
+    "Bayes 100:1": [
+     0.0,
+     0.0
+    ],
+    "per-class point": [
+     0.825,
+     375.0
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "en/root/0.95": {
+   "temperature": {
+    "point": [
+     0.491,
+     834.2
+    ],
+    "Beta (ascending)": [
+     0.11,
+     748.7
+    ],
+    "Beta, fixed sequence": [
+     0.063,
+     406.0
+    ],
+    "LTT": [
+     0.063,
+     404.9
+    ],
+    "SGR": [
+     0.03,
+     692.8
+    ],
+    "Bayes 10:1": [
+     0.004,
+     703.1
+    ],
+    "Bayes 100:1": [
+     0.0,
+     480.4
+    ],
+    "per-class point": [
+     0.012,
+     456.3
+    ],
+    "per-class Beta": [
+     0.071,
+     15.7
+    ]
+   },
+   "as_returned": {
+    "point": [
+     0.491,
+     828.6
+    ],
+    "Beta (ascending)": [
+     0.11,
+     738.2
+    ],
+    "Beta, fixed sequence": [
+     0.063,
+     412.1
+    ],
+    "LTT": [
+     0.061,
+     407.8
+    ],
+    "SGR": [
+     0.031,
+     684.3
+    ],
+    "Bayes 10:1": [
+     0.0,
+     602.3
+    ],
+    "Bayes 100:1": [
+     0.0,
+     254.2
+    ],
+    "per-class point": [
+     0.01,
+     454.4
+    ],
+    "per-class Beta": [
+     0.074,
+     15.1
+    ]
+   }
+  },
+  "en/root/0.99": {
+   "temperature": {
+    "point": [
+     0.521,
+     517.3
+    ],
+    "Beta (ascending)": [
+     0.084,
+     37.3
+    ],
+    "Beta, fixed sequence": [
+     0.059,
+     24.0
+    ],
+    "LTT": [
+     0.059,
+     24.0
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     1.0,
+     703.1
+    ],
+    "Bayes 100:1": [
+     0.326,
+     480.4
+    ],
+    "per-class point": [
+     0.857,
+     358.9
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   },
+   "as_returned": {
+    "point": [
+     0.525,
+     505.5
+    ],
+    "Beta (ascending)": [
+     0.086,
+     36.9
+    ],
+    "Beta, fixed sequence": [
+     0.059,
+     22.8
+    ],
+    "LTT": [
+     0.059,
+     22.8
+    ],
+    "SGR": [
+     0.0,
+     0.0
+    ],
+    "Bayes 10:1": [
+     0.967,
+     602.3
+    ],
+    "Bayes 100:1": [
+     0.334,
+     254.2
+    ],
+    "per-class point": [
+     0.857,
+     357.1
+    ],
+    "per-class Beta": [
+     0.0,
+     0.0
+    ]
+   }
+  }
+ }
+}

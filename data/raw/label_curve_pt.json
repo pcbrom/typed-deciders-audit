@@ -1,0 +1,230 @@
+{
+ "gpu": "NVIDIA GeForce RTX 5090, teto de 500 W",
+ "base": "laya multilingual (mmBERT-base)",
+ "epocas": 3,
+ "lote": 32,
+ "precisao": "bf16",
+ "referencia_jev": 0.947,
+ "pontos": [
+  {
+   "alvo": 500,
+   "n": 500,
+   "seed": 13,
+   "train_only_s": 2.9,
+   "train_loop_s": 4.6,
+   "total_s": 6.2,
+   "vram_peak_gib": 6.98,
+   "best_dev": 0.8805,
+   "acc": 0.876,
+   "ece_calibrado": 0.03,
+   "dif_pp_vs_jev": -7.1,
+   "ic95_pp": [
+    -9.25,
+    -4.95
+   ]
+  },
+  {
+   "alvo": 1000,
+   "n": 1000,
+   "seed": 13,
+   "train_only_s": 4.7,
+   "train_loop_s": 6.4,
+   "total_s": 7.7,
+   "vram_peak_gib": 7.06,
+   "best_dev": 0.9026,
+   "acc": 0.902,
+   "ece_calibrado": 0.0195,
+   "dif_pp_vs_jev": -4.5,
+   "ic95_pp": [
+    -6.49,
+    -2.51
+   ]
+  },
+  {
+   "alvo": 2000,
+   "n": 2000,
+   "seed": 13,
+   "train_only_s": 8.9,
+   "train_loop_s": 10.6,
+   "total_s": 12.0,
+   "vram_peak_gib": 7.03,
+   "best_dev": 0.9326,
+   "acc": 0.935,
+   "ece_calibrado": 0.0143,
+   "dif_pp_vs_jev": -1.2,
+   "ic95_pp": [
+    -2.99,
+    0.59
+   ]
+  },
+  {
+   "alvo": 4000,
+   "n": 4000,
+   "seed": 13,
+   "train_only_s": 17.5,
+   "train_loop_s": 19.2,
+   "total_s": 21.1,
+   "vram_peak_gib": 7.34,
+   "best_dev": 0.9488,
+   "acc": 0.949,
+   "ece_calibrado": 0.0143,
+   "dif_pp_vs_jev": 0.2,
+   "ic95_pp": [
+    -1.53,
+    1.93
+   ]
+  },
+  {
+   "alvo": 500,
+   "n": 500,
+   "seed": 14,
+   "train_only_s": 2.9,
+   "train_loop_s": 4.6,
+   "total_s": 6.2,
+   "vram_peak_gib": 6.94,
+   "best_dev": 0.8834,
+   "acc": 0.894,
+   "ece_calibrado": 0.0307,
+   "dif_pp_vs_jev": -5.3,
+   "ic95_pp": [
+    -7.41,
+    -3.19
+   ]
+  },
+  {
+   "alvo": 1000,
+   "n": 1000,
+   "seed": 14,
+   "train_only_s": 5.0,
+   "train_loop_s": 6.7,
+   "total_s": 8.4,
+   "vram_peak_gib": 7.08,
+   "best_dev": 0.9051,
+   "acc": 0.899,
+   "ece_calibrado": 0.0231,
+   "dif_pp_vs_jev": -4.8,
+   "ic95_pp": [
+    -6.89,
+    -2.71
+   ]
+  },
+  {
+   "alvo": 2000,
+   "n": 2000,
+   "seed": 14,
+   "train_only_s": 9.2,
+   "train_loop_s": 10.9,
+   "total_s": 12.3,
+   "vram_peak_gib": 7.08,
+   "best_dev": 0.9208,
+   "acc": 0.931,
+   "ece_calibrado": 0.0228,
+   "dif_pp_vs_jev": -1.6,
+   "ic95_pp": [
+    -3.44,
+    0.24
+   ]
+  },
+  {
+   "alvo": 4000,
+   "n": 4000,
+   "seed": 14,
+   "train_only_s": 17.2,
+   "train_loop_s": 18.9,
+   "total_s": 20.9,
+   "vram_peak_gib": 7.37,
+   "best_dev": 0.9405,
+   "acc": 0.946,
+   "ece_calibrado": 0.0139,
+   "dif_pp_vs_jev": -0.1,
+   "ic95_pp": [
+    -1.86,
+    1.66
+   ]
+  },
+  {
+   "alvo": 500,
+   "n": 500,
+   "seed": 15,
+   "train_only_s": 2.9,
+   "train_loop_s": 4.6,
+   "total_s": 5.8,
+   "vram_peak_gib": 6.92,
+   "best_dev": 0.8957,
+   "acc": 0.897,
+   "ece_calibrado": 0.0267,
+   "dif_pp_vs_jev": -5.0,
+   "ic95_pp": [
+    -7.09,
+    -2.91
+   ]
+  },
+  {
+   "alvo": 1000,
+   "n": 1000,
+   "seed": 15,
+   "train_only_s": 5.0,
+   "train_loop_s": 6.7,
+   "total_s": 8.0,
+   "vram_peak_gib": 7.07,
+   "best_dev": 0.9031,
+   "acc": 0.901,
+   "ece_calibrado": 0.023,
+   "dif_pp_vs_jev": -4.6,
+   "ic95_pp": [
+    -6.78,
+    -2.42
+   ]
+  },
+  {
+   "alvo": 2000,
+   "n": 2000,
+   "seed": 15,
+   "train_only_s": 9.2,
+   "train_loop_s": 10.9,
+   "total_s": 12.6,
+   "vram_peak_gib": 7.06,
+   "best_dev": 0.9336,
+   "acc": 0.925,
+   "ece_calibrado": 0.0149,
+   "dif_pp_vs_jev": -2.2,
+   "ic95_pp": [
+    -4.1,
+    -0.3
+   ]
+  },
+  {
+   "alvo": 4000,
+   "n": 4000,
+   "seed": 15,
+   "train_only_s": 17.6,
+   "train_loop_s": 19.3,
+   "total_s": 21.2,
+   "vram_peak_gib": 7.35,
+   "best_dev": 0.9474,
+   "acc": 0.956,
+   "ece_calibrado": 0.0157,
+   "dif_pp_vs_jev": 0.9,
+   "ic95_pp": [
+    -0.77,
+    2.57
+   ]
+  },
+  {
+   "alvo": 11274,
+   "n": 11274,
+   "seed": 13,
+   "train_only_s": null,
+   "train_loop_s": 50.1,
+   "total_s": 53.1,
+   "best_dev": 0.9611,
+   "acc": 0.974,
+   "ece_calibrado": 0.0121,
+   "dif_pp_vs_jev": 2.7,
+   "ic95_pp": [
+    1.18,
+    4.22
+   ]
+  }
+ ]
+}

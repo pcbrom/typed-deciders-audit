@@ -1,0 +1,251 @@
+{
+ "sizes": {
+  "250": [
+   {
+    "seed": 0,
+    "seconds": 1.2,
+    "dropped": 0,
+    "label_counts": {
+     "false": 63,
+     "pants on fire": 35,
+     "half true": 34,
+     "true": 35,
+     "barely true": 46,
+     "mostly true": 37
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 1.2,
+    "dropped": 0,
+    "label_counts": {
+     "half true": 38,
+     "mostly true": 34,
+     "barely true": 44,
+     "pants on fire": 36,
+     "false": 75,
+     "true": 23
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 1.2,
+    "dropped": 0,
+    "label_counts": {
+     "pants on fire": 34,
+     "half true": 29,
+     "false": 77,
+     "mostly true": 43,
+     "barely true": 40,
+     "true": 27
+    }
+   }
+  ],
+  "500": [
+   {
+    "seed": 0,
+    "seconds": 2.6,
+    "dropped": 0,
+    "label_counts": {
+     "barely true": 95,
+     "half true": 82,
+     "pants on fire": 63,
+     "false": 126,
+     "mostly true": 73,
+     "true": 61
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 2.6,
+    "dropped": 0,
+    "label_counts": {
+     "true": 62,
+     "barely true": 79,
+     "half true": 73,
+     "false": 158,
+     "mostly true": 66,
+     "pants on fire": 62
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 2.5,
+    "dropped": 0,
+    "label_counts": {
+     "mostly true": 67,
+     "half true": 79,
+     "pants on fire": 64,
+     "barely true": 85,
+     "false": 143,
+     "true": 62
+    }
+   }
+  ],
+  "1000": [
+   {
+    "seed": 0,
+    "seconds": 4.7,
+    "dropped": 0,
+    "label_counts": {
+     "half true": 169,
+     "false": 314,
+     "mostly true": 170,
+     "pants on fire": 100,
+     "barely true": 159,
+     "true": 88
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 4.7,
+    "dropped": 0,
+    "label_counts": {
+     "false": 295,
+     "true": 131,
+     "mostly true": 148,
+     "pants on fire": 127,
+     "barely true": 147,
+     "half true": 152
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 4.7,
+    "dropped": 0,
+    "label_counts": {
+     "mostly true": 160,
+     "pants on fire": 120,
+     "half true": 150,
+     "false": 292,
+     "barely true": 156,
+     "true": 122
+    }
+   }
+  ],
+  "2000": [
+   {
+    "seed": 0,
+    "seconds": 9.2,
+    "dropped": 0,
+    "label_counts": {
+     "mostly true": 283,
+     "false": 575,
+     "pants on fire": 260,
+     "true": 220,
+     "barely true": 326,
+     "half true": 336
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 9.3,
+    "dropped": 0,
+    "label_counts": {
+     "barely true": 286,
+     "false": 605,
+     "mostly true": 276,
+     "pants on fire": 247,
+     "half true": 351,
+     "true": 235
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 9.3,
+    "dropped": 0,
+    "label_counts": {
+     "mostly true": 290,
+     "false": 578,
+     "pants on fire": 232,
+     "half true": 352,
+     "barely true": 305,
+     "true": 243
+    }
+   }
+  ],
+  "4000": [
+   {
+    "seed": 0,
+    "seconds": 18.4,
+    "dropped": 0,
+    "label_counts": {
+     "barely true": 608,
+     "pants on fire": 570,
+     "half true": 649,
+     "mostly true": 587,
+     "false": 1143,
+     "true": 443
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 18.3,
+    "dropped": 0,
+    "label_counts": {
+     "false": 1166,
+     "mostly true": 601,
+     "pants on fire": 531,
+     "barely true": 612,
+     "half true": 624,
+     "true": 466
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 18.0,
+    "dropped": 0,
+    "label_counts": {
+     "half true": 640,
+     "barely true": 631,
+     "true": 448,
+     "mostly true": 619,
+     "pants on fire": 526,
+     "false": 1136
+    }
+   }
+  ],
+  "8000": [
+   {
+    "seed": 0,
+    "seconds": 36.2,
+    "dropped": 0,
+    "label_counts": {
+     "half true": 1281,
+     "true": 916,
+     "pants on fire": 1025,
+     "mostly true": 1201,
+     "barely true": 1234,
+     "false": 2343
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 36.2,
+    "dropped": 0,
+    "label_counts": {
+     "true": 901,
+     "false": 2290,
+     "mostly true": 1196,
+     "barely true": 1289,
+     "pants on fire": 1015,
+     "half true": 1309
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 36.0,
+    "dropped": 0,
+    "label_counts": {
+     "true": 886,
+     "false": 2301,
+     "half true": 1308,
+     "pants on fire": 1047,
+     "barely true": 1258,
+     "mostly true": 1200
+    }
+   }
+  ]
+ },
+ "n_pool": 18362
+}

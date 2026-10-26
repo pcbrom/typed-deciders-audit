@@ -1,0 +1,286 @@
+{
+ "rotulo": "exploratorio",
+ "comparacao": "Shapley exato menos metodo, u_i MoRF por remocao, IC t pareado",
+ "laya_pt": {
+  "hedge": {
+   "media": -0.0003,
+   "IC95": [
+    -0.0099,
+    0.0093
+   ],
+   "shapley_lidera": false,
+   "n": 200
+  },
+  "kernelshap": {
+   "media": 0.0067,
+   "IC95": [
+    0.0003,
+    0.0131
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "bayesshap": {
+   "media": 0.0186,
+   "IC95": [
+    0.0034,
+    0.0339
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "W": {
+   "media": 0.0541,
+   "IC95": [
+    0.0339,
+    0.0743
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "F": {
+   "media": 0.115,
+   "IC95": [
+    0.0834,
+    0.1466
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  }
+ },
+ "laya_en": {
+  "hedge": {
+   "media": 0.0023,
+   "IC95": [
+    -0.0049,
+    0.0095
+   ],
+   "shapley_lidera": false,
+   "n": 200
+  },
+  "kernelshap": {
+   "media": 0.0083,
+   "IC95": [
+    0.0023,
+    0.0144
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "bayesshap": {
+   "media": 0.0008,
+   "IC95": [
+    -0.0101,
+    0.0117
+   ],
+   "shapley_lidera": false,
+   "n": 200
+  },
+  "W": {
+   "media": 0.0725,
+   "IC95": [
+    0.05,
+    0.0951
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "F": {
+   "media": 0.0627,
+   "IC95": [
+    0.037,
+    0.0885
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  }
+ },
+ "jev_pt_1.13": {
+  "hedge": {
+   "media": 0.0032,
+   "IC95": [
+    -0.0011,
+    0.0074
+   ],
+   "shapley_lidera": false,
+   "n": 200
+  },
+  "kernelshap": {
+   "media": 0.0127,
+   "IC95": [
+    0.0046,
+    0.0208
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "bayesshap": {
+   "media": 0.0224,
+   "IC95": [
+    0.0064,
+    0.0384
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "W": {
+   "media": 0.2157,
+   "IC95": [
+    0.1768,
+    0.2547
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "F": {
+   "media": 0.0442,
+   "IC95": [
+    0.0236,
+    0.0647
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  }
+ },
+ "jev_pt_1.14": {
+  "hedge": {
+   "media": 0.0,
+   "IC95": [
+    -0.0039,
+    0.004
+   ],
+   "shapley_lidera": false,
+   "n": 200
+  },
+  "kernelshap": {
+   "media": 0.0078,
+   "IC95": [
+    0.002,
+    0.0135
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "bayesshap": {
+   "media": 0.01,
+   "IC95": [
+    -0.0002,
+    0.0202
+   ],
+   "shapley_lidera": false,
+   "n": 200
+  },
+  "W": {
+   "media": 0.1982,
+   "IC95": [
+    0.1597,
+    0.2366
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "F": {
+   "media": 0.0407,
+   "IC95": [
+    0.0213,
+    0.06
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  }
+ },
+ "jev_en_1.13": {
+  "hedge": {
+   "media": -0.001,
+   "IC95": [
+    -0.0068,
+    0.0048
+   ],
+   "shapley_lidera": false,
+   "n": 200
+  },
+  "kernelshap": {
+   "media": 0.0094,
+   "IC95": [
+    0.0044,
+    0.0144
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "bayesshap": {
+   "media": 0.0042,
+   "IC95": [
+    -0.0063,
+    0.0147
+   ],
+   "shapley_lidera": false,
+   "n": 200
+  },
+  "W": {
+   "media": 0.232,
+   "IC95": [
+    0.1913,
+    0.2728
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "F": {
+   "media": 0.0108,
+   "IC95": [
+    -0.0004,
+    0.022
+   ],
+   "shapley_lidera": false,
+   "n": 200
+  }
+ },
+ "jev_en_1.14": {
+  "hedge": {
+   "media": 0.0009,
+   "IC95": [
+    -0.0061,
+    0.008
+   ],
+   "shapley_lidera": false,
+   "n": 200
+  },
+  "kernelshap": {
+   "media": 0.0123,
+   "IC95": [
+    0.0052,
+    0.0195
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "bayesshap": {
+   "media": 0.014,
+   "IC95": [
+    0.0013,
+    0.0266
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "W": {
+   "media": 0.2122,
+   "IC95": [
+    0.1715,
+    0.2528
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  },
+  "F": {
+   "media": 0.0225,
+   "IC95": [
+    0.0094,
+    0.0355
+   ],
+   "shapley_lidera": true,
+   "n": 200
+  }
+ }
+}

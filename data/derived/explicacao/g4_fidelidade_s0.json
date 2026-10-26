@@ -1,0 +1,10 @@
+{
+ "seed": 0,
+ "n_itens": 770,
+ "spearman_medio_aditiva": 0.0243,
+ "nulo_p99": 0.0347,
+ "ref_oclusao": 0.5666,
+ "ref_slalom": 0.8401,
+ "fracao_fora_mediana": 0.6885,
+ "autoexplicacao_por_palavra": false
+}

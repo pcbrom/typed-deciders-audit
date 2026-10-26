@@ -1,0 +1,146 @@
+{
+ "jev": [
+  {
+   "cobertura": 1.0,
+   "aceitos": 1000,
+   "erros": 53,
+   "acc": 0.947,
+   "L95": 0.9339
+  },
+  {
+   "cobertura": 0.95,
+   "aceitos": 950,
+   "erros": 31,
+   "acc": 0.9674,
+   "L95": 0.9563,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 22
+  },
+  {
+   "cobertura": 0.9,
+   "aceitos": 900,
+   "erros": 21,
+   "acc": 0.9767,
+   "L95": 0.9666,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 10
+  },
+  {
+   "cobertura": 0.85,
+   "aceitos": 850,
+   "erros": 10,
+   "acc": 0.9882,
+   "L95": 0.9801,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 11
+  },
+  {
+   "cobertura": 0.8,
+   "aceitos": 800,
+   "erros": 5,
+   "acc": 0.9938,
+   "L95": 0.9869,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 5
+  },
+  {
+   "cobertura": 0.75,
+   "aceitos": 750,
+   "erros": 4,
+   "acc": 0.9947,
+   "L95": 0.9879,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 1
+  },
+  {
+   "cobertura": 0.7,
+   "aceitos": 700,
+   "erros": 4,
+   "acc": 0.9943,
+   "L95": 0.987,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 0
+  },
+  {
+   "cobertura": 0.65,
+   "aceitos": 650,
+   "erros": 4,
+   "acc": 0.9938,
+   "L95": 0.986,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 0
+  }
+ ],
+ "ft-multilingual": [
+  {
+   "cobertura": 1.0,
+   "aceitos": 1000,
+   "erros": 27,
+   "acc": 0.973,
+   "L95": 0.963
+  },
+  {
+   "cobertura": 0.95,
+   "aceitos": 950,
+   "erros": 12,
+   "acc": 0.9874,
+   "L95": 0.9796,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 15
+  },
+  {
+   "cobertura": 0.9,
+   "aceitos": 900,
+   "erros": 8,
+   "acc": 0.9911,
+   "L95": 0.984,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 4
+  },
+  {
+   "cobertura": 0.85,
+   "aceitos": 850,
+   "erros": 4,
+   "acc": 0.9953,
+   "L95": 0.9893,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 4
+  },
+  {
+   "cobertura": 0.8,
+   "aceitos": 800,
+   "erros": 4,
+   "acc": 0.995,
+   "L95": 0.9886,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 0
+  },
+  {
+   "cobertura": 0.75,
+   "aceitos": 750,
+   "erros": 3,
+   "acc": 0.996,
+   "L95": 0.9897,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 1
+  },
+  {
+   "cobertura": 0.7,
+   "aceitos": 700,
+   "erros": 2,
+   "acc": 0.9971,
+   "L95": 0.991,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 1
+  },
+  {
+   "cobertura": 0.65,
+   "aceitos": 650,
+   "erros": 0,
+   "acc": 1.0,
+   "L95": 0.9954,
+   "revisoes_a_mais": 50,
+   "erros_evitados": 2
+  }
+ ]
+}

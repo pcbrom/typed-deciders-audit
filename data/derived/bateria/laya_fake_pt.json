@@ -1,0 +1,179 @@
+{
+ "sizes": {
+  "250": [
+   {
+    "seed": 0,
+    "seconds": 2.2,
+    "dropped": 0,
+    "label_counts": {
+     "real news": 121,
+     "fake news": 129
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 2.2,
+    "dropped": 0,
+    "label_counts": {
+     "fake news": 141,
+     "real news": 109
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 2.2,
+    "dropped": 0,
+    "label_counts": {
+     "real news": 128,
+     "fake news": 122
+    }
+   }
+  ],
+  "500": [
+   {
+    "seed": 0,
+    "seconds": 4.2,
+    "dropped": 0,
+    "label_counts": {
+     "real news": 237,
+     "fake news": 263
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 4.2,
+    "dropped": 0,
+    "label_counts": {
+     "real news": 239,
+     "fake news": 261
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 4.3,
+    "dropped": 0,
+    "label_counts": {
+     "real news": 262,
+     "fake news": 238
+    }
+   }
+  ],
+  "1000": [
+   {
+    "seed": 0,
+    "seconds": 8.4,
+    "dropped": 0,
+    "label_counts": {
+     "real news": 470,
+     "fake news": 530
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 8.4,
+    "dropped": 0,
+    "label_counts": {
+     "fake news": 491,
+     "real news": 509
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 8.4,
+    "dropped": 0,
+    "label_counts": {
+     "real news": 516,
+     "fake news": 484
+    }
+   }
+  ],
+  "2000": [
+   {
+    "seed": 0,
+    "seconds": 16.6,
+    "dropped": 0,
+    "label_counts": {
+     "real news": 1004,
+     "fake news": 996
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 16.6,
+    "dropped": 0,
+    "label_counts": {
+     "fake news": 986,
+     "real news": 1014
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 16.6,
+    "dropped": 0,
+    "label_counts": {
+     "fake news": 988,
+     "real news": 1012
+    }
+   }
+  ],
+  "4000": [
+   {
+    "seed": 0,
+    "seconds": 32.8,
+    "dropped": 0,
+    "label_counts": {
+     "fake news": 2000,
+     "real news": 2000
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 33.1,
+    "dropped": 0,
+    "label_counts": {
+     "fake news": 1997,
+     "real news": 2003
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 32.9,
+    "dropped": 0,
+    "label_counts": {
+     "real news": 2021,
+     "fake news": 1979
+    }
+   }
+  ],
+  "5200": [
+   {
+    "seed": 0,
+    "seconds": 42.4,
+    "dropped": 0,
+    "label_counts": {
+     "real news": 2600,
+     "fake news": 2600
+    }
+   },
+   {
+    "seed": 1,
+    "seconds": 42.6,
+    "dropped": 0,
+    "label_counts": {
+     "real news": 2600,
+     "fake news": 2600
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 42.5,
+    "dropped": 0,
+    "label_counts": {
+     "real news": 2600,
+     "fake news": 2600
+    }
+   }
+  ]
+ },
+ "n_pool": 5200
+}

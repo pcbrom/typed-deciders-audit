@@ -1,0 +1,8 @@
+{
+ "seed": 0,
+ "head": "additive",
+ "train_s": 128.1,
+ "descartados_orcamento": 0,
+ "acc_relato_pt": 0.667,
+ "acc_relato_en": 0.637
+}

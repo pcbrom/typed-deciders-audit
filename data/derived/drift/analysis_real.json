@@ -1,0 +1,230 @@
+{
+ "comparador": "periodic",
+ "por_transicao": {
+  "R2012": {
+   "acc_pre": 0.904,
+   "acc_post": 0.9,
+   "queda_pp": 0.4,
+   "passa": false,
+   "n_ordens": 5,
+   "dif_custo": -0.13031,
+   "dif_janelas_abaixo": -0.72727,
+   "custo_por_braco": {
+    "aci": 0.5755,
+    "adwin": 0.5704,
+    "author": 0.5344,
+    "ddm": 0.573,
+    "frozen": 0.5704,
+    "ltt_window": 0.607,
+    "periodic": 0.6647,
+    "ph": 0.5859,
+    "recal": 0.8459
+   }
+  },
+  "R2013": {
+   "acc_pre": 0.928,
+   "acc_post": 0.562,
+   "queda_pp": 36.6,
+   "passa": true,
+   "n_ordens": 5,
+   "dif_custo": -0.69016,
+   "dif_janelas_abaixo": 0.0,
+   "custo_por_braco": {
+    "aci": 0.923,
+    "adwin": 1.2341,
+    "author": 0.9498,
+    "ddm": 1.4436,
+    "frozen": 1.4166,
+    "ltt_window": 0.8592,
+    "periodic": 1.64,
+    "ph": 1.1431,
+    "recal": 1.0
+   }
+  },
+  "R2014": {
+   "acc_pre": 0.782,
+   "acc_post": 0.79,
+   "queda_pp": -0.8,
+   "passa": false,
+   "n_ordens": 5,
+   "dif_custo": -0.05669,
+   "dif_janelas_abaixo": -0.16364,
+   "custo_por_braco": {
+    "aci": 0.9767,
+    "adwin": 0.8637,
+    "author": 0.8324,
+    "ddm": 0.8676,
+    "frozen": 0.8637,
+    "ltt_window": 0.9794,
+    "periodic": 0.8891,
+    "ph": 1.0973,
+    "recal": 1.0
+   }
+  },
+  "R2015": {
+   "acc_pre": 0.848,
+   "acc_post": 0.822,
+   "queda_pp": 2.6,
+   "passa": true,
+   "n_ordens": 5,
+   "dif_custo": -0.06978,
+   "dif_janelas_abaixo": -0.58,
+   "custo_por_braco": {
+    "aci": 0.9596,
+    "adwin": 0.7714,
+    "author": 0.766,
+    "ddm": 0.7978,
+    "frozen": 0.7785,
+    "ltt_window": 0.9165,
+    "periodic": 0.8358,
+    "ph": 0.8741,
+    "recal": 1.0
+   }
+  },
+  "R2016": {
+   "acc_pre": 0.846,
+   "acc_post": 0.814,
+   "queda_pp": 3.2,
+   "passa": true,
+   "n_ordens": 5,
+   "dif_custo": -0.14489,
+   "dif_janelas_abaixo": 0.25071,
+   "custo_por_braco": {
+    "aci": 0.9285,
+    "adwin": 0.8675,
+    "author": 0.6755,
+    "ddm": 0.878,
+    "frozen": 0.878,
+    "ltt_window": 0.9115,
+    "periodic": 0.8204,
+    "ph": 0.8944,
+    "recal": 1.0
+   }
+  },
+  "R2017": {
+   "acc_pre": 0.876,
+   "acc_post": 0.864,
+   "queda_pp": 1.2,
+   "passa": false,
+   "n_ordens": 5,
+   "dif_custo": -0.13413,
+   "dif_janelas_abaixo": -0.57273,
+   "custo_por_braco": {
+    "aci": 0.7572,
+    "adwin": 0.6779,
+    "author": 0.5897,
+    "ddm": 0.726,
+    "frozen": 0.6779,
+    "ltt_window": 0.7718,
+    "periodic": 0.7238,
+    "ph": 0.6341,
+    "recal": 1.0
+   }
+  },
+  "R2018": {
+   "acc_pre": 0.902,
+   "acc_post": 0.8628,
+   "queda_pp": 3.92,
+   "passa": true,
+   "n_ordens": 5,
+   "dif_custo": -0.16273,
+   "dif_janelas_abaixo": -0.06444,
+   "custo_por_braco": {
+    "aci": 0.8003,
+    "adwin": 0.7878,
+    "author": 0.7293,
+    "ddm": 0.777,
+    "frozen": 0.7902,
+    "ltt_window": 0.743,
+    "periodic": 0.892,
+    "ph": 0.8227,
+    "recal": 1.0
+   }
+  },
+  "R2019": {
+   "acc_pre": 0.8978,
+   "acc_post": 0.861,
+   "queda_pp": 3.68,
+   "passa": true,
+   "n_ordens": 5,
+   "dif_custo": -0.2828,
+   "dif_janelas_abaixo": -1.0,
+   "custo_por_braco": {
+    "aci": 0.7285,
+    "adwin": 0.7578,
+    "author": 0.6337,
+    "ddm": 0.8267,
+    "frozen": 0.7578,
+    "ltt_window": 0.907,
+    "periodic": 0.9165,
+    "ph": 0.7746,
+    "recal": 1.0
+   }
+  },
+  "R2020": {
+   "acc_pre": 0.8927,
+   "acc_post": 0.8983,
+   "queda_pp": -0.56,
+   "passa": false,
+   "n_ordens": 5,
+   "dif_custo": -0.29291,
+   "dif_janelas_abaixo": -0.23818,
+   "custo_por_braco": {
+    "aci": 0.6092,
+    "adwin": 0.5383,
+    "author": 0.5064,
+    "ddm": 0.6583,
+    "frozen": 0.5324,
+    "ltt_window": 0.6089,
+    "periodic": 0.7993,
+    "ph": 0.5507,
+    "recal": 1.0
+   }
+  },
+  "R2021": {
+   "acc_pre": 0.9249,
+   "acc_post": 0.9355,
+   "queda_pp": -1.05,
+   "passa": false,
+   "n_ordens": 5,
+   "dif_custo": -0.12171,
+   "dif_janelas_abaixo": -0.98333,
+   "custo_por_braco": {
+    "aci": 0.6676,
+    "adwin": 0.5618,
+    "author": 0.5394,
+    "ddm": 0.6535,
+    "frozen": 0.5618,
+    "ltt_window": 0.5853,
+    "periodic": 0.6611,
+    "ph": 0.5679,
+    "recal": 0.7826
+   }
+  }
+ },
+ "transicoes_validas": [
+  "R2013",
+  "R2015",
+  "R2016",
+  "R2018",
+  "R2019"
+ ],
+ "resumo": {
+  "custo": {
+   "n_transicoes": 5,
+   "media": -0.27007,
+   "IC95_t": [
+    -0.57671,
+    0.03656
+   ]
+  },
+  "janelas_abaixo": {
+   "n_transicoes": 5,
+   "media": -0.27875,
+   "IC95_t": [
+    -0.90419,
+    0.3467
+   ]
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "case": "pt_multilingual",
+ "n_items": 200,
+ "alt1": {
+  "n_validos": 50,
+  "excluidos_frac": 0.75,
+  "mudanca_alt": 0.18,
+  "mudanca_placebo": 0.2,
+  "D": -0.02,
+  "IC95": [
+   -0.12,
+   0.08
+  ],
+  "leitura": "invariância aproximada"
+ },
+ "alt2": {
+  "n_validos": 42,
+  "excluidos_frac": 0.79,
+  "mudanca_alt": 0.2857,
+  "mudanca_placebo": 0.119,
+  "D": 0.1667,
+  "IC95": [
+   0.0238,
+   0.3095
+  ],
+  "leitura": "resultado central"
+ }
+}
