@@ -12,6 +12,7 @@
     "keywords": ["typed decision models", "calibration", "selective classification", "explanation fidelity", "auditing", "conformal risk control"],
     "license": "CC-BY-NC-SA-4.0",
     "related_identifiers": [
+        {"identifier": "10.48550/arXiv.2610.36311", "relation": "isSupplementTo", "resource_type": "publication-preprint", "scheme": "doi"},
         {"identifier": "https://github.com/pcbrom/typed-deciders-audit", "relation": "isSupplementTo", "resource_type": "software", "scheme": "url"}
     ]
 }

@@ -1,8 +1,9 @@
 # Typed deciders audit
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23676316.svg)](https://doi.org/10.5281/zenodo.23676316)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.36311-b31b1b.svg)](https://arxiv.org/abs/2610.36311)
 
-Code, derived measurements, preregistration notes and formal proofs for the article *Confidence Is Not a Promise: A Reference Audit of Typed Decision Models*, by Pedro Carvalho Brom. The article compares Laya, an open-weight typed decision model, with Jev 1.13, available only through an API, and asks what the probability of a typed decision licenses and what a gate built on it can promise.
+Code, derived measurements, preregistration notes and formal proofs for the article [*Confidence Is Not a Promise: A Reference Audit of Typed Decision Models*](https://arxiv.org/abs/2610.36311), by Pedro Carvalho Brom (arXiv:2610.36311). The article compares Laya, an open-weight typed decision model, with Jev 1.13, available only through an API, and asks what the probability of a typed decision licenses and what a gate built on it can promise.
 
 The frozen answers of both deciders, with a datasheet, are released as a separate reference package (`pacote/README.md` and `pacote/DATASHEET.md` describe it). Every number of the article can be recomputed from this repository and that package without new API calls, except the analyses listed under *Jev outputs that are not distributed*.
 
@@ -67,7 +68,22 @@ The texts of Fake.Br are not distributed, because its repository states no licen
 
 ## Citation
 
-The archived version of this repository and the reference package are on Zenodo:
+Please cite the article:
+
+```bibtex
+@misc{brom2026confidence,
+  author        = {Brom, Pedro Carvalho},
+  title         = {Confidence Is Not a Promise: A Reference Audit of Typed Decision Models},
+  year          = {2026},
+  eprint        = {2610.36311},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  doi           = {10.48550/arXiv.2610.36311},
+  url           = {https://arxiv.org/abs/2610.36311}
+}
+```
+
+When using the code or the frozen answers, please also cite the archived version of this repository and the reference package on Zenodo:
 
 ```bibtex
 @misc{brom2026typeddeciders,
@@ -80,8 +96,6 @@ The archived version of this repository and the reference package are on Zenodo:
   license   = {CC-BY-NC-SA-4.0}
 }
 ```
-
-When the article is published, please also cite it.
 
 ## Licence
 
